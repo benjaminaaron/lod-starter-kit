@@ -1,4 +1,7 @@
 {
   "name": "lod-starter-kit",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@foerderfunke/sem-ops-utils": "^0.3.8"
+  }
 }
