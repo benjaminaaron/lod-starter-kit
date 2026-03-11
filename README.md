@@ -1,6 +1,6 @@
 # lod-starter-kit
 
-This is a starter kit for experimenting with Linked Open Data (LOD) at the workshop on the Open Data Day Munich 2026.
+This is a starter kit for experimenting with Linked Open Data (LOD) at the workshop on the [Open Data Day München 2026](https://veranstaltungen.muenchen.de/rit/veranstaltungen/open-data-day-muenchen-2026/).
 
 It contains two routes to explore:
 - `create-lod` is about creating LOD by transforming other types of data into it
