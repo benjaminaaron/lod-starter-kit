@@ -1,0 +1,47 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "example.csv",
+  "dialect": {
+    "delimiter": ",",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tableSchema": {
+    "aboutUrl": "https://open.bydata.de/oddmuc2026#event{id}",
+    "columns": [
+      {
+        "titles": "id",
+        "suppressOutput": true
+      },
+      {
+        "titles": "title",
+        "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#title"
+      },
+      {
+        "titles": "event_date",
+        "propertyUrl": "https://schema.org/startDate",
+        "datatype": "xsd:date"
+      },
+      {
+        "titles": "ticket_price",
+        "propertyUrl": "https://schema.org/price",
+        "datatype": "xsd:decimal"
+      },
+      {
+        "titles": "max_attendees",
+        "propertyUrl": "https://schema.org/maximumAttendeeCapacity",
+        "datatype": "xsd:integer"
+      },
+      {
+        "titles": "attendance_mode",
+        "propertyUrl": "https://schema.org/eventAttendanceMode",
+        "valueUrl": "https://schema.org/{attendance_mode}EventAttendanceMode"
+      },
+      {
+        "virtual": true,
+        "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "valueUrl": "https://schema.org/Event"
+      }
+    ]
+  }
+}

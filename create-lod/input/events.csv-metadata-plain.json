@@ -1,0 +1,20 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "example.csv",
+  "dialect": {
+    "delimiter": ",",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tableSchema": {
+    "aboutUrl": "https://open.bydata.de/oddmuc2026#event{_row}",
+    "columns": [
+      { "titles": "id" },
+      { "titles": "title" },
+      { "titles": "event_date" },
+      { "titles": "ticket_price" },
+      { "titles": "max_attendees" },
+      { "titles": "attendance_mode" }
+    ]
+  }
+}
