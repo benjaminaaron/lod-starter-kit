@@ -2,6 +2,7 @@
   "name": "lod-starter-kit",
   "type": "module",
   "dependencies": {
-    "@foerderfunke/sem-ops-utils": "^0.3.8"
+    "@foerderfunke/sem-ops-utils": "^0.3.9",
+    "papaparse": "^5.5.3"
   }
 }

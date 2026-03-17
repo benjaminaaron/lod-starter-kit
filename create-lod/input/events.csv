@@ -1,0 +1,4 @@
+id,title,event_date,ticket_price,max_attendees,attendance_mode
+ev001,Semantic Web Workshop,2024-05-15,49.50,25,Online
+ev002,Linked Data Summit,2025-06-01,120.00,150,Offline
+ev003,CSVW Deep Dive,2025-10-20,0.00,100,Mixed
