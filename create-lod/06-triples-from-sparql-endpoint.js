@@ -11,24 +11,24 @@ const engine = new QueryEngine()
 
 let query = `
     PREFIX ogc: <http://www.opengis.net/rdf#>
-    PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+    PREFIX geog: <http://www.opengis.net/ont/geosparql#>
     PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
-    PREFIX geo84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+    PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
     PREFIX osmkey: <https://www.openstreetmap.org/wiki/Key:>
     PREFIX osmrel: <https://www.openstreetmap.org/relation/>
     PREFIX schema: <https://schema.org/>
     CONSTRUCT {
         ?cafe a schema:CafeOrCoffeeShop ;
             schema:name ?name ;
-            geo84:lat ?lat ;
-            geo84:long ?lon .
+            geo:lat ?lat ;
+            geo:long ?lon .
     } WHERE {
         osmrel:62428 ogc:sfContains ?cafe .
         ?cafe osmkey:amenity "cafe" ;
-            geo:hasGeometry/geo:asWKT ?wkt .
+            geog:hasGeometry/geog:asWKT ?wkt .
         OPTIONAL { ?cafe osmkey:name ?name }
         BIND(geof:centroid(?wkt) AS ?pt)
-        BIND(geof:latitude(?pt)  AS ?lat)
+        BIND(geof:latitude(?pt) AS ?lat)
         BIND(geof:longitude(?pt) AS ?lon)
     }`
 const quadStream = await engine.queryQuads(query, { sources: [{ type: "sparql", value: OSM_ENDPOINT }] })
