@@ -6,6 +6,7 @@ export const prefixes = {
     csvw: "http://www.w3.org/ns/csvw#",
     xsd: "http://www.w3.org/2001/XMLSchema#",
     schema: "https://schema.org/",
+    geo: "http://www.w3.org/2003/01/geo/wgs84_pos#"
 }
 
 export const expand = (prefix, localName) => {
