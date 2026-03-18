@@ -7,7 +7,7 @@
     "header": true
   },
   "tableSchema": {
-    "aboutUrl": "https://open.bydata.de/oddmuc2026#event{_row}",
+    "aboutUrl": "https://open.bydata.de/oddmuc26#event{_row}",
     "columns": [
       { "titles": "id" },
       { "titles": "title" },
