@@ -1,7 +1,7 @@
 import proj4 from "proj4"
 
 export const prefixes = {
-    dev: "https://open.bydata.de/oddmuc26#",
+    odd: "https://open.bydata.de/oddmuc26#",
     rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     rdfs: "http://www.w3.org/2000/01/rdf-schema#",
     csvw: "http://www.w3.org/ns/csvw#",
@@ -13,8 +13,8 @@ export const prefixes = {
 }
 
 export const expand = (prefix, localName) => {
-    // if only one arg --> use dev-prefix
-    if (!localName) return `${prefixes.dev}${prefix}`
+    // if only one arg --> use odd-prefix
+    if (!localName) return `${prefixes.odd}${prefix}`
     return `${prefixes[prefix]}${localName}`
 }
 
