@@ -1,3 +1,4 @@
+import proj4 from "proj4"
 
 export const prefixes = {
     dev: "https://open.bydata.de/oddmuc2026#",
@@ -13,4 +14,13 @@ export const expand = (prefix, localName) => {
     // if only one arg --> use dev-prefix
     if (!localName) return `${prefixes.dev}${prefix}`
     return `${prefixes[prefix]}${localName}`
+}
+
+export async function transformEPSG25832ToWGS84(shapeStr) {
+    proj4.defs("EPSG:25832", "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs")
+    const coords = shapeStr.split("(")[1].split(")")[0].split(" ")
+    let easting = Number(coords[0])
+    let northing = Number(coords[1])
+    const [lon, lat] = proj4("EPSG:25832", "WGS84", [easting, northing])
+    return { lat, lon }
 }
