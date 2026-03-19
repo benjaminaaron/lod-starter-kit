@@ -1,4 +1,4 @@
-import { sparqlAsk, sparqlConstruct, sparqlInsertDelete, sparqlSelect, storeFromTurtles, storeToTurtle } from "@foerderfunke/sem-ops-utils"
+import { sparqlAsk, sparqlConstruct, sparqlInsertDelete, sparqlSelect, storeFromTurtles, storeToTurtle, buildValidator, datasetFromStore, datasetToTurtle } from "@foerderfunke/sem-ops-utils"
 import { prefixes } from "../utils.js"
 
 let turtle = `
@@ -31,7 +31,8 @@ let turtle = `
 
 let store = storeFromTurtles([turtle])
 
-// SPARQL SELECT
+
+// -------------- SPARQL SELECT --------------
 let query = `
     PREFIX odd: <https://open.bydata.de/oddmuc26#>
     PREFIX schema: <https://schema.org/>
@@ -44,7 +45,8 @@ let results = await sparqlSelect(query, [store])
 console.log("\n------- SPARQL SELECT -------\n")
 console.log(results)
 
-// SPARQL CONSTRUCT
+
+// -------------- SPARQL CONSTRUCT --------------
 query = `
     PREFIX odd: <https://open.bydata.de/oddmuc26#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -61,18 +63,22 @@ await sparqlConstruct(query, [store], store)
 console.log("\n------- SPARQL CONSTRUCT -------\n")
 console.log(await storeToTurtle(store, prefixes))
 
-// SPARQL INSERT DATA
+
+// -------------- SPARQL INSERT DATA --------------
 query = `
     PREFIX odd: <https://open.bydata.de/oddmuc26#>
     
     INSERT DATA {
-        odd:oddmuc26 odd:hasEventLocation "IT-Referat LHM - Qubes" .
+        odd:oddmuc26 odd:hasEventLocation "IT-Referat LHM - Qubes" ;
+            odd:hasSession odd:libraryOpenData .
+        odd:libraryOpenData a odd:Session .
     }`
 await sparqlInsertDelete(query, store)
 console.log("\n------- SPARQL INSERT DATA -------\n")
 console.log(await storeToTurtle(store, prefixes))
 
-// SPARQL INSERT/DELETE
+
+// -------------- SPARQL INSERT/DELETE --------------
 query = `
     PREFIX schema: <https://schema.org/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -88,7 +94,8 @@ await sparqlInsertDelete(query, store)
 console.log("\n------- SPARQL INSERT/DELETE -------\n")
 console.log(await storeToTurtle(store, prefixes))
 
-// SPARQL ASK
+
+// -------------- SPARQL ASK --------------
 query = `
     PREFIX odd: <https://open.bydata.de/oddmuc26#>
     ASK {
@@ -98,5 +105,24 @@ query = `
 console.log("\n------- SPARQL ASK -------\n")
 console.log(await sparqlAsk(query, [store]))
 
-// SHACL
-let shacl = ``
+
+// -------------- SHACL --------------
+let shacl = `
+    @prefix odd: <https://open.bydata.de/oddmuc26#> .
+    @prefix sh: <http://www.w3.org/ns/shacl#> .
+
+    odd:sessionMustHaveRoomShape a sh:NodeShape ;
+        sh:targetClass odd:Session ;
+        sh:property [
+            sh:path odd:room ;
+            sh:minCount 1 ;
+            sh:message "Each session must have a room assigned" ;
+        ] .`
+
+const validator = buildValidator(shacl)
+
+let dataset = datasetFromStore(store)
+let report = await validator.validate({ dataset })
+turtle = await datasetToTurtle(report.dataset)
+console.log("\n------- SHACL -------\n")
+console.log(turtle)
