@@ -5,3 +5,6 @@ package-lock.json
 
 create-lod/output/*
 !create-lod/output/.gitkeep
+
+use-lod/output/*
+!use-lod/output/map.html.template
