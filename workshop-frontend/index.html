@@ -95,12 +95,24 @@
             border: 1px solid #8886;
             min-width: 320px;
         }
+        .top-right-link {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.9rem;
+            color: #888;
+            text-decoration: none;
+        }
+        .top-right-link:hover {
+            text-decoration: underline;
+        }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" />
     <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
 </head>
 <body>
 <h1 style="color: lightgray">#ODDMUC26 LOD Workshop</h1>
+<a class="top-right-link" href="https://github.com/benjaminaaron/lod-starter-kit" target="_blank" rel="noopener noreferrer">GitHub</a>
 <section>
     <h2>Existing graphs</h2>
     <div id="graphs-status" class="status"></div>
