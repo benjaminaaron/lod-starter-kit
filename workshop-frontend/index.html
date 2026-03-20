@@ -261,7 +261,9 @@
         requestConfig: { method: "POST" },
         yasqe: { lineNumbers: true }
     })
-    if (!yasgui.getTab().getEndpoint()) yasgui.getTab().setEndpoint(`${WORKER_BASE_URL}/sparql`)
+    if (!yasgui.getTab().getEndpoint() || yasgui.getTab().getEndpoint() === "https://dbpedia.org/sparql") {
+        yasgui.getTab().setEndpoint(`${WORKER_BASE_URL}/sparql`)
+    }
 
     endpointSelect.addEventListener("change", () => yasgui.getTab().setEndpoint(endpointSelect.value))
 
