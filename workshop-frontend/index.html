@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>#ODDMUC26 LOD Workshop</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.5;
+            max-width: 960px;
+            margin-inline: auto;
+            font-family: "Segoe UI", sans-serif;
+        }
+        h1, h2 {
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-top: 0;
+        }
+        section {
+            border: 1px solid #8884;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        label {
+            display: block;
+            margin: 0.75rem 0 0.25rem;
+            font-weight: 600;
+        }
+        input, textarea, button {
+            font: inherit;
+        }
+        input[type="text"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid #8886;
+        }
+        textarea {
+            min-height: 14rem;
+            resize: vertical;
+        }
+        button {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            border: 0;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #8884;
+            overflow-x: auto;
+        }
+        .status {
+            margin-top: 0.75rem;
+            font-weight: 600;
+        }
+        #graphs-list {
+            margin: 1rem 0 0;
+            padding-left: 1.25rem;
+        }
+        #graphs-list li {
+            margin-bottom: 0.4rem;
+        }
+        .graph-count {
+            color: #888;
+            font-size: 0.95em;
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" />
+    <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
+</head>
+<body>
+<h1 style="color: lightgray">#ODDMUC26 LOD Workshop</h1>
+<section>
+    <h2>Existing graphs</h2>
+    <div id="graphs-status" class="status"></div>
+    <ul id="graphs-list"></ul>
+</section>
+<section>
+    <h2>Add a new graph</h2>
+    <form id="upload-form">
+        <label for="graph">Name</label>
+        <div style="position:relative; display:flex; align-items:center;">
+            <span style="position:absolute; left:0.75rem; color:#888; font-size:0.9em; pointer-events:none;">
+                odd:workshop_
+            </span>
+            <input
+                id="graph"
+                name="graph"
+                type="text"
+                placeholder="choose a graph name that doesn't exist yet"
+                style="padding-left: 7.2rem;"
+                required
+            />
+        </div>
+        <label for="file">Turtle file</label>
+        <input id="file" name="file" type="file" accept=".ttl,text/turtle" required />
+        <br/>
+        <button type="submit">Upload</button>
+    </form>
+    <div id="upload-status" class="status"></div>
+</section>
+
+<section>
+    <h2>Run SPARQL</h2>
+    <div id="yasgui"></div>
+</section>
+
+<script>
+    const WORKER_BASE_URL = "https://oddmuc26-workshop-proxy.benjamin-degenhart.workers.dev"
+
+    const uploadForm = document.getElementById("upload-form")
+    const uploadStatus = document.getElementById("upload-status")
+    const graphsStatus = document.getElementById("graphs-status")
+    const graphsList = document.getElementById("graphs-list")
+
+    async function loadGraphs() {
+        graphsStatus.textContent = "Loading graphs..."
+        graphsList.innerHTML = ""
+        const query = `
+            SELECT ?g (COUNT(*) AS ?count) WHERE {
+                GRAPH ?g { ?s ?p ?o }
+            } GROUP BY ?g
+            ORDER BY LCASE(STR(?g))`
+        try {
+            const response = await fetch(`${WORKER_BASE_URL}/sparql`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/sparql-results+json"
+                },
+                body: JSON.stringify({ query })
+            })
+
+            if (!response.ok) {
+                const text = await response.text()
+                graphsStatus.textContent = `Failed to load graphs (${response.status}): ${text}`
+                return
+            }
+
+            const data = await response.json()
+            const bindings = data.results?.bindings || []
+
+            if (!bindings.length) {
+                graphsStatus.textContent = "No named graphs found."
+                return
+            }
+
+            graphsStatus.textContent = `${bindings.length} graphs found:`
+
+            for (const binding of bindings) {
+                const graphName = binding.g?.value || "[unknown graph]"
+                const count = binding.count?.value || "0"
+                const item = document.createElement("li")
+                item.innerHTML = `${graphName} <span class="graph-count">(${count} triples)</span>`
+                graphsList.appendChild(item)
+            }
+        } catch (error) {
+            graphsStatus.textContent = `Failed to load graphs: ${error.message}`
+        }
+    }
+
+    uploadForm.addEventListener("submit", async (event) => {
+        event.preventDefault()
+        uploadStatus.textContent = "Uploading..."
+
+        const formData = new FormData(uploadForm)
+        const prefix = "https://open.bydata.de/oddmuc26#workshop_"
+        const graphName = formData.get("graph")
+        formData.set("graph", prefix + graphName)
+
+        try {
+            const response = await fetch(`${WORKER_BASE_URL}/upload`, {
+                method: "POST",
+                body: formData
+            })
+
+            const text = await response.text()
+            uploadStatus.textContent = response.ok
+                ? `Upload successful: ${text || "OK"}`
+                : `Upload failed (${response.status}): ${text}`
+        } catch (error) {
+            uploadStatus.textContent = `Upload failed: ${error.message}`
+        }
+    })
+
+    loadGraphs()
+
+    const YasguiCtor = window.Yasgui || window.YASGUI
+    if (!YasguiCtor) throw new Error("YASGUI failed to load from CDN")
+
+    const yasgui = new YasguiCtor(document.getElementById("yasgui"), {
+        requestConfig: {
+            endpoint: `${WORKER_BASE_URL}/sparql`,
+            method: "POST"
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-import {sparqlSelect, storeFromTurtles, storeToTurtle} from "@foerderfunke/sem-ops-utils"
+import { sparqlSelect, storeFromTurtles, storeToTurtle } from "@foerderfunke/sem-ops-utils"
 import { QueryEngine } from "@comunica/query-sparql"
 import { DataFactory } from "rdf-data-factory"
 import haversine from "haversine-distance"
