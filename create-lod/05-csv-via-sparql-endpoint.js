@@ -37,7 +37,7 @@ for (let binding of bindings) {
     let store = newStore()
     const csv = Papa.parse(text, { header: true, skipEmptyLines: true })
     for (let row of csv.data) {
-        let id = expand(row["FID"])
+        let id = expand(row["FID"].replace(/\./g, "_"))
         addTriple(store, id, expand("rdf", "type"), expand("schema", "PublicToilet"))
         addTriple(store, id, expand("rdfs", "title"), row["name"])
         let shape = row["shape"]
