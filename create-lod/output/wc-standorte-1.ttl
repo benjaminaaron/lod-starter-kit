@@ -1,0 +1,1540 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix odd: <https://open.bydata.de/oddmuc26#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+
+odd:wc_finder_opendata.1 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette DSMDecaux GmbH";
+  geo:lat 48.17203611775937;
+  geo:long 11.567721908588748.
+
+odd:wc_finder_opendata.10 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Lochhausen\"";
+  geo:lat 48.184046619127614;
+  geo:long 11.406522967779619.
+
+odd:wc_finder_opendata.100 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Fürstenried West D";
+  geo:lat 48.08856009348629;
+  geo:long 11.480596771270731.
+
+odd:wc_finder_opendata.101 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Fürstenried West B";
+  geo:lat 48.08856009348629;
+  geo:long 11.480596771270731.
+
+odd:wc_finder_opendata.102 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Haderner Stern B";
+  geo:lat 48.11831856890371;
+  geo:long 11.490123972613041.
+
+odd:wc_finder_opendata.103 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Haderner Stern D";
+  geo:lat 48.11831856890371;
+  geo:long 11.490123972613041.
+
+odd:wc_finder_opendata.104 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Haderner Stern M";
+  geo:lat 48.11831856890371;
+  geo:long 11.490123972613041.
+
+odd:wc_finder_opendata.105 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Harras D";
+  geo:lat 48.11677791123841;
+  geo:long 11.539292902384414.
+
+odd:wc_finder_opendata.106 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Holzapfelkreuth M";
+  geo:lat 48.116319919492625;
+  geo:long 11.502640063924897.
+
+odd:wc_finder_opendata.107 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette am Partnachplatz";
+  geo:lat 48.11682654250602;
+  geo:long 11.526274985884688.
+
+odd:wc_finder_opendata.108 a schema:PublicToilet;
+  rdfs:title "USHI";
+  geo:lat 48.15107232457436;
+  geo:long 11.607848569920932.
+
+odd:wc_finder_opendata.109 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"westl. Eduard-Schmid-Str. 36\"";
+  geo:lat 48.12364640207653;
+  geo:long 11.571718229683075.
+
+odd:wc_finder_opendata.11 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Behindertengerecht\"";
+  geo:lat 48.12022876253476;
+  geo:long 11.595430995987044.
+
+odd:wc_finder_opendata.110 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südl. Reichenbachbrücke/ Boosstraße\"";
+  geo:lat 48.12597320806783;
+  geo:long 11.576088174005061.
+
+odd:wc_finder_opendata.111 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südwestl. Thalkirchner Brücke\"";
+  geo:lat 48.10028182648325;
+  geo:long 11.55058069201456.
+
+odd:wc_finder_opendata.112 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südöstl. Braunauer Eisenbahnbrücke\"";
+  geo:lat 48.1177980800184;
+  geo:long 11.562161021317024.
+
+odd:wc_finder_opendata.113 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"nördl. Wittelsbacherbrücke\"";
+  geo:lat 48.122218748110676;
+  geo:long 11.568754070934775.
+
+odd:wc_finder_opendata.114 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südöstl. Brudermühlbrücke\"";
+  geo:lat 48.11223398908498;
+  geo:long 11.560992066065742.
+
+odd:wc_finder_opendata.115 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südöstl. Braunauer Eisenbahnbrücke\"";
+  geo:lat 48.11780903340596;
+  geo:long 11.562466004145437.
+
+odd:wc_finder_opendata.116 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine Isarauen \"südlich Brudermühlbrücke\"";
+  geo:lat 48.11161025967808;
+  geo:long 11.559172294861387.
+
+odd:wc_finder_opendata.117 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine, barrierefrei \"westl. Eduard-Schmid-Str. 36\"";
+  geo:lat 48.12365384440135;
+  geo:long 11.571701909894992.
+
+odd:wc_finder_opendata.118 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südl. Reichenbachbrücke\"";
+  geo:lat 48.12663005775711;
+  geo:long 11.577360481971672.
+
+odd:wc_finder_opendata.119 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"Isarauen 10\"";
+  geo:lat 48.109060822926985;
+  geo:long 11.561104510507496.
+
+odd:wc_finder_opendata.12 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Herren\"";
+  geo:lat 48.120205613791995;
+  geo:long 11.59545247952779.
+
+odd:wc_finder_opendata.120 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südl. Wittelsbacherbrücke, bei Bolzplatz\"";
+  geo:lat 48.121650797096194;
+  geo:long 11.568036000955933.
+
+odd:wc_finder_opendata.121 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"nördl. Flauchersteg\"";
+  geo:lat 48.10689424618838;
+  geo:long 11.552579914739558.
+
+odd:wc_finder_opendata.122 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südl. Wittelsbacherbrücke, bei Bolzplatz\"";
+  geo:lat 48.122051915909246;
+  geo:long 11.568255190523143.
+
+odd:wc_finder_opendata.123 a schema:PublicToilet;
+  rdfs:title "Toilettenanlage \"Floßlände\"";
+  geo:lat 48.09280963039893;
+  geo:long 11.547453326174592.
+
+odd:wc_finder_opendata.124 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südl. Flauchersteg\"";
+  geo:lat 48.102462625027606;
+  geo:long 11.552263650037622.
+
+odd:wc_finder_opendata.125 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"Schlichtweg\"";
+  geo:lat 48.080477522227014;
+  geo:long 11.542565320969508.
+
+odd:wc_finder_opendata.126 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"nördl. Großhesseloher Brücke\"";
+  geo:lat 48.076409346947976;
+  geo:long 11.539622194731297.
+
+odd:wc_finder_opendata.127 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"südöstl. Conwentzbrücke\"";
+  geo:lat 48.08112090185745;
+  geo:long 11.540972963369045.
+
+odd:wc_finder_opendata.128 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"nördl. Wasserwachtstation\"";
+  geo:lat 48.09334321751586;
+  geo:long 11.549135072983786.
+
+odd:wc_finder_opendata.129 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"Zellstraße, Muffatwerk\"";
+  geo:lat 48.13307173292251;
+  geo:long 11.588824262893828.
+
+odd:wc_finder_opendata.13 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Damen\"";
+  geo:lat 48.12017643470126;
+  geo:long 11.595457593524959.
+
+odd:wc_finder_opendata.130 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"Flaucher, südwestl. Brudermühlbrücke\"";
+  geo:lat 48.10920154323982;
+  geo:long 11.558681336168403.
+
+odd:wc_finder_opendata.131 a schema:PublicToilet;
+  rdfs:title "Mobile Toilettenkabine \"Praterinsel 6\"";
+  geo:lat 48.13485219690237;
+  geo:long 11.588708521780504.
+
+odd:wc_finder_opendata.132 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Kurfürstenplatz H";
+  geo:lat 48.15988181149509;
+  geo:long 11.575070226590361.
+
+odd:wc_finder_opendata.133 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Westfriedhof H";
+  geo:lat 48.1689507801736;
+  geo:long 11.528542616095717.
+
+odd:wc_finder_opendata.134 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Westfriedhof D";
+  geo:lat 48.1689507801736;
+  geo:long 11.528542616095717.
+
+odd:wc_finder_opendata.135 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Forstenrieder Allee D";
+  geo:lat 48.095145583675645;
+  geo:long 11.498111264876542.
+
+odd:wc_finder_opendata.136 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Westfriedhof B";
+  geo:lat 48.1689507801736;
+  geo:long 11.528542616095717.
+
+odd:wc_finder_opendata.137 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Forstenrieder Allee H";
+  geo:lat 48.095145583675645;
+  geo:long 11.498111264876542.
+
+odd:wc_finder_opendata.138 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Neuperlach Süd";
+  geo:lat 48.08923049266852;
+  geo:long 11.644475302486622.
+
+odd:wc_finder_opendata.139 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Trudering B";
+  geo:lat 48.12553819069571;
+  geo:long 11.663584502596528.
+
+odd:wc_finder_opendata.14 a schema:PublicToilet;
+  rdfs:title "Ostfriedhof";
+  geo:lat 48.1181708682058;
+  geo:long 11.588074113837518.
+
+odd:wc_finder_opendata.140 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Trudering H";
+  geo:lat 48.12553819069571;
+  geo:long 11.663584502596528.
+
+odd:wc_finder_opendata.141 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Mangfallplatz D";
+  geo:lat 48.09719311349824;
+  geo:long 11.579442036550985.
+
+odd:wc_finder_opendata.142 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Milbertshofen H";
+  geo:lat 48.181898918528816;
+  geo:long 11.573069546762149.
+
+odd:wc_finder_opendata.143 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Milbertshofen D";
+  geo:lat 48.181898918528816;
+  geo:long 11.573069546762149.
+
+odd:wc_finder_opendata.144 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Milbertshofen B";
+  geo:lat 48.181898918528816;
+  geo:long 11.573069546762149.
+
+odd:wc_finder_opendata.145 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Feldmoching H";
+  geo:lat 48.21382609776557;
+  geo:long 11.541720195891038.
+
+odd:wc_finder_opendata.146 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Feldmoching D";
+  geo:lat 48.21382609776557;
+  geo:long 11.541720195891038.
+
+odd:wc_finder_opendata.147 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Messestadt Ost H";
+  geo:lat 48.133517439991614;
+  geo:long 11.704391982457244.
+
+odd:wc_finder_opendata.148 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Feldmoching B";
+  geo:lat 48.21382609776557;
+  geo:long 11.541720195891038.
+
+odd:wc_finder_opendata.149 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Kurfürstenplatz B";
+  geo:lat 48.1599180155158;
+  geo:long 11.575141031654937.
+
+odd:wc_finder_opendata.15 a schema:PublicToilet;
+  rdfs:title "Ostfriedhof";
+  geo:lat 48.118171641307555;
+  geo:long 11.588041243457313.
+
+odd:wc_finder_opendata.150 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Messestadt Ost D";
+  geo:lat 48.133517439991614;
+  geo:long 11.704391982457244.
+
+odd:wc_finder_opendata.151 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Messestadt Ost B";
+  geo:lat 48.133517439991614;
+  geo:long 11.704391982457244.
+
+odd:wc_finder_opendata.152 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Hasenbergl H";
+  geo:lat 48.21343533221215;
+  geo:long 11.554908591527843.
+
+odd:wc_finder_opendata.153 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Hasenbergl D";
+  geo:lat 48.21343533221215;
+  geo:long 11.554908591527843.
+
+odd:wc_finder_opendata.154 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Hasenbergl B";
+  geo:lat 48.21343533221215;
+  geo:long 11.554908591527843.
+
+odd:wc_finder_opendata.155 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Richard-Strauss Straße B";
+  geo:lat 48.1489380241639;
+  geo:long 11.616587763878616.
+
+odd:wc_finder_opendata.156 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Sendlinger Wald/ Südpark\"";
+  geo:lat 48.1038156036757;
+  geo:long 11.512790731222145.
+
+odd:wc_finder_opendata.157 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Messestadt West H";
+  geo:lat 48.13332940964898;
+  geo:long 11.69142073316917.
+
+odd:wc_finder_opendata.158 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \" \"Grüner Markt\"";
+  geo:lat 48.129449616040766;
+  geo:long 11.631767342276213.
+
+odd:wc_finder_opendata.159 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Messestadt West B";
+  geo:lat 48.13332940964898;
+  geo:long 11.69142073316917.
+
+odd:wc_finder_opendata.16 a schema:PublicToilet;
+  rdfs:title "Ostfriedhof";
+  geo:lat 48.118179312962944;
+  geo:long 11.58799680177141.
+
+odd:wc_finder_opendata.160 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilettenanlage \"Hirschgarten\"";
+  geo:lat 48.14783244802606;
+  geo:long 11.508302331268432.
+
+odd:wc_finder_opendata.161 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Hypopark\"";
+  geo:lat 48.132506653868944;
+  geo:long 11.604875759110246.
+
+odd:wc_finder_opendata.162 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Messestadt West D";
+  geo:lat 48.13332940964898;
+  geo:long 11.69142073316917.
+
+odd:wc_finder_opendata.163 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Freihamer Anger\"";
+  geo:lat 48.14626598213468;
+  geo:long 11.410383795865158.
+
+odd:wc_finder_opendata.164 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Petuelring B";
+  geo:lat 48.175752351226365;
+  geo:long 11.566876016391793.
+
+odd:wc_finder_opendata.165 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Petuelring D";
+  geo:lat 48.175752351226365;
+  geo:long 11.566876016391793.
+
+odd:wc_finder_opendata.166 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Petuelring H";
+  geo:lat 48.175752351226365;
+  geo:long 11.566876016391793.
+
+odd:wc_finder_opendata.167 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Kurfürstenplatz D";
+  geo:lat 48.15988181149509;
+  geo:long 11.575070226590361.
+
+odd:wc_finder_opendata.168 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Thalkirchen D";
+  geo:lat 48.10170725041639;
+  geo:long 11.546435690347373.
+
+odd:wc_finder_opendata.169 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Klinikum Großhadern B";
+  geo:lat 48.10885357623134;
+  geo:long 11.47266488496412.
+
+odd:wc_finder_opendata.17 a schema:PublicToilet;
+  rdfs:title "Friedhof Haidhausen";
+  geo:lat 48.1332900366442;
+  geo:long 11.60453020494164.
+
+odd:wc_finder_opendata.170 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Klinikum Großhadern D";
+  geo:lat 48.10885357623134;
+  geo:long 11.47266488496412.
+
+odd:wc_finder_opendata.171 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Klinikum Großhadern H";
+  geo:lat 48.10885357623134;
+  geo:long 11.47266488496412.
+
+odd:wc_finder_opendata.172 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Aidenbachstraße B";
+  geo:lat 48.09711855689906;
+  geo:long 11.523759323572348.
+
+odd:wc_finder_opendata.173 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Aidenbachstraße D";
+  geo:lat 48.09711855689906;
+  geo:long 11.523759323572348.
+
+odd:wc_finder_opendata.174 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Aidenbachstraße H";
+  geo:lat 48.09711855689906;
+  geo:long 11.523759323572348.
+
+odd:wc_finder_opendata.175 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Obersendling B";
+  geo:lat 48.098393143925286;
+  geo:long 11.537303504581777.
+
+odd:wc_finder_opendata.176 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Obersendling D";
+  geo:lat 48.098393143925286;
+  geo:long 11.537303504581777.
+
+odd:wc_finder_opendata.177 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Obersendling H";
+  geo:lat 48.098393143925286;
+  geo:long 11.537303504581777.
+
+odd:wc_finder_opendata.178 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Thalkirchen B";
+  geo:lat 48.10170725041639;
+  geo:long 11.546435690347373.
+
+odd:wc_finder_opendata.179 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Thalkirchen H";
+  geo:lat 48.10170725041639;
+  geo:long 11.546435690347373.
+
+odd:wc_finder_opendata.18 a schema:PublicToilet;
+  rdfs:title "Friedhof Haidhausen";
+  geo:lat 48.13326055592334;
+  geo:long 11.604523566186442.
+
+odd:wc_finder_opendata.180 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Lehel D";
+  geo:lat 48.13944533629678;
+  geo:long 11.58900310910447.
+
+odd:wc_finder_opendata.181 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Lehel H";
+  geo:lat 48.13944533629678;
+  geo:long 11.58900310910447.
+
+odd:wc_finder_opendata.182 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Böhmerwaldplatz B";
+  geo:lat 48.144109647907555;
+  geo:long 11.615871487480549.
+
+odd:wc_finder_opendata.183 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Böhmerwaldplatz D";
+  geo:lat 48.144109647907555;
+  geo:long 11.615871487480549.
+
+odd:wc_finder_opendata.184 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Lehel B";
+  geo:lat 48.13944533629678;
+  geo:long 11.58900310910447.
+
+odd:wc_finder_opendata.185 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Rotkreuzplatz H";
+  geo:lat 48.15305360063089;
+  geo:long 11.533609170060783.
+
+odd:wc_finder_opendata.186 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Rotkreuzplatz D";
+  geo:lat 48.15305360063089;
+  geo:long 11.533609170060783.
+
+odd:wc_finder_opendata.187 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Böhmerwaldplatz H";
+  geo:lat 48.144109647907555;
+  geo:long 11.615871487480549.
+
+odd:wc_finder_opendata.188 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Rotkreuzplatz B";
+  geo:lat 48.15483256096369;
+  geo:long 11.532663243070926.
+
+odd:wc_finder_opendata.189 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Richard-Strauss Straße H";
+  geo:lat 48.1489380241639;
+  geo:long 11.616587763878616.
+
+odd:wc_finder_opendata.19 a schema:PublicToilet;
+  rdfs:title "Friedhof Riem Alter Teil";
+  geo:lat 48.13205176303588;
+  geo:long 11.680039344449366.
+
+odd:wc_finder_opendata.190 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Richard-Strauss Straße D";
+  geo:lat 48.1489380241639;
+  geo:long 11.616587763878616.
+
+odd:wc_finder_opendata.191 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Brudermühlstraße B";
+  geo:lat 48.112455844881005;
+  geo:long 11.548793576232669.
+
+odd:wc_finder_opendata.192 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Friedenheimer Straße D";
+  geo:lat 48.13509667907731;
+  geo:long 11.51176680940525.
+
+odd:wc_finder_opendata.193 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Friedenheimer Straße B";
+  geo:lat 48.13509667907731;
+  geo:long 11.51176680940525.
+
+odd:wc_finder_opendata.194 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Laimer Platz H";
+  geo:lat 48.13541008087729;
+  geo:long 11.503296556420066.
+
+odd:wc_finder_opendata.195 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Laimer Platz D";
+  geo:lat 48.13541008087729;
+  geo:long 11.503296556420066.
+
+odd:wc_finder_opendata.196 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Brudermühlstraße D";
+  geo:lat 48.112455844881005;
+  geo:long 11.548793576232669.
+
+odd:wc_finder_opendata.197 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Brudermühlstraße H";
+  geo:lat 48.112455844881005;
+  geo:long 11.548793576232669.
+
+odd:wc_finder_opendata.198 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Forstenrieder Allee B";
+  geo:lat 48.095145583675645;
+  geo:long 11.498111264876542.
+
+odd:wc_finder_opendata.199 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Friedenheimer Straße H";
+  geo:lat 48.13509667907731;
+  geo:long 11.51176680940525.
+
+odd:wc_finder_opendata.2 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette DSMDecaux GmbH";
+  geo:lat 48.1364922104837;
+  geo:long 11.534629032532619.
+
+odd:wc_finder_opendata.20 a schema:PublicToilet;
+  rdfs:title "Friedhof Riem Neuer Teil";
+  geo:lat 48.13265666925351;
+  geo:long 11.679304128460249.
+
+odd:wc_finder_opendata.200 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Laimer Platz B";
+  geo:lat 48.13541008087729;
+  geo:long 11.503296556420066.
+
+odd:wc_finder_opendata.201 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Moosach D";
+  geo:lat 48.18067886820834;
+  geo:long 11.506646366633648.
+
+odd:wc_finder_opendata.202 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Harthof H";
+  geo:lat 48.20487044169323;
+  geo:long 11.569345946353494.
+
+odd:wc_finder_opendata.203 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Harthof B";
+  geo:lat 48.20487044169323;
+  geo:long 11.569345946353494.
+
+odd:wc_finder_opendata.204 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Frankfurter Ring H";
+  geo:lat 48.18730423271447;
+  geo:long 11.57276786754455.
+
+odd:wc_finder_opendata.205 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Frankfurter Ring D";
+  geo:lat 48.18730423271447;
+  geo:long 11.57276786754455.
+
+odd:wc_finder_opendata.206 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Frankfurter Ring B";
+  geo:lat 48.18730423271447;
+  geo:long 11.57276786754455.
+
+odd:wc_finder_opendata.207 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Tramstation Scheidplatz H";
+  geo:lat 48.1707277013176;
+  geo:long 11.572561385838785.
+
+odd:wc_finder_opendata.208 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Tramstation Scheidplatz D";
+  geo:lat 48.1707277013176;
+  geo:long 11.572561385838785.
+
+odd:wc_finder_opendata.209 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Tramstation Scheidplatz B";
+  geo:lat 48.1707277013176;
+  geo:long 11.572561385838785.
+
+odd:wc_finder_opendata.21 a schema:PublicToilet;
+  rdfs:title "Friedhof Riem Neuer Teil";
+  geo:lat 48.132638234751646;
+  geo:long 11.679284350368608.
+
+odd:wc_finder_opendata.210 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Olympiazentrum H";
+  geo:lat 48.18017973295619;
+  geo:long 11.555463892378436.
+
+odd:wc_finder_opendata.211 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Olympiazentrum D";
+  geo:lat 48.18017973295619;
+  geo:long 11.555463892378436.
+
+odd:wc_finder_opendata.212 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Moosach H";
+  geo:lat 48.18067886820834;
+  geo:long 11.506646366633648.
+
+odd:wc_finder_opendata.213 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Moosach B";
+  geo:lat 48.18067886820834;
+  geo:long 11.506646366633648.
+
+odd:wc_finder_opendata.214 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Harthof D";
+  geo:lat 48.20487044169323;
+  geo:long 11.569345946353494.
+
+odd:wc_finder_opendata.215 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Arabellapark H";
+  geo:lat 48.15342976370266;
+  geo:long 11.62082082076669.
+
+odd:wc_finder_opendata.216 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Arabellapark D";
+  geo:lat 48.15342976370266;
+  geo:long 11.62082082076669.
+
+odd:wc_finder_opendata.217 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Arabellapark B";
+  geo:lat 48.153666430090915;
+  geo:long 11.623252022979036.
+
+odd:wc_finder_opendata.218 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Max-Weber-Platz H";
+  geo:lat 48.13568813104866;
+  geo:long 11.598836882209287.
+
+odd:wc_finder_opendata.219 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Max-Weber-Platz D";
+  geo:lat 48.13568813104866;
+  geo:long 11.598836882209287.
+
+odd:wc_finder_opendata.22 a schema:PublicToilet;
+  rdfs:title "Friedhof Riem Neuer Teil";
+  geo:lat 48.13261971255268;
+  geo:long 11.679268331404575.
+
+odd:wc_finder_opendata.220 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Max-Weber-Platz B";
+  geo:lat 48.13568813104866;
+  geo:long 11.598836882209287.
+
+odd:wc_finder_opendata.221 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Prinzregentenplatz H";
+  geo:lat 48.13939397433611;
+  geo:long 11.607217118242588.
+
+odd:wc_finder_opendata.222 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Prinzregentenplatz D";
+  geo:lat 48.13939397433611;
+  geo:long 11.607217118242588.
+
+odd:wc_finder_opendata.223 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Prinzregentenplatz B";
+  geo:lat 48.138774867780015;
+  geo:long 11.606457932627267.
+
+odd:wc_finder_opendata.224 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Bushaltestelle Waldfriedhof B";
+  geo:lat 48.11226891252283;
+  geo:long 11.502956088585508.
+
+odd:wc_finder_opendata.225 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Bushaltestelle Waldfriedhof D";
+  geo:lat 48.11226891252283;
+  geo:long 11.502956088585508.
+
+odd:wc_finder_opendata.226 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Bushaltestelle Waldfriedhof M";
+  geo:lat 48.11226891252283;
+  geo:long 11.502956088585508.
+
+odd:wc_finder_opendata.227 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Bushaltestelle Lorettoplatz D";
+  geo:lat 48.10357500523477;
+  geo:long 11.488904077867925.
+
+odd:wc_finder_opendata.228 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Bushaltestelle Lorettoplatz M";
+  geo:lat 48.10357500523477;
+  geo:long 11.488904077867925.
+
+odd:wc_finder_opendata.229 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Fraunhoferstraße D";
+  geo:lat 48.128508798508435;
+  geo:long 11.575682226831464.
+
+odd:wc_finder_opendata.23 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Eingang Stadelheimerstr. 20/22";
+  geo:lat 48.101899999982706;
+  geo:long 11.595377400022956.
+
+odd:wc_finder_opendata.230 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Fraunhoferstraße B";
+  geo:lat 48.128508798508435;
+  geo:long 11.575682226831464.
+
+odd:wc_finder_opendata.231 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Marienplatz Prunkhof M";
+  geo:lat 48.13765833632556;
+  geo:long 11.575740222111047.
+
+odd:wc_finder_opendata.232 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Marienplatz Prunkhof D";
+  geo:lat 48.13765833632556;
+  geo:long 11.575740222111047.
+
+odd:wc_finder_opendata.233 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Marienplatz Prunkhof B";
+  geo:lat 48.13765833632556;
+  geo:long 11.575740222111047.
+
+odd:wc_finder_opendata.234 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Marienplatz M";
+  geo:lat 48.13693761250727;
+  geo:long 11.576160931698825.
+
+odd:wc_finder_opendata.235 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Marienplatz D";
+  geo:lat 48.13693761250727;
+  geo:long 11.576160931698825.
+
+odd:wc_finder_opendata.236 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Marienplatz B";
+  geo:lat 48.13693761250727;
+  geo:long 11.576160931698825.
+
+odd:wc_finder_opendata.237 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Sendlinger Tor M";
+  geo:lat 48.134197788599586;
+  geo:long 11.567575088008567.
+
+odd:wc_finder_opendata.238 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Sendlinger Tor D";
+  geo:lat 48.134197788599586;
+  geo:long 11.567575088008567.
+
+odd:wc_finder_opendata.239 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Giesing M";
+  geo:lat 48.110784413087224;
+  geo:long 11.595405785259423.
+
+odd:wc_finder_opendata.24 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Eingang Stadelheimerstr. 20/22";
+  geo:lat 48.101920157309806;
+  geo:long 11.595362287995336.
+
+odd:wc_finder_opendata.240 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Goetheplatz M";
+  geo:lat 48.12943760743278;
+  geo:long 11.5586839542826.
+
+odd:wc_finder_opendata.241 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Goetheplatz B";
+  geo:lat 48.12943760743278;
+  geo:long 11.5586839542826.
+
+odd:wc_finder_opendata.242 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Innsbrucker Ring B";
+  geo:lat 48.120473864591716;
+  geo:long 11.619887427388537.
+
+odd:wc_finder_opendata.243 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Goetheplatz D";
+  geo:lat 48.12943760743278;
+  geo:long 11.5586839542826.
+
+odd:wc_finder_opendata.244 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Innsbrucker Ring D";
+  geo:lat 48.120473864591716;
+  geo:long 11.619887427388537.
+
+odd:wc_finder_opendata.245 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Giesing D";
+  geo:lat 48.110784413087224;
+  geo:long 11.595405785259423.
+
+odd:wc_finder_opendata.246 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Innsbrucker Ring M";
+  geo:lat 48.120473864591716;
+  geo:long 11.619887427388537.
+
+odd:wc_finder_opendata.247 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Universität D";
+  geo:lat 48.15114693455174;
+  geo:long 11.581345891764409.
+
+odd:wc_finder_opendata.248 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Universität M";
+  geo:lat 48.15114693455174;
+  geo:long 11.581345891764409.
+
+odd:wc_finder_opendata.249 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Giesing B";
+  geo:lat 48.110784413087224;
+  geo:long 11.595405785259423.
+
+odd:wc_finder_opendata.25 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Eingang Stadelheimerstr. 20/22";
+  geo:lat 48.10187713808921;
+  geo:long 11.595388512914857.
+
+odd:wc_finder_opendata.250 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Silberhornstraße M";
+  geo:lat 48.11515044279173;
+  geo:long 11.579208706697928.
+
+odd:wc_finder_opendata.251 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Silberhornstraße D";
+  geo:lat 48.11515044279173;
+  geo:long 11.579208706697928.
+
+odd:wc_finder_opendata.252 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Silberhornstraße B";
+  geo:lat 48.11515044279173;
+  geo:long 11.579208706697928.
+
+odd:wc_finder_opendata.253 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Fraunhoferstraße M";
+  geo:lat 48.128508798508435;
+  geo:long 11.575682226831464.
+
+odd:wc_finder_opendata.254 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Candidplatz D";
+  geo:lat 48.11200066308452;
+  geo:long 11.571196442505126.
+
+odd:wc_finder_opendata.255 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Candidplatz B";
+  geo:lat 48.11200066308452;
+  geo:long 11.571196442505126.
+
+odd:wc_finder_opendata.256 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Wettersteinplatz M";
+  geo:lat 48.10843376336781;
+  geo:long 11.575204695298387.
+
+odd:wc_finder_opendata.257 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Candidplatz M";
+  geo:lat 48.11200066308452;
+  geo:long 11.571196442505126.
+
+odd:wc_finder_opendata.258 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Wettersteinplatz B";
+  geo:lat 48.10843376336781;
+  geo:long 11.575204695298387.
+
+odd:wc_finder_opendata.259 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Mangfallplatz M";
+  geo:lat 48.09719311349824;
+  geo:long 11.579442036550985.
+
+odd:wc_finder_opendata.26 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Friedhofsgelände / an der Aussegnungshalle";
+  geo:lat 48.09949550596051;
+  geo:long 11.595791946471913.
+
+odd:wc_finder_opendata.260 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Wettersteinplatz D";
+  geo:lat 48.10843376336781;
+  geo:long 11.575204695298387.
+
+odd:wc_finder_opendata.261 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Mangfallplatz B";
+  geo:lat 48.09719311349824;
+  geo:long 11.579442036550985.
+
+odd:wc_finder_opendata.262 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Olympia-Einkaufszentrum M";
+  geo:lat 48.182213761891205;
+  geo:long 11.529706250746393.
+
+odd:wc_finder_opendata.263 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Olympia-Einkaufszentrum D";
+  geo:lat 48.182213761891205;
+  geo:long 11.529706250746393.
+
+odd:wc_finder_opendata.264 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Olympia-Einkaufszentrum B";
+  geo:lat 48.182213761891205;
+  geo:long 11.529706250746393.
+
+odd:wc_finder_opendata.265 a schema:PublicToilet;
+  rdfs:title "Prunkhof - Rathaus";
+  geo:lat 48.13759530529113;
+  geo:long 11.575834528145695.
+
+odd:wc_finder_opendata.266 a schema:PublicToilet;
+  rdfs:title "Prunkhof - Rathaus";
+  geo:lat 48.137559073925296;
+  geo:long 11.575764962471384.
+
+odd:wc_finder_opendata.267 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Lerchenauer See\" Nord";
+  geo:lat 48.19939350034099;
+  geo:long 11.53615559983022.
+
+odd:wc_finder_opendata.268 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Luitpoldpark ost\"";
+  geo:lat 48.17071846904151;
+  geo:long 11.572279532024291.
+
+odd:wc_finder_opendata.269 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Gollierplatz\"";
+  geo:lat 48.13654250019887;
+  geo:long 11.534615399802167.
+
+odd:wc_finder_opendata.27 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Friedhofsgelände / an der Aussegnungshalle";
+  geo:lat 48.09950619367094;
+  geo:long 11.59582069409128.
+
+odd:wc_finder_opendata.270 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Ostpark“";
+  geo:lat 48.11550439972778;
+  geo:long 11.638434799985516.
+
+odd:wc_finder_opendata.271 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Fasaneriesee \"Parkplatz\" Süd";
+  geo:lat 48.2025630003677;
+  geo:long 11.525864299887594.
+
+odd:wc_finder_opendata.272 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Fasaneriesee\" Nord";
+  geo:lat 48.206343700339936;
+  geo:long 11.528117399416235.
+
+odd:wc_finder_opendata.273 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Feldmochinger See\"";
+  geo:lat 48.216872700309885;
+  geo:long 11.514707200045176.
+
+odd:wc_finder_opendata.274 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Lerchenauer See\" Süd";
+  geo:lat 48.194626703224735;
+  geo:long 11.535487682131075.
+
+odd:wc_finder_opendata.275 a schema:PublicToilet;
+  rdfs:title "WC-Anlage \"Westpark, Seebühne\"";
+  geo:lat 48.123268819406036;
+  geo:long 11.512302963327583.
+
+odd:wc_finder_opendata.276 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Petuelpark\"";
+  geo:lat 48.177470100318274;
+  geo:long 11.579451400071198.
+
+odd:wc_finder_opendata.277 a schema:PublicToilet;
+  rdfs:title "WC-Anlage Westpark, Grillzone West";
+  geo:lat 48.12235631363359;
+  geo:long 11.510157022652715.
+
+odd:wc_finder_opendata.278 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Riemer Park“";
+  geo:lat 48.1288273002143;
+  geo:long 11.709648799633662.
+
+odd:wc_finder_opendata.279 a schema:PublicToilet;
+  rdfs:title "WC-Anlage \"Regattaanlage\"";
+  geo:lat 48.247147095736416;
+  geo:long 11.523378499270429.
+
+odd:wc_finder_opendata.28 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Friedhofsgelände / an der Aussegnungshalle";
+  geo:lat 48.0995154532407;
+  geo:long 11.595856892236819.
+
+odd:wc_finder_opendata.280 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Olympiaberg\"";
+  geo:lat 48.170953999702924;
+  geo:long 11.55465990000615.
+
+odd:wc_finder_opendata.281 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Orleansplatz\"";
+  geo:lat 48.12799329996501;
+  geo:long 11.60291209951173.
+
+odd:wc_finder_opendata.282 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Westpark Wasserspielplatz\"";
+  geo:lat 48.12322699955376;
+  geo:long 11.527712699834305.
+
+odd:wc_finder_opendata.283 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"WC am Jackl (Westpark Westteil)\"";
+  geo:lat 48.12204619976276;
+  geo:long 11.50784179943718.
+
+odd:wc_finder_opendata.284 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Nußbaumpark\"";
+  geo:lat 48.13205118208583;
+  geo:long 11.562898689909478.
+
+odd:wc_finder_opendata.285 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Am Graben\"";
+  geo:lat 48.110034488370204;
+  geo:long 11.630263547863208.
+
+odd:wc_finder_opendata.286 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Taxispark\"";
+  geo:lat 48.16366383451683;
+  geo:long 11.534305482777649.
+
+odd:wc_finder_opendata.287 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilettenanlage \"Maßmannpark\"";
+  geo:lat 48.15286709987395;
+  geo:long 11.559318472878799.
+
+odd:wc_finder_opendata.288 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Pasing\"";
+  geo:lat 48.13717994671911;
+  geo:long 11.458188037091368.
+
+odd:wc_finder_opendata.289 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Pasing\"";
+  geo:lat 48.137150213959146;
+  geo:long 11.458186616897638.
+
+odd:wc_finder_opendata.29 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette im Verwaltungsgebäude";
+  geo:lat 48.10061207985692;
+  geo:long 11.596050622099028.
+
+odd:wc_finder_opendata.290 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Aubing\"";
+  geo:lat 48.1543103341644;
+  geo:long 11.409378854247521.
+
+odd:wc_finder_opendata.291 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Westfriedhof";
+  geo:lat 48.169335110258615;
+  geo:long 11.525673964782893.
+
+odd:wc_finder_opendata.292 a schema:PublicToilet;
+  rdfs:title "Öffentliches Behinderten WC \"Friedhof Aubing\"";
+  geo:lat 48.1543475056539;
+  geo:long 11.409524210389446.
+
+odd:wc_finder_opendata.293 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Obermenzing\"";
+  geo:lat 48.164889697378136;
+  geo:long 11.448488570664457.
+
+odd:wc_finder_opendata.294 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Untermenzing\"";
+  geo:lat 48.177729740072756;
+  geo:long 11.460445573475294.
+
+odd:wc_finder_opendata.295 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Allach\"";
+  geo:lat 48.20043688318949;
+  geo:long 11.45707706573612.
+
+odd:wc_finder_opendata.296 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Untermenzing\"";
+  geo:lat 48.177729950770114;
+  geo:long 11.460494553448438.
+
+odd:wc_finder_opendata.297 a schema:PublicToilet;
+  rdfs:title "Öffentliches Behinderten WC \"Friedhof Pasing\"";
+  geo:lat 48.137021616682745;
+  geo:long 11.458141699239784.
+
+odd:wc_finder_opendata.298 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Aubing\"";
+  geo:lat 48.154306880536936;
+  geo:long 11.409354756671855.
+
+odd:wc_finder_opendata.299 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof";
+  geo:lat 48.10040566942021;
+  geo:long 11.486340660044847.
+
+odd:wc_finder_opendata.3 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette DSMDecaux GmbH";
+  geo:lat 48.17951249531114;
+  geo:long 11.506629023602299.
+
+odd:wc_finder_opendata.30 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette im Verwaltungsgebäude";
+  geo:lat 48.10058428430774;
+  geo:long 11.595969608228938.
+
+odd:wc_finder_opendata.300 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof";
+  geo:lat 48.108959192119435;
+  geo:long 11.500432836897112.
+
+odd:wc_finder_opendata.301 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof Neuer Teil - barrierefreie Toilette";
+  geo:lat 48.100390399612245;
+  geo:long 11.486330200414129.
+
+odd:wc_finder_opendata.302 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof";
+  geo:lat 48.10040386196759;
+  geo:long 11.486363675032301.
+
+odd:wc_finder_opendata.303 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof";
+  geo:lat 48.10897369976992;
+  geo:long 11.500428029913117.
+
+odd:wc_finder_opendata.304 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof";
+  geo:lat 48.10860206934944;
+  geo:long 11.501777676345066.
+
+odd:wc_finder_opendata.305 a schema:PublicToilet;
+  rdfs:title "Waldfriedhof";
+  geo:lat 48.108543304052816;
+  geo:long 11.501775889200205.
+
+odd:wc_finder_opendata.306 a schema:PublicToilet;
+  rdfs:title "Aussegnungshalle FH Obermenzing";
+  geo:lat 48.16487361074416;
+  geo:long 11.448340992360519.
+
+odd:wc_finder_opendata.307 a schema:PublicToilet;
+  rdfs:title "Besuchertoiletten Friedhof Allach";
+  geo:lat 48.200447311734585;
+  geo:long 11.457078280775166.
+
+odd:wc_finder_opendata.31 a schema:PublicToilet;
+  rdfs:title "Öffentliche Damentoilette Haupteingang Eisentor mit barrierefreier Kabine";
+  geo:lat 48.10058999113947;
+  geo:long 11.62233744998587.
+
+odd:wc_finder_opendata.32 a schema:PublicToilet;
+  rdfs:title "Öffentliche Herrentoilette Haupteingang Eisentor mit barrierefreier Kabine";
+  geo:lat 48.10055042567894;
+  geo:long 11.622392624449516.
+
+odd:wc_finder_opendata.33 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Damen hinter Aussegnungshalle";
+  geo:lat 48.098853687723725;
+  geo:long 11.621222335028307.
+
+odd:wc_finder_opendata.34 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Herren hinter Aussegnungshalle";
+  geo:lat 48.098890817089014;
+  geo:long 11.621272919107458.
+
+odd:wc_finder_opendata.35 a schema:PublicToilet;
+  rdfs:title "Barrierefreie Toilette hinter Aussegnungshalle sehr beengt !";
+  geo:lat 48.09891514646534;
+  geo:long 11.621320557785436.
+
+odd:wc_finder_opendata.36 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Damen Friedhof Perlach";
+  geo:lat 48.09861313468833;
+  geo:long 11.640944410746968.
+
+odd:wc_finder_opendata.37 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Herren Friedhof Perlach";
+  geo:lat 48.09865276700384;
+  geo:long 11.640973895908262.
+
+odd:wc_finder_opendata.38 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Nordfriedhof Herren";
+  geo:lat 48.17484623404245;
+  geo:long 11.600190843216765.
+
+odd:wc_finder_opendata.39 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Nordfriedhof Damen";
+  geo:lat 48.17486007204938;
+  geo:long 11.600167305675585.
+
+odd:wc_finder_opendata.4 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette DSMDecaux GmbH";
+  geo:lat 48.1279247059728;
+  geo:long 11.602916132153608.
+
+odd:wc_finder_opendata.40 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Behinderten";
+  geo:lat 48.174872751916816;
+  geo:long 11.600135185910682.
+
+odd:wc_finder_opendata.41 a schema:PublicToilet;
+  rdfs:title "Brausebad / Gaststätte \"Das Bad\"";
+  geo:lat 48.13644915158161;
+  geo:long 11.549799250026611.
+
+odd:wc_finder_opendata.42 a schema:PublicToilet;
+  rdfs:title "Boazn";
+  geo:lat 48.13172433031269;
+  geo:long 11.587714677712718.
+
+odd:wc_finder_opendata.43 a schema:PublicToilet;
+  rdfs:title "Boazn";
+  geo:lat 48.13169807041483;
+  geo:long 11.587702066731909.
+
+odd:wc_finder_opendata.44 a schema:PublicToilet;
+  rdfs:title "Cafe Krönlein";
+  geo:lat 48.121475803556606;
+  geo:long 11.581485439799357.
+
+odd:wc_finder_opendata.45 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Max-Hirschberg-Weg, Bahndeckel";
+  geo:lat 48.128308119488565;
+  geo:long 11.53913313549241.
+
+odd:wc_finder_opendata.46 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Elisenstraße";
+  geo:lat 48.14217161824683;
+  geo:long 11.560739816475452.
+
+odd:wc_finder_opendata.47 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Am Hart D";
+  geo:lat 48.19589684806198;
+  geo:long 11.571811719314342.
+
+odd:wc_finder_opendata.48 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Am Hart B";
+  geo:lat 48.19589684806198;
+  geo:long 11.571811719314342.
+
+odd:wc_finder_opendata.49 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Dülferstraße B";
+  geo:lat 48.212300929116374;
+  geo:long 11.563059098449626.
+
+odd:wc_finder_opendata.5 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Westfriedhof";
+  geo:lat 48.169283840224196;
+  geo:long 11.525628133061304.
+
+odd:wc_finder_opendata.50 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Am Hart H";
+  geo:lat 48.19589684806198;
+  geo:long 11.571811719314342.
+
+odd:wc_finder_opendata.51 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Dülferstraße D";
+  geo:lat 48.212300929116374;
+  geo:long 11.563059098449626.
+
+odd:wc_finder_opendata.52 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Dülferstraße H";
+  geo:lat 48.212300929116374;
+  geo:long 11.563059098449626.
+
+odd:wc_finder_opendata.53 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Hogenbergplatz, Fröbelplatz\"";
+  geo:lat 48.137297019570454;
+  geo:long 11.507102870675983.
+
+odd:wc_finder_opendata.54 a schema:PublicToilet;
+  rdfs:title "Toilettenanlage Markt am Elisabethplatz";
+  geo:lat 48.156761674723676;
+  geo:long 11.57382777638615.
+
+odd:wc_finder_opendata.55 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Johannisplatz";
+  geo:lat 48.13431576176037;
+  geo:long 11.59885359819802.
+
+odd:wc_finder_opendata.56 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Walchenseeplatz\"";
+  geo:lat 48.11232950066043;
+  geo:long 11.583350918077938.
+
+odd:wc_finder_opendata.57 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Theresienwiese (beim U-Bahnhof)\"";
+  geo:lat 48.13501720234128;
+  geo:long 11.551630792131878.
+
+odd:wc_finder_opendata.58 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Partnachplatz\"";
+  geo:lat 48.11682388312706;
+  geo:long 11.526273944373331.
+
+odd:wc_finder_opendata.59 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Arnulfpark";
+  geo:lat 48.143159377304194;
+  geo:long 11.542131783931653.
+
+odd:wc_finder_opendata.6 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Westfriedhof";
+  geo:lat 48.16928565383018;
+  geo:long 11.525660235849456.
+
+odd:wc_finder_opendata.60 a schema:PublicToilet;
+  rdfs:title "Toilettenanlage \"Tierparkparkplatz / Flaucher\"";
+  geo:lat 48.10164348795834;
+  geo:long 11.55288528183524.
+
+odd:wc_finder_opendata.61 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Michaeli Anger\"";
+  geo:lat 48.12222307648116;
+  geo:long 11.628746024645697.
+
+odd:wc_finder_opendata.62 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Valpichlerstraße\"";
+  geo:lat 48.13780365816604;
+  geo:long 11.496775990534745.
+
+odd:wc_finder_opendata.63 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Im Gefilde\"";
+  geo:lat 48.09094982797103;
+  geo:long 11.659156650849521.
+
+odd:wc_finder_opendata.64 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Goldschmiedplatz\"";
+  geo:lat 48.219354417251004;
+  geo:long 11.562286607545694.
+
+odd:wc_finder_opendata.65 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Eduard-Schmid-Straße\"";
+  geo:lat 48.12383173596781;
+  geo:long 11.572861686429011.
+
+odd:wc_finder_opendata.66 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Hirschgarten\"";
+  geo:lat 48.14811052937149;
+  geo:long 11.516269526817986.
+
+odd:wc_finder_opendata.67 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toiletten \"Brudermühlstraße\"";
+  geo:lat 48.11241981949997;
+  geo:long 11.542089969032.
+
+odd:wc_finder_opendata.68 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilettenanlage \"Weißenseepark\"";
+  geo:lat 48.10756346042505;
+  geo:long 11.585257869046647.
+
+odd:wc_finder_opendata.69 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Georg-Freundorfer-Platz\"";
+  geo:lat 48.13403342344891;
+  geo:long 11.53835188273624.
+
+odd:wc_finder_opendata.7 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Friedhof Feldmoching";
+  geo:lat 48.21601074331194;
+  geo:long 11.526000966626304.
+
+odd:wc_finder_opendata.70 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette, Kustermannpark";
+  geo:lat 48.12210885411609;
+  geo:long 11.601261519132098.
+
+odd:wc_finder_opendata.71 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Kolumbusplatz H";
+  geo:lat 48.119181316519864;
+  geo:long 11.577134323525422.
+
+odd:wc_finder_opendata.72 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Kolumbusplatz D";
+  geo:lat 48.119181316519864;
+  geo:long 11.577134323525422.
+
+odd:wc_finder_opendata.73 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Kolumbusplatz B";
+  geo:lat 48.11921991569206;
+  geo:long 11.577042188725013.
+
+odd:wc_finder_opendata.74 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Karl-Preis-Platz H";
+  geo:lat 48.11851085937894;
+  geo:long 11.60964324700882.
+
+odd:wc_finder_opendata.75 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Karl-Preis-Platz D";
+  geo:lat 48.11851085937894;
+  geo:long 11.60964324700882.
+
+odd:wc_finder_opendata.76 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Karl-Preis-Platz B";
+  geo:lat 48.11851085937894;
+  geo:long 11.60964324700882.
+
+odd:wc_finder_opendata.77 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Sendlinger Tor B";
+  geo:lat 48.134197788599586;
+  geo:long 11.567575088008567.
+
+odd:wc_finder_opendata.78 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Odeonsplatz";
+  geo:lat 48.142768636267554;
+  geo:long 11.578114454977174.
+
+odd:wc_finder_opendata.79 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Odeonsplatz";
+  geo:lat 48.142768636267554;
+  geo:long 11.578114454977174.
+
+odd:wc_finder_opendata.8 a schema:PublicToilet;
+  rdfs:title "Besuchertoilette Friedhof Feldmoching";
+  geo:lat 48.21597786107659;
+  geo:long 11.526006887612693.
+
+odd:wc_finder_opendata.80 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Josephsplatz B";
+  geo:lat 48.154721072621705;
+  geo:long 11.566453203341563.
+
+odd:wc_finder_opendata.81 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Josephsplatz H";
+  geo:lat 48.154721072621705;
+  geo:long 11.566453203341563.
+
+odd:wc_finder_opendata.82 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Sperrengeschoss Hauptbahnhof H";
+  geo:lat 48.14074293532766;
+  geo:long 11.56103207749449.
+
+odd:wc_finder_opendata.83 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Josephsplatz D";
+  geo:lat 48.154721072621705;
+  geo:long 11.566453203341563.
+
+odd:wc_finder_opendata.84 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Trudering D";
+  geo:lat 48.12553819069571;
+  geo:long 11.663584502596528.
+
+odd:wc_finder_opendata.85 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette Sperrengeschoss Hauptbahnhof D";
+  geo:lat 48.14074293532766;
+  geo:long 11.56103207749449.
+
+odd:wc_finder_opendata.86 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Münchener Freiheit B";
+  geo:lat 48.16169389983656;
+  geo:long 11.586504573921635.
+
+odd:wc_finder_opendata.87 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Münchener Freiheit H";
+  geo:lat 48.16169389983656;
+  geo:long 11.586504573921635.
+
+odd:wc_finder_opendata.88 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Münchener Freiheit D";
+  geo:lat 48.16169389983656;
+  geo:long 11.586504573921635.
+
+odd:wc_finder_opendata.89 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Großhadern B";
+  geo:lat 48.11568347839352;
+  geo:long 11.47731480183858.
+
+odd:wc_finder_opendata.9 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette \"Friedhof Lochhausen\"";
+  geo:lat 48.18406877214362;
+  geo:long 11.406516500247212.
+
+odd:wc_finder_opendata.90 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Großhadern D";
+  geo:lat 48.11568347839352;
+  geo:long 11.47731480183858.
+
+odd:wc_finder_opendata.91 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Großhadern M";
+  geo:lat 48.11568347839352;
+  geo:long 11.47731480183858.
+
+odd:wc_finder_opendata.92 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Harras B";
+  geo:lat 48.11677791123841;
+  geo:long 11.539292902384414.
+
+odd:wc_finder_opendata.93 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Fürstenried West H";
+  geo:lat 48.08856009348629;
+  geo:long 11.480596771270731.
+
+odd:wc_finder_opendata.94 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Holzapfelkreuth D";
+  geo:lat 48.116319919492625;
+  geo:long 11.502640063924897.
+
+odd:wc_finder_opendata.95 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Holzapfelkreuth B";
+  geo:lat 48.116319919492625;
+  geo:long 11.502640063924897.
+
+odd:wc_finder_opendata.96 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Westendstraße B";
+  geo:lat 48.13470653079482;
+  geo:long 11.522749562852134.
+
+odd:wc_finder_opendata.97 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Westendstraße D";
+  geo:lat 48.13470653079482;
+  geo:long 11.522749562852134.
+
+odd:wc_finder_opendata.98 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Westendstraße H";
+  geo:lat 48.13470653079482;
+  geo:long 11.522749562852134.
+
+odd:wc_finder_opendata.99 a schema:PublicToilet;
+  rdfs:title "Öffentliche Toilette U-Bahnhof Harras M";
+  geo:lat 48.11677791123841;
+  geo:long 11.539292902384414.

@@ -1,0 +1,4079 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix osmnode: <https://www.openstreetmap.org/node/>.
+@prefix osmway: <https://www.openstreetmap.org/way/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix schema: <https://schema.org/>.
+
+osmnode:10021629702 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10432547527;
+  geo:long 11.59737273268.
+
+osmnode:1005405936 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15058670766;
+  geo:long 11.57521869203;
+  schema:name "Teeseele München".
+
+osmnode:10076369821 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15498636864;
+  geo:long 11.55574116069;
+  schema:name "StuCafé".
+
+osmnode:10099124158 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11933779914;
+  geo:long 11.61021481418;
+  schema:name "Creme Cafe Eis".
+
+osmnode:10135427351 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13470518043;
+  geo:long 11.57383266052;
+  schema:name "Sebastians Ice Cream, Coffee & Bowls".
+
+osmnode:10138471250 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1334282813;
+  geo:long 11.57682768216;
+  schema:name "Wiener".
+
+osmnode:10174159620 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11455022368;
+  geo:long 11.57926547488;
+  schema:name "Lieblingscafe".
+
+osmnode:10200273362 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13871357417;
+  geo:long 11.58410820326;
+  schema:name "Café Roma".
+
+osmnode:10202157730 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10029076235;
+  geo:long 11.64681724426;
+  schema:name "Höflinger".
+
+osmnode:10204979730 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1639724394;
+  geo:long 11.56259454001;
+  schema:name "Asma".
+
+osmnode:10218193245 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1131532957;
+  geo:long 11.57616383543;
+  schema:name "Café Violin".
+
+osmnode:1022941683 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13476083626;
+  geo:long 11.57444018086;
+  schema:name "»Zum Stiftl« Stehausschank".
+
+osmnode:10238152053 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13797965472;
+  geo:long 11.56458004523;
+  schema:name "Nai Cha".
+
+osmnode:10242615150 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12214406032;
+  geo:long 11.58599279037;
+  schema:name "JoMa".
+
+osmnode:10244266823 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14263127571;
+  geo:long 11.57443381061;
+  schema:name "EspressoBar by BalanDeli".
+
+osmnode:10278545663 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10023410069;
+  geo:long 11.64626269755;
+  schema:name "Mr. Box Tea".
+
+osmnode:1028706020 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13021449198;
+  geo:long 11.6109182235;
+  schema:name "Café Cade".
+
+osmnode:10313117473 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13832633024;
+  geo:long 11.57969697526;
+  schema:name "Gut Löwenecks Genusswerkstatt".
+
+osmnode:1039009517 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14721751786;
+  geo:long 11.55829395313;
+  schema:name "busner.s".
+
+osmnode:10538342291 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16035447471;
+  geo:long 11.5741095986;
+  schema:name "The Spirited Goat".
+
+osmnode:10555718300 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16000226714;
+  geo:long 11.58079835733;
+  schema:name "Ohana".
+
+osmnode:10570665583 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14366325563;
+  geo:long 11.5889599841;
+  schema:name "Fräulein Grüneis".
+
+osmnode:10572477326 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15302667967;
+  geo:long 11.56250233907;
+  schema:name "Peet and the Flat White".
+
+osmnode:10574765396 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15788717769;
+  geo:long 11.57380684425;
+  schema:name "Dinatale".
+
+osmnode:10575307360 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15727764569;
+  geo:long 11.5718947645;
+  schema:name "Cafe Franz".
+
+osmnode:10575369555 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1357792375;
+  geo:long 11.60580693894;
+  schema:name "Einstein 99".
+
+osmnode:10604335336 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10165181579;
+  geo:long 11.6451271173;
+  schema:name "Traublinger's Brotliebe".
+
+osmnode:10656125649 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1542916765;
+  geo:long 11.56137078215;
+  schema:name "MaBe".
+
+osmnode:10716766905 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13737515187;
+  geo:long 11.57058148791;
+  schema:name "Matcha Lab".
+
+osmnode:10726408943 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15766103394;
+  geo:long 11.57840783855;
+  schema:name "Palmi".
+
+osmnode:10726539510 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14897503531;
+  geo:long 11.40722490047;
+  schema:name "Marea".
+
+osmnode:10755936577 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11189718369;
+  geo:long 11.55386126745;
+  schema:name "Gaia".
+
+osmnode:10773152123 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15268922425;
+  geo:long 11.53481255428;
+  schema:name "Starbucks".
+
+osmnode:10812425229 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15018487922;
+  geo:long 11.58421917966;
+  schema:name "Königin 43".
+
+osmnode:1084364134 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13158996229;
+  geo:long 11.56729142328;
+  schema:name "Café Lozzi".
+
+osmnode:10865131962 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13682915469;
+  geo:long 11.57880916407;
+  schema:name "Bar Roma".
+
+osmnode:10900309574 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13145635476;
+  geo:long 11.57198696544;
+  schema:name "A small café".
+
+osmnode:1091413909 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12830056821;
+  geo:long 11.55767268646;
+  schema:name "Cafe Bistro Pfundig".
+
+osmnode:11011066463 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15316414289;
+  geo:long 11.57659500053;
+  schema:name "Winkelgasse".
+
+osmnode:11023481933 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15216736696;
+  geo:long 11.53432942138;
+  schema:name "GUTA".
+
+osmnode:11029428197 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1403036212;
+  geo:long 11.57551105281;
+  schema:name "Theatiner 8".
+
+osmnode:11029451216 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14065616405;
+  geo:long 11.57569210192;
+  schema:name "Emporio Armani Caffe".
+
+osmnode:1103687492 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18117897788;
+  geo:long 11.50882496639;
+  schema:name "Jaqoub's".
+
+osmnode:11055416133 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16246554084;
+  geo:long 11.57372101357;
+  schema:name "Neosociety".
+
+osmnode:11063746840 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11880437482;
+  geo:long 11.54068525093;
+  schema:name "Salt & Sugar".
+
+osmnode:11073340805 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12084285367;
+  geo:long 11.5193958874;
+  schema:name "Dolce e Salato".
+
+osmnode:11084026582 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14511667764;
+  geo:long 11.57597473969;
+  schema:name "Hirikki - Coffee & Soulfood".
+
+osmnode:11090437705 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12511477445;
+  geo:long 11.5806387659;
+  schema:name "Café Faber".
+
+osmnode:11090458406 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13466830005;
+  geo:long 11.57592612465;
+  schema:name "Lea Zapf Marktpatisserie".
+
+osmnode:11091108505 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15171658821;
+  geo:long 11.57739530464;
+  schema:name "humpback whale specialty coffee".
+
+osmnode:11099486470 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12207566399;
+  geo:long 11.55871036608;
+  schema:name "Le Petit P. Weincafé".
+
+osmnode:11107599001 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15472116522;
+  geo:long 11.56606431265;
+  schema:name "Der Die Das".
+
+osmnode:11143377602 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14990794114;
+  geo:long 11.57760854026;
+  schema:name "Man versus machine".
+
+osmnode:11148151029 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13596833324;
+  geo:long 11.57236213942;
+  schema:name "Eduard's".
+
+osmnode:11170089252 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12322147016;
+  geo:long 11.6066052314;
+  schema:name "Alrighty Coffee".
+
+osmnode:11281276104 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13050802623;
+  geo:long 11.6235383522;
+  schema:name "MoCCafe".
+
+osmnode:11281721444 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1312640739;
+  geo:long 11.567506;
+  schema:name "Dapkies".
+
+osmnode:11291912260 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13529845153;
+  geo:long 11.5843646895;
+  schema:name "Italienische Feinkost Bistro".
+
+osmnode:11352102718 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13683954825;
+  geo:long 11.54715574491;
+  schema:name "Segafredo".
+
+osmnode:11353547243 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13752753487;
+  geo:long 11.56115385849;
+  schema:name "Coffee Fellows".
+
+osmnode:1140479138 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1302528811;
+  geo:long 11.60525038057;
+  schema:name "Café ZimtZicke".
+
+osmnode:11455582969 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15343001685;
+  geo:long 11.56590807397;
+  schema:name "Tillu".
+
+osmnode:1146404526 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13283853059;
+  geo:long 11.56591410894;
+  schema:name "Müller".
+
+osmnode:1157455171 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16085856237;
+  geo:long 11.59145209155;
+  schema:name "Butterbrot".
+
+osmnode:1159760696 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13208818262;
+  geo:long 11.57571355959;
+  schema:name "Cotidiano".
+
+osmnode:1165928028 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10215774747;
+  geo:long 11.63019794191;
+  schema:name "Delikat Genussmomente am Dorfbach".
+
+osmnode:11673168518 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13443913882;
+  geo:long 11.56876093854;
+  schema:name "Starbucks".
+
+osmnode:11682170819 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09470522971;
+  geo:long 11.53494834112;
+  schema:name "Lauble CoffeeBar".
+
+osmnode:11733914323 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1030224246;
+  geo:long 11.52789647833;
+  schema:name "idilio".
+
+osmnode:11764790078 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13137052407;
+  geo:long 11.56877803762;
+  schema:name "Suuapinga".
+
+osmnode:11767326875 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1359021162;
+  geo:long 11.54485172736;
+  schema:name "il Concetto".
+
+osmnode:1178799519 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12995146786;
+  geo:long 11.6027317863;
+  schema:name "Farmer & Lou".
+
+osmnode:11800370739 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12477681611;
+  geo:long 11.55559565086;
+  schema:name "MARI".
+
+osmnode:118252923 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14977869219;
+  geo:long 11.58554486147;
+  schema:name "Milchhäusl".
+
+osmnode:11879142796 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11354154545;
+  geo:long 11.47625188481;
+  schema:name "Heartbeat Cafe".
+
+osmnode:11949713057 a schema:CafeOrCoffeeShop;
+  geo:lat 48.06984919875;
+  geo:long 11.51761355951;
+  schema:name "Mama's Kindercafe".
+
+osmnode:1198391629 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12883198087;
+  geo:long 11.60003214292;
+  schema:name "Café Miu".
+
+osmnode:1198447918 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13208198001;
+  geo:long 11.60114123635;
+  schema:name "LottiEck".
+
+osmnode:1198661440 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13151385461;
+  geo:long 11.59904844277;
+  schema:name "Lollo Rosso".
+
+osmnode:1198677498 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1324170885;
+  geo:long 11.59768655114;
+  schema:name "bazaarnoir".
+
+osmnode:1198732333 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12968173821;
+  geo:long 11.60083144121;
+  schema:name "MeetGreek".
+
+osmnode:12029862472 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14229834652;
+  geo:long 11.51603206202;
+  schema:name "Cafe Arcadas".
+
+osmnode:12043464624 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1290351582;
+  geo:long 11.57553586324;
+  schema:name "sweet spot kaffee".
+
+osmnode:12052455836 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17712213674;
+  geo:long 11.55666451115;
+  schema:name "Future Cafe".
+
+osmnode:12053294084 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09507118361;
+  geo:long 11.6565338817;
+  schema:name "Kanne Café".
+
+osmnode:12053896195 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10876335773;
+  geo:long 11.53550087617;
+  schema:name "Caf‘e Distel".
+
+osmnode:12143592002 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14729060805;
+  geo:long 11.57419308235;
+  schema:name "Café Moinspatz".
+
+osmnode:12162960310 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13997018909;
+  geo:long 11.55920389254;
+  schema:name "Starbucks".
+
+osmnode:12169637128 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14431352368;
+  geo:long 11.57674721589;
+  schema:name "Backspielhaus".
+
+osmnode:12180164657 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13755435696;
+  geo:long 11.57407674154;
+  schema:name "Lush".
+
+osmnode:12187034377 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13393538644;
+  geo:long 11.56671072502;
+  schema:name "Cafe am Sendlinger Tor".
+
+osmnode:12227813179 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10854794281;
+  geo:long 11.53868801104;
+  schema:name "The Annamites Coffee Roasters".
+
+osmnode:12250382813 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15406536512;
+  geo:long 11.58345441481;
+  schema:name "Daily Matcha".
+
+osmnode:12271916717 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14720896831;
+  geo:long 11.45394931683;
+  schema:name "Lorossi".
+
+osmnode:12273395943 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15170284189;
+  geo:long 11.53857837574;
+  schema:name "The Rolling Dackel".
+
+osmnode:1227896820 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14631763673;
+  geo:long 11.57038132806;
+  schema:name "Hohsaan".
+
+osmnode:1227896836 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14652114934;
+  geo:long 11.57051107992;
+  schema:name "Cafe Arnold".
+
+osmnode:1227932443 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14290838143;
+  geo:long 11.56834921946;
+  schema:name "K6".
+
+osmnode:12328908201 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13279947092;
+  geo:long 11.57762429824;
+  schema:name "Oh, Ja! Café".
+
+osmnode:12334029762 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13544027334;
+  geo:long 11.67008708387;
+  schema:name "Topic Cafe".
+
+osmnode:12386638315 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18209092895;
+  geo:long 11.51790357336;
+  schema:name "Riedmair".
+
+osmnode:12422257167 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11919329513;
+  geo:long 11.59519779644;
+  schema:name "Conviva am Ostfriedhof".
+
+osmnode:12445437589 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17403055557;
+  geo:long 11.55175305116;
+  schema:name "Primo".
+
+osmnode:12470817449 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18812472577;
+  geo:long 11.46775028805;
+  schema:name "Bubble Tea & Sushi".
+
+osmnode:12472106301 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18899476732;
+  geo:long 11.46420306662;
+  schema:name "Zimt & Zucker".
+
+osmnode:1252169051 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13591318031;
+  geo:long 11.54453723835;
+  schema:name "Galao".
+
+osmnode:1252289968 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13887048339;
+  geo:long 11.53277239905;
+  schema:name "Southbank Specialty Coffee".
+
+osmnode:12523273648 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13734531229;
+  geo:long 11.57079438825;
+  schema:name "Sweetery".
+
+osmnode:12567039977 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12740269874;
+  geo:long 11.54443296748;
+  schema:name "Rischart".
+
+osmnode:12581969201 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13645616;
+  geo:long 11.57987802437;
+  schema:name "The Barn Altstadt".
+
+osmnode:1263297334 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1490441022;
+  geo:long 11.64032998648;
+  schema:name "Il Gelato Italiano".
+
+osmnode:12637135602 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13217988064;
+  geo:long 11.59398040883;
+  schema:name "Helma".
+
+osmnode:12643823119 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13447903668;
+  geo:long 11.59628174416;
+  schema:name "little cafe".
+
+osmnode:12644139467 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15494093872;
+  geo:long 11.56132250238;
+  schema:name "Neismanufaktur".
+
+osmnode:12647480353 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14131749621;
+  geo:long 11.58381215444;
+  schema:name "Caos".
+
+osmnode:12684827601 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1280015019;
+  geo:long 11.55554703582;
+  schema:name "Coffee Lunch".
+
+osmnode:12698696637 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1477140618;
+  geo:long 11.56029085774;
+  schema:name "Cotidiano".
+
+osmnode:12704164176 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15837835722;
+  geo:long 11.54148857253;
+  schema:name "Om Nom Nom".
+
+osmnode:12726581689 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1194239651;
+  geo:long 11.58309432825;
+  schema:name "Schnecki Back&Bar".
+
+osmnode:1272940938 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11411436472;
+  geo:long 11.69783285977;
+  schema:name "Gimbab Café".
+
+osmnode:12787851393 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13012715255;
+  geo:long 11.57370592614;
+  schema:name "lap".
+
+osmnode:12826189816 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13363665541;
+  geo:long 11.57948876878;
+  schema:name "Gebr. Keller & Erben".
+
+osmnode:12855328151 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1427915377;
+  geo:long 11.55400510091.
+
+osmnode:12878898005 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1532355567;
+  geo:long 11.62972184981;
+  schema:name "AMAL Cafè/Bäckerei".
+
+osmnode:12914175792 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1168756989;
+  geo:long 11.61069124156;
+  schema:name "Labor Café".
+
+osmnode:12923811703 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13245212485;
+  geo:long 11.53932101237;
+  schema:name "Café Nido".
+
+osmnode:12925955433 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11305438924;
+  geo:long 11.48982185078;
+  schema:name "Café Aydos".
+
+osmnode:12989525013 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11937451187;
+  geo:long 11.58253743461;
+  schema:name "Mex Lounge".
+
+osmnode:13017079203 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13748260787;
+  geo:long 11.52344836995;
+  schema:name "Luzi & Hank".
+
+osmnode:1302559064 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12850106333;
+  geo:long 11.59523903541;
+  schema:name "Ideal Espressobar".
+
+osmnode:13041520564 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12238948245;
+  geo:long 11.504187427;
+  schema:name "Literaturcafé".
+
+osmnode:13052000621 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13769031143;
+  geo:long 11.57780367097;
+  schema:name "Geaggenau".
+
+osmnode:13065126004 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13761386847;
+  geo:long 11.57681795915;
+  schema:name "Käfer Café & Bistro".
+
+osmnode:13065126006 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13776977187;
+  geo:long 11.57665803244;
+  schema:name "Schirm Cafe".
+
+osmnode:1307952967 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14818613059;
+  geo:long 11.57398420533;
+  schema:name "Museumscafé".
+
+osmnode:13103603696 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14437487921;
+  geo:long 11.5914007943;
+  schema:name "Sola".
+
+osmnode:13120982001 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13421735366;
+  geo:long 11.59602056406;
+  schema:name "Saftstandl am Wiener Platz".
+
+osmnode:13180476533 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18813679571;
+  geo:long 11.57409786393;
+  schema:name "Isetta Café by Höflinger".
+
+osmnode:1318875111 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15029686145;
+  geo:long 11.58435329011;
+  schema:name "Königin 43".
+
+osmnode:13191098101 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13108822157;
+  geo:long 11.59975051098;
+  schema:name "Café Reichshof".
+
+osmnode:13208573471 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12232846219;
+  geo:long 11.48989494097;
+  schema:name "Das Vierundsiebzig".
+
+osmnode:13242823001 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14989134497;
+  geo:long 11.57269775083;
+  schema:name "LAP COFFEE".
+
+osmnode:13242823101 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1297746097;
+  geo:long 11.57386015316;
+  schema:name "plex".
+
+osmnode:13273863501 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12798758794;
+  geo:long 11.55857793201;
+  schema:name "not Guilty pleasure".
+
+osmnode:13288639501 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13645046031;
+  geo:long 11.56078002561;
+  schema:name "TERRAMOON".
+
+osmnode:13302250653 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1563955342;
+  geo:long 11.58187526426;
+  schema:name "StuLounge Leopoldstraße".
+
+osmnode:1330273950 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13494406467;
+  geo:long 11.60869232529;
+  schema:name "Le Petit Jardin".
+
+osmnode:13319740901 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13456604083;
+  geo:long 11.57862777969;
+  schema:name "Cafe Vintage".
+
+osmnode:1337853871 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13374427905;
+  geo:long 11.59645642303;
+  schema:name "Coffee Box".
+
+osmnode:13383418183 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18238463084;
+  geo:long 11.56248825748;
+  schema:name "Primo Cafébar".
+
+osmnode:13426400101 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12816260208;
+  geo:long 11.61081663483;
+  schema:name "M8 Speciality Coffee".
+
+osmnode:13437170204 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14001964232;
+  geo:long 11.58654364905;
+  schema:name "Kleine Markthalle".
+
+osmnode:1343791031 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11619994986;
+  geo:long 11.58033735266;
+  schema:name "Wimmer Backshop".
+
+osmnode:13445342873 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18651607091;
+  geo:long 11.5620919611;
+  schema:name "Green Munich".
+
+osmnode:1344736775 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14103267914;
+  geo:long 11.57676766773;
+  schema:name "Maelu".
+
+osmnode:13468200501 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14510444006;
+  geo:long 11.5599361356;
+  schema:name "Nonna,s".
+
+osmnode:1347976611 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13661793073;
+  geo:long 11.58067933431;
+  schema:name "Petit Café".
+
+osmnode:13481499802 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16159767859;
+  geo:long 11.54042340027;
+  schema:name "Café Fuud".
+
+osmnode:1349935435 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13480308106;
+  geo:long 11.60259901695;
+  schema:name "Cafe Glückskind".
+
+osmnode:1350394049 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15677037291;
+  geo:long 11.56431450654;
+  schema:name "Holzkranich".
+
+osmnode:1351065179 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11571547586;
+  geo:long 11.57063680847;
+  schema:name "Café Teigtaschen Bowls".
+
+osmnode:13517909401 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14085079184;
+  geo:long 11.48787657869;
+  schema:name "Das Café am Rande der Stadt".
+
+osmnode:13531586106 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1215573271;
+  geo:long 11.54045726316;
+  schema:name "Café Ora".
+
+osmnode:13586280562 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14991330556;
+  geo:long 11.53401794986;
+  schema:name "Tikal Cafe Bisto".
+
+osmnode:1360843106 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13098244195;
+  geo:long 11.61679796094;
+  schema:name "Morgenland Baklawa House".
+
+osmnode:1361799921 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13580957999;
+  geo:long 11.60606878959;
+  schema:name "Partenopeo".
+
+osmnode:1361815850 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13583589917;
+  geo:long 11.60632896387;
+  schema:name "einsnullsieben".
+
+osmnode:1364262029 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13103440975;
+  geo:long 11.6126455661;
+  schema:name "Cafeteria".
+
+osmnode:1371830504 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15120110116;
+  geo:long 11.60964953863;
+  schema:name "Bistro+Cafe ÖQ".
+
+osmnode:1380513278 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1541547162;
+  geo:long 11.58428657016;
+  schema:name "Mamma Lucia".
+
+osmnode:1382537870 a schema:CafeOrCoffeeShop;
+  geo:lat 48.07198574587;
+  geo:long 11.51978715464;
+  schema:name "Bäckerei Müller".
+
+osmnode:1383106027 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16081933506;
+  geo:long 11.58651146254;
+  schema:name "I love Leo".
+
+osmnode:1399681634 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11456195835;
+  geo:long 11.47832657348;
+  schema:name "Eiscafe Galleria".
+
+osmnode:1406082742 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15486416049;
+  geo:long 11.57629392257;
+  schema:name "Th-Café".
+
+osmnode:1406092552 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15501386128;
+  geo:long 11.57522036841;
+  schema:name "Café Höflinger".
+
+osmnode:1407213133 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1538274867;
+  geo:long 11.58491487762;
+  schema:name "Coffee Break".
+
+osmnode:1407960454 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14214981919;
+  geo:long 11.60502004587;
+  schema:name "Café Mio".
+
+osmnode:1417060861 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17181974479;
+  geo:long 11.58558475933;
+  schema:name "Good".
+
+osmnode:1427851002 a schema:CafeOrCoffeeShop;
+  geo:lat 48.19183656777;
+  geo:long 11.58761552683;
+  schema:name "Backhaus Cafe".
+
+osmnode:1441732624 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10093147503;
+  geo:long 11.64547446337;
+  schema:name "Starbucks".
+
+osmnode:1466688794 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16608853467;
+  geo:long 11.50331302686;
+  schema:name "Cafe Girandola".
+
+osmnode:1471042750 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14287133342;
+  geo:long 11.64913064954;
+  schema:name "Zamilapark Bistro".
+
+osmnode:1478901295 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13365945419;
+  geo:long 11.57589963784;
+  schema:name "cupcakes café Hausbrand".
+
+osmnode:1482158469 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14664872191;
+  geo:long 11.56926586439;
+  schema:name "Café HFF".
+
+osmnode:1492596484 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13212238078;
+  geo:long 11.62648375298;
+  schema:name "La Cantinetta di Sergio Bolzan".
+
+osmnode:1506604283 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18464422429;
+  geo:long 11.58428355268;
+  schema:name "Internet Cafe, Call Shop".
+
+osmnode:1508791060 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17479263821;
+  geo:long 11.59846606813;
+  schema:name "Eisenrieder".
+
+osmnode:1567316542 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14897889099;
+  geo:long 11.56569886167;
+  schema:name "Stehcafe an der TU".
+
+osmnode:1567828533 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13364554023;
+  geo:long 11.54444134938;
+  schema:name "Notting Hill".
+
+osmnode:1573738321 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15080229021;
+  geo:long 11.57367508074;
+  schema:name "Arte In Tavola".
+
+osmnode:1573753320 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15001606769;
+  geo:long 11.57722230216;
+  schema:name "Schall & Rauch".
+
+osmnode:1581245371 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13721857792;
+  geo:long 11.53736065285;
+  schema:name "Sportcafe Dikefali".
+
+osmnode:1602478402 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16809532993;
+  geo:long 11.62471550668;
+  schema:name "Eni Café".
+
+osmnode:1605298174 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13736392012;
+  geo:long 11.5539953779;
+  schema:name "NähWerk".
+
+osmnode:1609203944 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13486544242;
+  geo:long 11.53985175448;
+  schema:name "Etisch".
+
+osmnode:1654273145 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13452815463;
+  geo:long 11.57817213943;
+  schema:name "cafe fräulein".
+
+osmnode:1677583265 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14844680778;
+  geo:long 11.55572372634;
+  schema:name "Cafeteria".
+
+osmnode:1677583266 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14888702533;
+  geo:long 11.556085154;
+  schema:name "apulia piccolo bar & cucina".
+
+osmnode:1678439297 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10172993513;
+  geo:long 11.62793616916;
+  schema:name "Mohrhof Hofcafé".
+
+osmnode:1698219409 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1339162757;
+  geo:long 11.53298228191;
+  schema:name "La Pia".
+
+osmnode:1701591090 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10566674742;
+  geo:long 11.56662187685;
+  schema:name "Café Fausto".
+
+osmnode:1714857571 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11198452312;
+  geo:long 11.50478220685;
+  schema:name "Café Stenz".
+
+osmnode:1714857609 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11238886613;
+  geo:long 11.50383136375;
+  schema:name "Café Fischer".
+
+osmnode:1717771414 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12665587117;
+  geo:long 11.58235135636;
+  schema:name "Henry hat Hunger".
+
+osmnode:1733465775 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15500933505;
+  geo:long 11.58236074409;
+  schema:name "Studentencafé Leo 11".
+
+osmnode:1735418068 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13099484717;
+  geo:long 11.59641820155;
+  schema:name "mezzodi".
+
+osmnode:1741222733 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11825938348;
+  geo:long 11.54026179718;
+  schema:name "Cafe Grass".
+
+osmnode:1741402156 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08223178432;
+  geo:long 11.50404526992;
+  schema:name "Höflinger & Müller".
+
+osmnode:1742785855 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12968291168;
+  geo:long 11.70533533367;
+  schema:name "Wohnen im Viertel".
+
+osmnode:1742801471 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13125284215;
+  geo:long 11.69067706139;
+  schema:name "ASZ Alten- und Service-Zentrum".
+
+osmnode:1761262299 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12389235769;
+  geo:long 11.58978342227;
+  schema:name "Käthe".
+
+osmnode:1766416528 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18117143417;
+  geo:long 11.46097703973;
+  schema:name "Cafe Rusticale".
+
+osmnode:1767282440 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09837985607;
+  geo:long 11.53291053281;
+  schema:name "Cafe A.".
+
+osmnode:1774921837 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10552693727;
+  geo:long 11.57444018086;
+  schema:name "Café Nappo".
+
+osmnode:1776488730 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09453172432;
+  geo:long 11.5197750847;
+  schema:name "La Donuteria München".
+
+osmnode:1781709778 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15016425974;
+  geo:long 11.58307756445;
+  schema:name "DiNatale".
+
+osmnode:1787145076 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17368287423;
+  geo:long 11.5323026772;
+  schema:name "Chicco di Caffè".
+
+osmnode:1788287345 a schema:CafeOrCoffeeShop;
+  geo:lat 48.0992101674;
+  geo:long 11.51917795792;
+  schema:name "Da Battista".
+
+osmnode:1788317239 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16041247748;
+  geo:long 11.57304174413;
+  schema:name "Das Florentiner Backhaus".
+
+osmnode:1788320027 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16038213499;
+  geo:long 11.57341591229;
+  schema:name "Diatonic Kaffeeladen".
+
+osmnode:1788564313 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09842746528;
+  geo:long 11.51324055299;
+  schema:name "Gand Cafe Bar Bistro".
+
+osmnode:1795365717 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13823513513;
+  geo:long 11.55877976823;
+  schema:name "Bistro Lavash Gözleme".
+
+osmnode:1802720742 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15186645664;
+  geo:long 11.57749756386;
+  schema:name "Gartensalon".
+
+osmnode:1813633551 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09746404933;
+  geo:long 11.58165901115;
+  schema:name "Cafe Mangfall".
+
+osmnode:1813634335 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15497044302;
+  geo:long 11.53332795159;
+  schema:name "Neulinger Brot & Feinbäckerei".
+
+osmnode:1813634813 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14849877558;
+  geo:long 11.56529150118;
+  schema:name "Caffee Bäckerei MÜLLER".
+
+osmnode:1813634931 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14000740474;
+  geo:long 11.60257253014;
+  schema:name "der Prinzregent".
+
+osmnode:1813636917 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13285009762;
+  geo:long 11.57630800416;
+  schema:name "Café Gelateria al Teatro".
+
+osmnode:1813637462 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1337449496;
+  geo:long 11.59486184977;
+  schema:name "Crêperie Bernard et Bernard".
+
+osmnode:1813640190 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13114186575;
+  geo:long 11.57493504842;
+  schema:name "Poushe Strudel".
+
+osmnode:1813640453 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15160209141;
+  geo:long 11.57911694756;
+  schema:name "Cafe Amalien".
+
+osmnode:1813640480 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13026863907;
+  geo:long 11.57392989059;
+  schema:name "Pini".
+
+osmnode:1813641124 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15151357851;
+  geo:long 11.57658594807;
+  schema:name "Mr. Ben".
+
+osmnode:1813648268 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15207835115;
+  geo:long 11.53498354511;
+  schema:name "Suuapinga".
+
+osmnode:1813650630 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12850475137;
+  geo:long 11.59496545009;
+  schema:name "Café la Maison".
+
+osmnode:1828406453 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14181219613;
+  geo:long 11.45166742751;
+  schema:name "Intermezzo".
+
+osmnode:1834207965 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13477843826;
+  geo:long 11.54137055533;
+  schema:name "Caffè Ristretto".
+
+osmnode:1834233651 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13304573124;
+  geo:long 11.53842414873;
+  schema:name "Simurg".
+
+osmnode:1835212419 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12914697279;
+  geo:long 11.60148087107;
+  schema:name "Kosy's".
+
+osmnode:1835843739 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15413510255;
+  geo:long 11.55319540906;
+  schema:name "Loth Café".
+
+osmnode:1845377596 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14282338893;
+  geo:long 11.64957086709;
+  schema:name "Café Riviera".
+
+osmnode:1868950841 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12165707175;
+  geo:long 11.56089703698;
+  schema:name "Tagträumer".
+
+osmnode:1871335569 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12982154836;
+  geo:long 11.57043296059;
+  schema:name "Mucki & Floyd".
+
+osmnode:1871455028 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1305519474;
+  geo:long 11.56718178798;
+  schema:name "Botanista".
+
+osmnode:1871486641 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13161661674;
+  geo:long 11.56803003658;
+  schema:name "Café Bar Loretta".
+
+osmnode:1912968798 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16517306321;
+  geo:long 11.53398643391;
+  schema:name "Cafe am Dantepark".
+
+osmnode:1944044658 a schema:CafeOrCoffeeShop;
+  geo:lat 48.07830955654;
+  geo:long 11.50740876003;
+  schema:name "Eiscafe Crema".
+
+osmnode:1950468540 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13814628696;
+  geo:long 11.5803058367;
+  schema:name "Ladurée".
+
+osmnode:1969694481 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13775284042;
+  geo:long 11.54378186124;
+  schema:name "Ladencafé Marais".
+
+osmnode:2007063007 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13424786379;
+  geo:long 11.57619266918.
+
+osmnode:2018066448 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11702623788;
+  geo:long 11.58245730361;
+  schema:name "Cafe Bistro Central".
+
+osmnode:2018441423 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11928046692;
+  geo:long 11.57502456715;
+  schema:name "Le Petit Café".
+
+osmnode:2023826836 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13974136313;
+  geo:long 11.53392071979;
+  schema:name "Ipon".
+
+osmnode:2026139321 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12548223708;
+  geo:long 11.63690379973;
+  schema:name "Post&Cafe".
+
+osmnode:2048972656 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08073159128;
+  geo:long 11.52877791927;
+  schema:name "Bacio".
+
+osmnode:2062039159 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16279914059;
+  geo:long 11.57695374598;
+  schema:name "Black Bean".
+
+osmnode:2131545618 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12576956872;
+  geo:long 11.66323169289;
+  schema:name "Müller".
+
+osmnode:2159770998 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12612026755;
+  geo:long 11.59556257687;
+  schema:name "Trinachia - Der Sizilianer".
+
+osmnode:2178313161 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13776356926;
+  geo:long 11.56592986692;
+  schema:name "Bohne & Malz".
+
+osmnode:2205792696 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14078524536;
+  geo:long 11.57635293116;
+  schema:name "Cafe Aran".
+
+osmnode:2205792709 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13984613692;
+  geo:long 11.57553485741;
+  schema:name "Theatiner 8".
+
+osmnode:2255315499 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13848776569;
+  geo:long 11.57071828057;
+  schema:name "Café zur Mauth".
+
+osmnode:2281221142 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13915027132;
+  geo:long 11.56338042725;
+  schema:name "Coffee Fellows".
+
+osmnode:2299689274 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12155196268;
+  geo:long 11.67041565447;
+  schema:name "Che Follia".
+
+osmnode:2311170348 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11112604859;
+  geo:long 11.54911476332;
+  schema:name "The Brother Mill".
+
+osmnode:2325913759 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15797602586;
+  geo:long 11.57937645128;
+  schema:name "Panini".
+
+osmnode:2329915482 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14967827699;
+  geo:long 11.57539806475;
+  schema:name "laden".
+
+osmnode:2335063478 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12773763959;
+  geo:long 11.59269864819;
+  schema:name "Café Viva Clara im Amt für Wohnen und Migration".
+
+osmnode:2335069095 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12674270768;
+  geo:long 11.58256358614;
+  schema:name "Brez'n Eck".
+
+osmnode:2335083096 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13006562938;
+  geo:long 11.5674835365;
+  schema:name "Carlotta".
+
+osmnode:2335092405 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1277971511;
+  geo:long 11.5757765915;
+  schema:name "Conditorei Mische".
+
+osmnode:2335114176 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12569731672;
+  geo:long 11.57058685233;
+  schema:name "Auen-Backshop".
+
+osmnode:2335119827 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15870709546;
+  geo:long 11.57463464101;
+  schema:name "Münchner Boulangerie".
+
+osmnode:2335122648 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13343783667;
+  geo:long 11.59591696374;
+  schema:name "Mr. Baker's Coffeehouse".
+
+osmnode:2335129587 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14979445017;
+  geo:long 11.5773004215;
+  schema:name "Kencho Matcha".
+
+osmnode:2335172007 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12123613257;
+  geo:long 11.56160949875;
+  schema:name "Eis Cafe Italia".
+
+osmnode:2335295932 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13215171744;
+  geo:long 11.5917196419;
+  schema:name "Little Klimenti's Café & More".
+
+osmnode:2335300018 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13215138217;
+  geo:long 11.59441526196;
+  schema:name "Chez Fritz".
+
+osmnode:2359842583 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10765543776;
+  geo:long 11.59623447023;
+  schema:name "Alluna Cake".
+
+osmnode:2401588657 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15141517497;
+  geo:long 11.57653163334;
+  schema:name "plex".
+
+osmnode:2401894678 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10243937941;
+  geo:long 11.53413797872;
+  schema:name "MOCCASOLA".
+
+osmnode:2431272940 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09778876425;
+  geo:long 11.58020156583;
+  schema:name "May Cake".
+
+osmnode:2431582873 a schema:CafeOrCoffeeShop;
+  geo:lat 48.161862882;
+  geo:long 11.58558341822;
+  schema:name "letcha organic tea room".
+
+osmnode:243666968 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15326405517;
+  geo:long 11.56093525846;
+  schema:name "BaTo Café".
+
+osmnode:244015496 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15090203486;
+  geo:long 11.56535520364;
+  schema:name "Joon".
+
+osmnode:2450716523 a schema:CafeOrCoffeeShop;
+  geo:lat 48.20622712207;
+  geo:long 11.56442112435.
+
+osmnode:2477813383 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13503375103;
+  geo:long 11.57536051383;
+  schema:name "Nymphenburg Sekt".
+
+osmnode:2487367712 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13435632562;
+  geo:long 11.57338104357;
+  schema:name "Casalingo".
+
+osmnode:2489109448 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14757626331;
+  geo:long 11.46036616663;
+  schema:name "Eiscafe Portofino".
+
+osmnode:2493595058 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13380110835;
+  geo:long 11.58210761061;
+  schema:name "Vits".
+
+osmnode:2498823760 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13705295151;
+  geo:long 11.5636466365;
+  schema:name "Filmwirtschaft".
+
+osmnode:2505252874 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1777975505;
+  geo:long 11.52145180062;
+  schema:name "Palmos Cafe & Bar".
+
+osmnode:2529189238 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09698544265;
+  geo:long 11.55136815417;
+  schema:name "Cafè Rhino".
+
+osmnode:2534104640 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1480826979;
+  geo:long 11.57046045323;
+  schema:name "Museumscafe".
+
+osmnode:254277571 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12914328475;
+  geo:long 11.57582185378;
+  schema:name "Trachtenvogl Café-Lounge".
+
+osmnode:2545320017 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13832012763;
+  geo:long 11.57727359941;
+  schema:name "Café Dallmayr".
+
+osmnode:2554581916 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09805162074;
+  geo:long 11.52392982647;
+  schema:name "Bauers Backstube".
+
+osmnode:258490963 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1564250385;
+  geo:long 11.57052113821;
+  schema:name "Arnold/Werner".
+
+osmnode:2588929585 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14230957827;
+  geo:long 11.55376169044;
+  schema:name "Sparda Café".
+
+osmnode:260032029 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12825932924;
+  geo:long 11.60054343902;
+  schema:name "Les Deux Messieurs".
+
+osmnode:2623133052 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11978271056;
+  geo:long 11.49187776399;
+  schema:name "CappoSecco".
+
+osmnode:2631021804 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12382781703;
+  geo:long 11.58773354403;
+  schema:name "La Caffettiera".
+
+osmnode:263705280 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13143439417;
+  geo:long 11.59106752983;
+  schema:name "Live Evil".
+
+osmnode:263871091 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12956841488;
+  geo:long 11.59942495786;
+  schema:name "Café im Hinterhof".
+
+osmnode:263875446 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12974896108;
+  geo:long 11.59807513617;
+  schema:name "Fortuna Cafébar".
+
+osmnode:263889140 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12823938032;
+  geo:long 11.59966468029;
+  schema:name "Eiscafé Gondola".
+
+osmnode:263889980 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12804676418;
+  geo:long 11.59944105111;
+  schema:name "Fresh House".
+
+osmnode:264680701 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1286180747;
+  geo:long 11.60069867186;
+  schema:name "Lottibar".
+
+osmnode:2660053938 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18199688399;
+  geo:long 11.56711104472;
+  schema:name "GLORIA Kultur Cafe".
+
+osmnode:266343880 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15458386965;
+  geo:long 11.5614767294;
+  schema:name "Michl".
+
+osmnode:266698102 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13212623646;
+  geo:long 11.59812039845;
+  schema:name "Chocolatte".
+
+osmnode:266698130 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13408659597;
+  geo:long 11.59641618989;
+  schema:name "Café Wiener Platz".
+
+osmnode:266698133 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13358284359;
+  geo:long 11.59713200442;
+  schema:name "Johannis-Café".
+
+osmnode:266698144 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13201878046;
+  geo:long 11.59753467105;
+  schema:name "Sorry Johnny".
+
+osmnode:266698157 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1282873248;
+  geo:long 11.59400153122;
+  schema:name "Backspielhaus".
+
+osmnode:2672666306 a schema:CafeOrCoffeeShop;
+  geo:lat 48.07737313032;
+  geo:long 11.5198635976;
+  schema:name "Käfer Deli Markt".
+
+osmnode:268137236 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13947046002;
+  geo:long 11.50040920032;
+  schema:name "Detterbeck".
+
+osmnode:268893509 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18468998949;
+  geo:long 11.56781411876;
+  schema:name "Café Bar MBH".
+
+osmnode:2699948360 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14189165658;
+  geo:long 11.56061004061;
+  schema:name "Konditorei Höflinger".
+
+osmnode:270586929 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11249363992;
+  geo:long 11.70508018854;
+  schema:name "Seidl's Cafe & Konditorei".
+
+osmnode:2708539829 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15853291951;
+  geo:long 11.52697312788;
+  schema:name "EREMITage Nymphenburg".
+
+osmnode:2714971495 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1173412298;
+  geo:long 11.52684605823;
+  schema:name "Café Hanoi".
+
+osmnode:2718906892 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18135633895;
+  geo:long 11.57578832617;
+  schema:name "kiosk nono".
+
+osmnode:2720562728 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12500145112;
+  geo:long 11.64062570002;
+  schema:name "Tante Emmas Eck".
+
+osmnode:272529037 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15883835606;
+  geo:long 11.58554251453;
+  schema:name "Starbucks".
+
+osmnode:2734075634 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14920805222;
+  geo:long 11.54590415912;
+  schema:name "Tanpopo".
+
+osmnode:276909579 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14291894263;
+  geo:long 11.57829552105;
+  schema:name "Tambosi Hofgarten".
+
+osmnode:276909580 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1430562382;
+  geo:long 11.57816241642;
+  schema:name "Starbucks".
+
+osmnode:2798929939 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13581326803;
+  geo:long 11.57577089181;
+  schema:name "Chocolaterie Beluga".
+
+osmnode:2815451601 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17332831973;
+  geo:long 11.54300066786;
+  schema:name "Olympiapark Bistro".
+
+osmnode:2836988334 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14835058353;
+  geo:long 11.5677812617;
+  schema:name "Nachhoelzer".
+
+osmnode:2859544446 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11903336842;
+  geo:long 11.58397878668;
+  schema:name "Il Chiosco".
+
+osmnode:2894519315 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12051847402;
+  geo:long 11.61357729846;
+  schema:name "AKA - Aktiv für interKulturellen Austausch e.V.".
+
+osmnode:291103853 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14102647653;
+  geo:long 11.58869746289;
+  schema:name "Café Lehel".
+
+osmnode:291364487 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14067510715;
+  geo:long 11.59055556319;
+  schema:name "Morso Cafe".
+
+osmnode:291365357 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13946425741;
+  geo:long 11.58680650553;
+  schema:name "Café Dukatz".
+
+osmnode:291642173 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13971973782;
+  geo:long 11.58679342976;
+  schema:name "La Stanza".
+
+osmnode:2949363929 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16405089401;
+  geo:long 11.53074666069;
+  schema:name "The Tribeca Café".
+
+osmnode:2959959996 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13430351963;
+  geo:long 11.57247412165;
+  schema:name "Coucou Food Market".
+
+osmnode:2962765297 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10687407675;
+  geo:long 11.62141538376;
+  schema:name "Galerie-Café Seebauer".
+
+osmnode:2967993398 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1000984815;
+  geo:long 11.62577095593;
+  schema:name "Café Konditorei Tortenparadies".
+
+osmnode:299832759 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14417656338;
+  geo:long 11.58670558742;
+  schema:name "Goldene Bar im Haus der Kunst".
+
+osmnode:3007427293 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17536076361;
+  geo:long 11.42148184722;
+  schema:name "Beerencafé".
+
+osmnode:302372006 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1094062497;
+  geo:long 11.57598245104;
+  schema:name "Cafe Wetterstein".
+
+osmnode:302753353 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14435409209;
+  geo:long 11.54412954258;
+  schema:name "Die Cibos".
+
+osmnode:3027984919 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13157437195;
+  geo:long 11.58137503227;
+  schema:name "Caffé Da Me".
+
+osmnode:3035320744 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13120523294;
+  geo:long 11.58976598791;
+  schema:name "Bowls & Blenders".
+
+osmnode:3056895934 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16799625584;
+  geo:long 11.52655671493;
+  schema:name "Cafe Dante 27".
+
+osmnode:305909095 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10381769957;
+  geo:long 11.59358344189;
+  schema:name "Cafe Jasmin".
+
+osmnode:3072229173 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13855364745;
+  geo:long 11.44530019857;
+  schema:name "Backhaus & Café".
+
+osmnode:3072246868 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15568709574;
+  geo:long 11.53999827014;
+  schema:name "Onkel Kaan's Kiosk".
+
+osmnode:307740749 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14296940169;
+  geo:long 11.5747570168;
+  schema:name "Cafe Luitpold - Palmengarten".
+
+osmnode:3078126715 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11281952831;
+  geo:long 11.57709892055;
+  schema:name "Familienbäckerei".
+
+osmnode:3101401265 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13098847692;
+  geo:long 11.57110820671;
+  schema:name "Man Versus Machine Coffee Roasters".
+
+osmnode:311709815 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1238739175;
+  geo:long 11.54828394907;
+  schema:name "Cafe BLUe".
+
+osmnode:312115027 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13625952055;
+  geo:long 11.57444956859;
+  schema:name "Meyerbeer Coffee".
+
+osmnode:315919442 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14983703024;
+  geo:long 11.55951435823;
+  schema:name "Lavazza".
+
+osmnode:315935208 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14729496664;
+  geo:long 11.55240549851;
+  schema:name "Tan Cafe Kursumliya".
+
+osmnode:315953324 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14879147163;
+  geo:long 11.54502070653;
+  schema:name "Laifufu".
+
+osmnode:315972795 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16010284998;
+  geo:long 11.58608297965;
+  schema:name "Coffee Fellows".
+
+osmnode:316916033 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12089197163;
+  geo:long 11.54527149307;
+  schema:name "Cafetteria Alimentari e Diversi".
+
+osmnode:3188625900 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14912121571;
+  geo:long 11.57965640685;
+  schema:name "Lost Weekend".
+
+osmnode:3202904328 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10936467546;
+  geo:long 11.59493896327;
+  schema:name "Cafe 90 Min".
+
+osmnode:3202904331 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10904666605;
+  geo:long 11.59502747617;
+  schema:name "Hayalisa".
+
+osmnode:3221860167 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1321986561;
+  geo:long 11.50255329116;
+  schema:name "Konditorei Schmidhofer".
+
+osmnode:3231760129 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13464600419;
+  geo:long 11.57625536581;
+  schema:name "Kaffeerösterei Viktualienmarkt".
+
+osmnode:3232812698 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14012575721;
+  geo:long 11.49595405114;
+  schema:name "Die Kuchenmeisterei".
+
+osmnode:3235024979 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11638183716;
+  geo:long 11.58238454869;
+  schema:name "Edelweiss".
+
+osmnode:3240816897 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1629106199;
+  geo:long 11.57227999677;
+  schema:name "Madame Boulos".
+
+osmnode:3242200264 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15049232743;
+  geo:long 11.56596305926;
+  schema:name "Caféhaus Griesbeck".
+
+osmnode:325823264 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11238702211;
+  geo:long 11.53410243945;
+  schema:name "Lamingtons".
+
+osmnode:3261293335 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13728932118;
+  geo:long 11.57113603463;
+  schema:name "The Alley".
+
+osmnode:3263091358 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12866434281;
+  geo:long 11.57573837002;
+  schema:name "L'Americano".
+
+osmnode:3273877855 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08543300078;
+  geo:long 11.55733439285;
+  schema:name "Kanne Café".
+
+osmnode:328869707 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17286144772;
+  geo:long 11.63615479286;
+  schema:name "Backspielhaus".
+
+osmnode:329349239 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12840768893;
+  geo:long 11.55560570914;
+  schema:name "Kustermann".
+
+osmnode:3303112264 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12242183659;
+  geo:long 11.54417882817;
+  schema:name "Stenz".
+
+osmnode:330430265 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15237724981;
+  geo:long 11.53428214745;
+  schema:name "Sarcletti".
+
+osmnode:3324886666 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1586328318;
+  geo:long 11.56660477777;
+  schema:name "Café Franca".
+
+osmnode:3325072061 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15174273974;
+  geo:long 11.57785128018;
+  schema:name "Mary’s Coffee Club".
+
+osmnode:332792584 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13689352771;
+  geo:long 11.57582185378;
+  schema:name "Nespresso".
+
+osmnode:3338179929 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09148305849;
+  geo:long 11.56112502474;
+  schema:name "A - Die Tagesbar".
+
+osmnode:3342347110 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15458739005;
+  geo:long 11.55280883569;
+  schema:name "Mellow Cafe & Bar".
+
+osmnode:334246222 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12940228556;
+  geo:long 11.60217925124;
+  schema:name "Nani's Kitchen".
+
+osmnode:336115650 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16497675904;
+  geo:long 11.62274810637;
+  schema:name "Kafe Kult".
+
+osmnode:3381659381 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12262032006;
+  geo:long 11.579716086;
+  schema:name "Solino Caffé".
+
+osmnode:3385875771 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11808822501;
+  geo:long 11.61055746638;
+  schema:name "Feige & Olive".
+
+osmnode:3389470863 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14892692319;
+  geo:long 11.60011026226;
+  schema:name "Backspielhaus".
+
+osmnode:340005581 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13643067902;
+  geo:long 11.57819024434;
+  schema:name "Segafredo".
+
+osmnode:340077213 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1346641091;
+  geo:long 11.56771487702;
+  schema:name "Woerner's".
+
+osmnode:340085124 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13746668225;
+  geo:long 11.57139956166;
+  schema:name "Signor Rossi".
+
+osmnode:341284210 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13401752909;
+  geo:long 11.56699403335;
+  schema:name "plex".
+
+osmnode:342930153 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13475832169;
+  geo:long 11.57286203613;
+  schema:name "Nash".
+
+osmnode:343737746 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13488824119;
+  geo:long 11.57455216309;
+  schema:name "Schmalznudel Cafe Frischhut".
+
+osmnode:3451806164 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16442237996;
+  geo:long 11.57416793664;
+  schema:name "Tante Emma".
+
+osmnode:3472761908 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13441851934;
+  geo:long 11.59594009779;
+  schema:name "Suuapinga".
+
+osmnode:348146581 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15112750805;
+  geo:long 11.57669893613;
+  schema:name "Zeitgeist".
+
+osmnode:3495023592 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11548732046;
+  geo:long 11.59574396126;
+  schema:name "Caffè Dallucci".
+
+osmnode:3498934683 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14051166004;
+  geo:long 11.59243243895;
+  schema:name "Café Chance".
+
+osmnode:3509547273 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11268089163;
+  geo:long 11.5933782529;
+  schema:name "Café Plus".
+
+osmnode:3521868191 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17461661824;
+  geo:long 11.57246305754;
+  schema:name "Jugendcafé Rotor".
+
+osmnode:3541726874 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1374470686;
+  geo:long 11.56887593825;
+  schema:name "Sip And Dip".
+
+osmnode:354395204 a schema:CafeOrCoffeeShop;
+  geo:lat 48.22297818793;
+  geo:long 11.55598792392;
+  schema:name "Stadteilcafe".
+
+osmnode:3551073821 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1422669982;
+  geo:long 11.5683458667;
+  schema:name "Kunst Café".
+
+osmnode:3556567925 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15694320775;
+  geo:long 11.53908799546;
+  schema:name "Neulinger Brot & Feinbäckerei".
+
+osmnode:3559091468 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13325159078;
+  geo:long 11.53408366398;
+  schema:name "Backshop Weiß-Blau".
+
+osmnode:3574872797 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14912674776;
+  geo:long 11.57502121439;
+  schema:name "Katzentempel".
+
+osmnode:3586155593 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17373584786;
+  geo:long 11.57529882302;
+  schema:name "Caféteria".
+
+osmnode:360160862 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11163516539;
+  geo:long 11.52561291263;
+  schema:name "Zöttl".
+
+osmnode:3611239112 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08954533012;
+  geo:long 11.64422991839;
+  schema:name "Coffee Station".
+
+osmnode:362102662 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15494865007;
+  geo:long 11.5752317678;
+  schema:name "Donuts & Candies".
+
+osmnode:3633366588 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10513416129;
+  geo:long 11.59325386546;
+  schema:name "Damaskus Café".
+
+osmnode:3635409940 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12901504164;
+  geo:long 11.50813798561;
+  schema:name "Baci Cafe&Kiosk".
+
+osmnode:3643387753 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13781117847;
+  geo:long 11.54496136265;
+  schema:name "Bean Batter".
+
+osmnode:3647705693 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16007636316;
+  geo:long 11.50385785057;
+  schema:name "Café Limulus".
+
+osmnode:3650469279 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11368202615;
+  geo:long 11.46750218372;
+  schema:name "Mensaria Großhadern".
+
+osmnode:3651429062 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13890166407;
+  geo:long 11.55115860659;
+  schema:name "Amadeus".
+
+osmnode:3661907645 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13265513455;
+  geo:long 11.57891075274;
+  schema:name "Emmi's Glockenbach".
+
+osmnode:3681346752 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1389440765;
+  geo:long 11.55225831229;
+  schema:name "Back and Flavour".
+
+osmnode:371327909 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16016403787;
+  geo:long 11.58049191495;
+  schema:name "ORA Tagesbar".
+
+osmnode:3715416510 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14750334075;
+  geo:long 11.46184339324;
+  schema:name "YOANDA Kaffeerösterei".
+
+osmnode:3721458926 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13400462096;
+  geo:long 11.58036987444;
+  schema:name "Ooh Baby".
+
+osmnode:3722731519 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15797636114;
+  geo:long 11.57867874166;
+  schema:name "Benvido".
+
+osmnode:3730777509 a schema:CafeOrCoffeeShop;
+  geo:lat 48.19943778049;
+  geo:long 11.62692933495;
+  schema:name "Cafe Bar Karl".
+
+osmnode:3749217951 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09552883552;
+  geo:long 11.52439954833;
+  schema:name "Aumüllers Brotfabrik Obersendling".
+
+osmnode:3766190822 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14721785313;
+  geo:long 11.56146734167;
+  schema:name "Caffè Leone".
+
+osmnode:3790674997 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13716510137;
+  geo:long 11.55568952817;
+  schema:name "Cafe Herrmann".
+
+osmnode:3795812388 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13812902024;
+  geo:long 11.5410577427;
+  schema:name "FIKA Ladencafé".
+
+osmnode:3808915090 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13634954219;
+  geo:long 11.57870690485;
+  schema:name "BAR ELF".
+
+osmnode:3819508731 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13629757439;
+  geo:long 11.55357024777;
+  schema:name "Backshop weiß-blau".
+
+osmnode:3828072057 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15676702015;
+  geo:long 11.53872522669;
+  schema:name "Puro Cioccolato".
+
+osmnode:382977470 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1324408931;
+  geo:long 11.5961295288;
+  schema:name "Eiscafé Adamello".
+
+osmnode:384918146 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13460007136;
+  geo:long 11.597161844;
+  schema:name "La Boom".
+
+osmnode:3849682157 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12174038787;
+  geo:long 11.53478942023;
+  schema:name "Calima - Specialty Coffee".
+
+osmnode:3861458704 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13721556043;
+  geo:long 11.55607744265;
+  schema:name "Atlas Lounge".
+
+osmnode:3861470689 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13705244859;
+  geo:long 11.55607978958;
+  schema:name "Street Caffe".
+
+osmnode:386928370 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15434029154;
+  geo:long 11.56648609002;
+  schema:name "Café am Josephsplatz".
+
+osmnode:3869464080 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13423193817;
+  geo:long 11.57421956917;
+  schema:name "Eataly".
+
+osmnode:3888352285 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14963837913;
+  geo:long 11.55946205515;
+  schema:name "Cafe Lotti".
+
+osmnode:3900500870 a schema:CafeOrCoffeeShop;
+  geo:lat 48.2119967213;
+  geo:long 11.563014641;
+  schema:name "Sofra".
+
+osmnode:390320162 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14677445045;
+  geo:long 11.56595668901;
+  schema:name "Café in der Glyptothek".
+
+osmnode:390919931 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13949024131;
+  geo:long 11.57265785297;
+  schema:name "Bar Tabacco".
+
+osmnode:390928284 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14953377298;
+  geo:long 11.58116984328;
+  schema:name "Cafe an der Uni".
+
+osmnode:3912826070 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16361050882;
+  geo:long 11.57762228658;
+  schema:name "Two in One".
+
+osmnode:391651197 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15389135681;
+  geo:long 11.41832857525;
+  schema:name "Cafe Reicherzer".
+
+osmnode:3947834847 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11866372649;
+  geo:long 11.5506402697;
+  schema:name "Café Bar Pasticceria Paninoteca".
+
+osmnode:402709131 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1165652332;
+  geo:long 11.57297636529;
+  schema:name "Ihle".
+
+osmnode:4027838510 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14334273165;
+  geo:long 11.5899557542;
+  schema:name "Museumscafé".
+
+osmnode:4067655289 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14843524075;
+  geo:long 11.44273734786;
+  schema:name "Miraé Lounge".
+
+osmnode:409497603 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12847088848;
+  geo:long 11.56949217577;
+  schema:name "Götterspeise Café Chocolaterie".
+
+osmnode:409497604 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13033267682;
+  geo:long 11.567156307;
+  schema:name "Luffy Pancake".
+
+osmnode:409497605 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12848312606;
+  geo:long 11.57112698217;
+  schema:name "Patisserie Cafe Dukatz".
+
+osmnode:4100745418 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10058932575;
+  geo:long 11.58155406973;
+  schema:name "Pfefferminza".
+
+osmnode:410141499 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11385687265;
+  geo:long 11.57225116302;
+  schema:name "Wimmer Backshop".
+
+osmnode:411401524 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16403899171;
+  geo:long 11.47865614992;
+  schema:name "Geluk All Day Cafe".
+
+osmnode:4174465290 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08857738794;
+  geo:long 11.5592887174;
+  schema:name "Amandines et Chocolats".
+
+osmnode:417637012 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16016236149;
+  geo:long 11.57537426015;
+  schema:name "Venezia".
+
+osmnode:417672161 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1600210426;
+  geo:long 11.57791867068;
+  schema:name "Al Bacio".
+
+osmnode:417672169 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15972147338;
+  geo:long 11.58251865914;
+  schema:name "La Tazza d'Oro".
+
+osmnode:4177053610 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11275398183;
+  geo:long 11.50800052239;
+  schema:name "Bäckerei Zöttl".
+
+osmnode:418589822 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15680188887;
+  geo:long 11.56882899959;
+  schema:name "Backspielhaus".
+
+osmnode:418769233 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16385727205;
+  geo:long 11.58241405299;
+  schema:name "delmocca".
+
+osmnode:418772000 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15866183318;
+  geo:long 11.58311176261;
+  schema:name "Caffe Conte".
+
+osmnode:418955835 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11612266872;
+  geo:long 11.47963012706;
+  schema:name "Café Grosshadern".
+
+osmnode:419820434 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1626543013;
+  geo:long 11.50031498773;
+  schema:name "Café Botanischer Garten".
+
+osmnode:4217428292 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1406709162;
+  geo:long 11.57714887669;
+  schema:name "Segafredo".
+
+osmnode:4217575642 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13727943053;
+  geo:long 11.56116156984;
+  schema:name "Coffee Fellows".
+
+osmnode:4217579499 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14816601402;
+  geo:long 11.56247015257;
+  schema:name "Tante Emma".
+
+osmnode:4232919324 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14066722816;
+  geo:long 11.56938824017;
+  schema:name "Kreutzkamm".
+
+osmnode:4243339753 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15476542167;
+  geo:long 11.53753466116;
+  schema:name "Nymphenburger Bäckerei & Cafe".
+
+osmnode:4243416802 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16244307734;
+  geo:long 11.58941193632;
+  schema:name "Café Berta".
+
+osmnode:4265667652 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11634177167;
+  geo:long 11.58050230851;
+  schema:name "Cafe Piccolo".
+
+osmnode:4271686849 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14470713785;
+  geo:long 11.57695810457;
+  schema:name "H. Erbshäuser Konditorei Cafe".
+
+osmnode:4275500492 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17789226601;
+  geo:long 11.55601206381;
+  schema:name "Cooper's".
+
+osmnode:429378916 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15804861314;
+  geo:long 11.53538654701;
+  schema:name "Ruffini".
+
+osmnode:4309819915 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1217370351;
+  geo:long 11.54079455094;
+  schema:name "Servus Bar".
+
+osmnode:4311689762 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1510334631;
+  geo:long 11.56393564452;
+  schema:name "Höflinger".
+
+osmnode:4318767535 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18632043729;
+  geo:long 11.55019871104;
+  schema:name "Classic Café".
+
+osmnode:4320728707 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16826196217;
+  geo:long 11.59584454409;
+  schema:name "GUNDELINDE Feinkost".
+
+osmnode:4321542450 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13244022255;
+  geo:long 11.53935152249;
+  schema:name "Café Nido".
+
+osmnode:433732740 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1516632793;
+  geo:long 11.57386417647;
+  schema:name "CoCo Fresh Tea & Juice".
+
+osmnode:4338785589 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12689458777;
+  geo:long 11.5219744961;
+  schema:name "PetitBistro".
+
+osmnode:433909587 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15801173277;
+  geo:long 11.57190247585;
+  schema:name "Morso Cafe".
+
+osmnode:433909590 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15592581234;
+  geo:long 11.57054460754;
+  schema:name "Cafe Clara".
+
+osmnode:4348284358 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11398930672;
+  geo:long 11.57862845024;
+  schema:name "Salt & Sugar".
+
+osmnode:4379076192 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15025243736;
+  geo:long 11.53610940234;
+  schema:name "Kitchen 2 Soul".
+
+osmnode:4381075400 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14282892099;
+  geo:long 11.56033410836;
+  schema:name "California Bean".
+
+osmnode:4394675789 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15674120389;
+  geo:long 11.56469035108;
+  schema:name "Baci Baci".
+
+osmnode:4419654031 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13133381133;
+  geo:long 11.52091401771;
+  schema:name "mybistro".
+
+osmnode:442038660 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15404256634;
+  geo:long 11.55380225885;
+  schema:name "Conditorei Café Stemerowitz".
+
+osmnode:442683440 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15705938093;
+  geo:long 11.58489543161;
+  schema:name "Mackbear Coffee CO".
+
+osmnode:442683442 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15166361458;
+  geo:long 11.57665400913;
+  schema:name "Paulo Espressobar".
+
+osmnode:442683446 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15132682971;
+  geo:long 11.5764746364;
+  schema:name "Pavesi".
+
+osmnode:4427242389 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12493339006;
+  geo:long 11.53052068458;
+  schema:name "Café Gans am Wasser".
+
+osmnode:4432887469 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13873285254;
+  geo:long 11.56474466581;
+  schema:name "BoboQ".
+
+osmnode:4439205024 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12035603274;
+  geo:long 11.50148376031;
+  schema:name "Sofa so good".
+
+osmnode:4444530377 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12932131638;
+  geo:long 11.58631666711;
+  schema:name "Café Blá".
+
+osmnode:4452947672 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14543284303;
+  geo:long 11.56035958935;
+  schema:name "Daily Matcha".
+
+osmnode:445639076 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18714035506;
+  geo:long 11.57236985077;
+  schema:name "Peppino".
+
+osmnode:4456951470 a schema:CafeOrCoffeeShop;
+  geo:lat 48.19548923354;
+  geo:long 11.60958885365;
+  schema:name "Chicco".
+
+osmnode:4466373449 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14995823256;
+  geo:long 11.58410887381;
+  schema:name "Palmi".
+
+osmnode:4466557160 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14996594391;
+  geo:long 11.58385506979;
+  schema:name "Deli Star".
+
+osmnode:4470570184 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1513796357;
+  geo:long 11.58038160911;
+  schema:name "StuCafé Adalbertstraße".
+
+osmnode:447786250 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13756257122;
+  geo:long 11.57485759964;
+  schema:name "Woerner's".
+
+osmnode:447786256 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1363297609;
+  geo:long 11.57421152254;
+  schema:name "Bar Alpina im Schuster".
+
+osmnode:447786261 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13617436042;
+  geo:long 11.57588723262;
+  schema:name "Daily Matcha".
+
+osmnode:447786265 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13610344952;
+  geo:long 11.57647161891;
+  schema:name "Rischart".
+
+osmnode:447786276 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13561947843;
+  geo:long 11.58106926045;
+  schema:name "Coffee Fellows".
+
+osmnode:4482050691 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1362187845;
+  geo:long 11.56073040474;
+  schema:name "Mauerer".
+
+osmnode:4485865209 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12837768172;
+  geo:long 11.5914879661;
+  schema:name "Va bene".
+
+osmnode:448945873 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11251627106;
+  geo:long 11.58511537275;
+  schema:name "Cafe Sonnenback".
+
+osmnode:450517323 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16198358141;
+  geo:long 11.56887057383;
+  schema:name "Höflinger".
+
+osmnode:4510514141 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09370074244;
+  geo:long 11.53454600976;
+  schema:name "Café Woerner's".
+
+osmnode:4517893003 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12949163665;
+  geo:long 11.55909224559;
+  schema:name "Lisa Café & Bar".
+
+osmnode:4532822621 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15177274696;
+  geo:long 11.58046207538;
+  schema:name "UP Coffee Matcha Sandwich".
+
+osmnode:4532822625 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15159857101;
+  geo:long 11.58105651995;
+  schema:name "Billy’s".
+
+osmnode:4561736350 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14984893254;
+  geo:long 11.57584163507;
+  schema:name "Brown's Tea Bar".
+
+osmnode:4562364651 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12615446572;
+  geo:long 11.55781417299;
+  schema:name "Kapuzino".
+
+osmnode:4592638659 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12809236173;
+  geo:long 11.57626508882;
+  schema:name "Wagners - Juicery & Health Foody".
+
+osmnode:4604516589 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13716392791;
+  geo:long 11.57441805263;
+  schema:name "Café überm Marienplatz".
+
+osmnode:4629395278 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14938306636;
+  geo:long 11.53502076076;
+  schema:name "Madam Anna Ecke".
+
+osmnode:469223644 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14940268001;
+  geo:long 11.57522405644;
+  schema:name "Café Puck".
+
+osmnode:4696054799 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13134906639;
+  geo:long 11.58803193978;
+  schema:name "Rosi".
+
+osmnode:469640307 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13622398128;
+  geo:long 11.59782367907;
+  schema:name "Cupital No3".
+
+osmnode:4706174301 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15395086832;
+  geo:long 11.57498332819;
+  schema:name "LAX Eatery".
+
+osmnode:4741904112 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11215601686;
+  geo:long 11.54673296171;
+  schema:name "Mütterzentrum-Café".
+
+osmnode:4770264871 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13260132273;
+  geo:long 11.6226015907;
+  schema:name "Brotmanufaktur Schmidt".
+
+osmnode:4783208621 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14704518593;
+  geo:long 11.56029890437;
+  schema:name "Böcklin Coffee".
+
+osmnode:4784794584 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15470406614;
+  geo:long 11.57527434786;
+  schema:name "Morso Caffetteria".
+
+osmnode:4814368393 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13892680978;
+  geo:long 11.41137394254;
+  schema:name "Coffee Fellows".
+
+osmnode:4816391821 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13395332371;
+  geo:long 11.54055315213;
+  schema:name "Mira".
+
+osmnode:4826906689 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17147072234;
+  geo:long 11.57376325836;
+  schema:name "Café Scheidplatz".
+
+osmnode:4897342858 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12558013771;
+  geo:long 11.60510084741;
+  schema:name "The Container Factory Café".
+
+osmnode:490432710 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1199436431;
+  geo:long 11.57212409337;
+  schema:name "Sommer".
+
+osmnode:4915514474 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12686106016;
+  geo:long 11.55780847329;
+  schema:name "Cafe lucky".
+
+osmnode:4946017125 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13006294717;
+  geo:long 11.57565689792;
+  schema:name "Crème".
+
+osmnode:4948386421 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14987608991;
+  geo:long 11.55804316658;
+  schema:name "Treemans Store".
+
+osmnode:4948655021 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16887367346;
+  geo:long 11.53499326812;
+  schema:name "Alps Coffee - Coffee Shop - Espresso Bar".
+
+osmnode:4954434711 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14732631496;
+  geo:long 11.58102299234;
+  schema:name "Stabi Café".
+
+osmnode:496176147 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13697265288;
+  geo:long 11.55556011159.
+
+osmnode:4986526492 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09704545708;
+  geo:long 11.58132038226;
+  schema:name "Rackls Backstubn".
+
+osmnode:4988119318 a schema:CafeOrCoffeeShop;
+  geo:lat 48.07803395957;
+  geo:long 11.51809132799;
+  schema:name "Reis".
+
+osmnode:503603679 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12636568968;
+  geo:long 11.5701392587;
+  schema:name "Das Maria".
+
+osmnode:5056929318 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13140656625;
+  geo:long 11.56357153464;
+  schema:name "The Colombian Coffee Bar".
+
+osmnode:5067269322 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12109146092;
+  geo:long 11.56074817438;
+  schema:name "Coffee Twins".
+
+osmnode:5069253721 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13664525574;
+  geo:long 11.55337679345;
+  schema:name "bella bohne".
+
+osmnode:5082267074 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13522636717;
+  geo:long 11.59987925701;
+  schema:name "Pinsa".
+
+osmnode:5091093923 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11294223937;
+  geo:long 11.5496585812;
+  schema:name "Cafe Violet".
+
+osmnode:5116873733 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13633227547;
+  geo:long 11.60849820041;
+  schema:name "Vogelmaier Kaffeerösterei".
+
+osmnode:5126854087 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12396578316;
+  geo:long 11.56713451405;
+  schema:name "ChocoLab".
+
+osmnode:5134816574 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12365682621;
+  geo:long 11.59369274191;
+  schema:name "Café Spatzennest".
+
+osmnode:5176729718 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16176917233;
+  geo:long 11.55672117281;
+  schema:name "Ziegler".
+
+osmnode:5180345746 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11680445272;
+  geo:long 11.67317195951;
+  schema:name "Horn".
+
+osmnode:521966710 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1922687387;
+  geo:long 11.58469929507;
+  schema:name "McCafé".
+
+osmnode:522196066 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12006216321;
+  geo:long 11.57355136385;
+  schema:name "Café Mirin".
+
+osmnode:5226768414 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13584830438;
+  geo:long 11.53446420239;
+  schema:name "West 25 Coffee Bar".
+
+osmnode:5252240016 a schema:CafeOrCoffeeShop;
+  geo:lat 48.07817393735;
+  geo:long 11.50808937057;
+  schema:name "Rackls Backstubn".
+
+osmnode:5281938163 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13314715226;
+  geo:long 11.57429534157;
+  schema:name "Bellevue di Monaco".
+
+osmnode:5325117014 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14641587264;
+  geo:long 11.464939333;
+  schema:name "Cafe Bar 11er".
+
+osmnode:533938555 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17300528118;
+  geo:long 11.59585761986;
+  schema:name "feeling".
+
+osmnode:5377574530 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13201995393;
+  geo:long 11.69065325678;
+  schema:name "Renners Café in den Arcaden".
+
+osmnode:5377578639 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13201039856;
+  geo:long 11.69019694597;
+  schema:name "Mona".
+
+osmnode:5386368204 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14932221374;
+  geo:long 11.53532116817;
+  schema:name "Marita".
+
+osmnode:5386493130 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14841663292;
+  geo:long 11.534013256;
+  schema:name "Kolonial".
+
+osmnode:5394121416 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11425803054;
+  geo:long 11.58801215849;
+  schema:name "Yasemin Café & Bäckerei".
+
+osmnode:5421394793 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15418321467;
+  geo:long 11.5660257559;
+  schema:name "Café Josefina".
+
+osmnode:5427398483 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16394092344;
+  geo:long 11.5715534534;
+  schema:name "Clemens".
+
+osmnode:5478645429 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12289977271;
+  geo:long 11.54740150231;
+  schema:name "Café Erika".
+
+osmnode:5478865025 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14101524478;
+  geo:long 11.48915465129;
+  schema:name "Hoffmann".
+
+osmnode:5512457574 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16009161823;
+  geo:long 11.57703622391;
+  schema:name "tagescafé".
+
+osmnode:552444453 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15256852485;
+  geo:long 11.50863553538;
+  schema:name "NINE FINE ROASTERY & BAR".
+
+osmnode:552444457 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15493959762;
+  geo:long 11.50625574543;
+  schema:name "Cafe am Schloss".
+
+osmnode:5568874031 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12075434078;
+  geo:long 11.57668518981;
+  schema:name "Morgana".
+
+osmnode:5578199087 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15555466167;
+  geo:long 11.56181703467;
+  schema:name "Ciao Amore".
+
+osmnode:5583057607 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13769265836;
+  geo:long 11.55144090909;
+  schema:name "Cafe 23".
+
+osmnode:558816267 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16343264483;
+  geo:long 11.58760915658;
+  schema:name "Café Münchner Freiheit".
+
+osmnode:5590323199 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14873615107;
+  geo:long 11.5772414129;
+  schema:name "Maex No.41".
+
+osmnode:5607919122 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14218619665;
+  geo:long 11.55886694003;
+  schema:name "A Little lost".
+
+osmnode:5609602189 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14491500905;
+  geo:long 11.45878064582;
+  schema:name "Onkel Harry".
+
+osmnode:5609667645 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14840037203;
+  geo:long 11.53079896377;
+  schema:name "Nuvola".
+
+osmnode:5625296634 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14212065017;
+  geo:long 11.50291036023;
+  schema:name "Bancø de Cafe".
+
+osmnode:5646078997 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12356278126;
+  geo:long 11.54693278628;
+  schema:name "Cup&Cozy".
+
+osmnode:5649152081 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13016453584;
+  geo:long 11.60524971001;
+  schema:name "Claude & Julien".
+
+osmnode:5693122917 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14527828074;
+  geo:long 11.47096424501;
+  schema:name "Babylon".
+
+osmnode:5705050304 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11918005172;
+  geo:long 11.5503073405;
+  schema:name "Neulinger Brot & Feinbäckerei".
+
+osmnode:5711522551 a schema:CafeOrCoffeeShop;
+  geo:lat 48.124738427;
+  geo:long 11.6057063561;
+  schema:name "KaffeeWerk".
+
+osmnode:571393846 a schema:CafeOrCoffeeShop;
+  geo:lat 48.21402815936;
+  geo:long 11.5400535907;
+  schema:name "Cellino Cafè".
+
+osmnode:5745536622 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16134504803;
+  geo:long 11.57468593826;
+  schema:name "Coffee Lulu".
+
+osmnode:5762158854 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11334809113;
+  geo:long 11.5851385068;
+  schema:name "Barista Sistar".
+
+osmnode:5768780958 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14854923463;
+  geo:long 11.5619682442;
+  schema:name "Baresta".
+
+osmnode:5768799990 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15001975573;
+  geo:long 11.56371972669;
+  schema:name "Cafe Jasmin".
+
+osmnode:5768802865 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15031664274;
+  geo:long 11.56388132979;
+  schema:name "Drinkerei".
+
+osmnode:5768852494 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15055535934;
+  geo:long 11.57843499591;
+  schema:name "DiNatale".
+
+osmnode:5768852497 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14986469052;
+  geo:long 11.5770771276;
+  schema:name "beim.hauser".
+
+osmnode:577517153 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13338788052;
+  geo:long 11.55876937467;
+  schema:name "Cafe am Beethoven Platz".
+
+osmnode:5776830791 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12615530391;
+  geo:long 11.64585265484;
+  schema:name "Kreillies - Breakfast & Lunch".
+
+osmnode:5778561153 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13640385693;
+  geo:long 11.56186263222.
+
+osmnode:5782281594 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15406720913;
+  geo:long 11.56595031877;
+  schema:name "San Lucas Kaffeewirtschaft".
+
+osmnode:5803372381 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08539142654;
+  geo:long 11.53438038336;
+  schema:name "Krankenhaus Café".
+
+osmnode:5803568154 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08589014978;
+  geo:long 11.53607419835;
+  schema:name "Cafe Seniorenzentrum".
+
+osmnode:5826861106 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13046544616;
+  geo:long 11.58362641147;
+  schema:name "Café Exponat Deutsches Museum".
+
+osmnode:5837979644 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11900956381;
+  geo:long 11.57330962976;
+  schema:name "Paw-Over".
+
+osmnode:5870708795 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12540529121;
+  geo:long 11.5613124441;
+  schema:name "Café Ola ta Kala".
+
+osmnode:5892614986 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10073852362;
+  geo:long 11.64426914569;
+  schema:name "Traublinger's Brotliebe".
+
+osmnode:5894822921 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12369856809;
+  geo:long 11.66742499142;
+  schema:name "Cafino".
+
+osmnode:5896184903 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15822781823;
+  geo:long 11.51283386304;
+  schema:name "Bäckerei Konditorei Café Paul Isaak".
+
+osmnode:5912618540 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15519692204;
+  geo:long 11.51081617131;
+  schema:name "Café Romanplatz".
+
+osmnode:597822549 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1254995038;
+  geo:long 11.54034461038;
+  schema:name "Carpe Diem".
+
+osmnode:5991363340 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15091159022;
+  geo:long 11.58270775488;
+  schema:name "Primo".
+
+osmnode:599314036 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13808727836;
+  geo:long 11.5798746716;
+  schema:name "Starbucks".
+
+osmnode:6003593057 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12557494093;
+  geo:long 11.57909817209;
+  schema:name "Centro".
+
+osmnode:6007899422 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13448188653;
+  geo:long 11.54224327909;
+  schema:name "schokoAlm".
+
+osmnode:6015351089 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13718069171;
+  geo:long 11.63503698226;
+  schema:name "Genuss&Harmonie".
+
+osmnode:6015893446 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12944201578;
+  geo:long 11.55781417299;
+  schema:name "La Maison de Jany".
+
+osmnode:6063853525 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14307803115;
+  geo:long 11.55602279264;
+  schema:name "Starbucks".
+
+osmnode:608369753 a schema:CafeOrCoffeeShop;
+  geo:lat 48.19601109083;
+  geo:long 11.54584213304;
+  schema:name "Zimt & Koriander".
+
+osmnode:6144710200 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14883036367;
+  geo:long 11.5338124256;
+  schema:name "Kapo Theke".
+
+osmnode:6180874362 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14038811078;
+  geo:long 11.57525289019;
+  schema:name "H fünf".
+
+osmnode:618589319 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14198452806;
+  geo:long 11.57545942029;
+  schema:name "Cafe-Feinkost".
+
+osmnode:6199687070 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11961054627;
+  geo:long 11.60179334842;
+  schema:name "chicco di caffè".
+
+osmnode:620898288 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11127105552;
+  geo:long 11.53375643448;
+  schema:name "Covolino".
+
+osmnode:6227668261 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18287815729;
+  geo:long 11.56331873644;
+  schema:name "velvet coffee & more".
+
+osmnode:6284579807 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13085369592;
+  geo:long 11.61527983063;
+  schema:name "Cafe 1".
+
+osmnode:6288744685 a schema:CafeOrCoffeeShop;
+  geo:lat 48.21021389049;
+  geo:long 11.61498411709;
+  schema:name "Haidcafé".
+
+osmnode:6299448434 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11600398097;
+  geo:long 11.59118889979;
+  schema:name "Cafe I".
+
+osmnode:6299448435 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11614362348;
+  geo:long 11.59100919179;
+  schema:name "Cafe bei Amca".
+
+osmnode:6354651885 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15157526932;
+  geo:long 11.619843274;
+  schema:name "Farry".
+
+osmnode:6363548406 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14853532067;
+  geo:long 11.42136617696;
+  schema:name "Innspire Cafe Bar".
+
+osmnode:6374047453 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13431206917;
+  geo:long 11.53543851481;
+  schema:name "Nativo".
+
+osmnode:6378711463 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11907594848;
+  geo:long 11.55118844616;
+  schema:name "pimm's un po' di tutto".
+
+osmnode:6389119858 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15285770051;
+  geo:long 11.56513023336;
+  schema:name "Hammerstein & Maier".
+
+osmnode:639114672 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14946655012;
+  geo:long 11.56710266282;
+  schema:name "StuCafé Audimax".
+
+osmnode:6397269644 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16018834539;
+  geo:long 11.5783199962;
+  schema:name "Lavy".
+
+osmnode:6409611945 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17147172817;
+  geo:long 11.58656711838;
+  schema:name "Bicicletta".
+
+osmnode:6424033206 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10166388573;
+  geo:long 11.64417258617;
+  schema:name "Ratschiller's".
+
+osmnode:6430821885 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13466679131;
+  geo:long 11.56980599423;
+  schema:name "WonderWaffel".
+
+osmnode:6433211393 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12874682073;
+  geo:long 11.56037836481;
+  schema:name "Play 1".
+
+osmnode:6433211399 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12901504164;
+  geo:long 11.55879686732;
+  schema:name "Nuovo Caffè Greco".
+
+osmnode:6434138214 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11514332715;
+  geo:long 11.59386574439;
+  schema:name "Café bei Aras".
+
+osmnode:6477629373 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14698265693;
+  geo:long 11.5684595253;
+  schema:name "Ludovico".
+
+osmnode:649022019 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11610204924;
+  geo:long 11.52469392077;
+  schema:name "Cremagelato da Giacomo".
+
+osmnode:6499444628 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14982814542;
+  geo:long 11.53492218958;
+  schema:name "Madam Anna Ekke".
+
+osmnode:6499800974 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14908701754;
+  geo:long 11.46180986563;
+  schema:name "Starbucks".
+
+osmnode:6503197401 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13338838344;
+  geo:long 11.57898551932;
+  schema:name "robetti".
+
+osmnode:6503197404 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13380630513;
+  geo:long 11.57972245624.
+
+osmnode:6537029216 a schema:CafeOrCoffeeShop;
+  geo:lat 48.19323835726;
+  geo:long 11.61597284639;
+  schema:name "Gaschstätte".
+
+osmnode:656252897 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13654484054;
+  geo:long 11.57518449386;
+  schema:name "Vee's Kaffee & Bohnen".
+
+osmnode:656252910 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1357968395;
+  geo:long 11.57761625161;
+  schema:name "sweet spot kaffee".
+
+osmnode:656252930 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13727959817;
+  geo:long 11.57331667056;
+  schema:name "espressitto".
+
+osmnode:656252993 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13892714506;
+  geo:long 11.57423867991;
+  schema:name "Guido al Duomo".
+
+osmnode:656295754 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13853705129;
+  geo:long 11.56673888822;
+  schema:name "Macinino".
+
+osmnode:656295779 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13973298123;
+  geo:long 11.56678012718;
+  schema:name "Café Bistro Rendezvous".
+
+osmnode:656670555 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11206113371;
+  geo:long 11.57077192475;
+  schema:name "Wimmer".
+
+osmnode:6567898822 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15655914895;
+  geo:long 11.58196478298;
+  schema:name "StuCafé Leopoldstraße".
+
+osmnode:660718890 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09432754116;
+  geo:long 11.49876467092;
+  schema:name "Cafe Factory".
+
+osmnode:6611224412 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16195105963;
+  geo:long 11.56901172508;
+  schema:name "Minimis Coffeehouse".
+
+osmnode:6617193978 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12990704377;
+  geo:long 11.55956766713;
+  schema:name "café regenbogen".
+
+osmnode:6651318577 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15804794259;
+  geo:long 11.5856357213;
+  schema:name "Espressini".
+
+osmnode:6651576847 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13016403292;
+  geo:long 11.57331030031;
+  schema:name "Mocca di Monaco".
+
+osmnode:6651599403 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13064297487;
+  geo:long 11.57269003948;
+  schema:name "Orno".
+
+osmnode:665766554 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08798260809;
+  geo:long 11.64061463591;
+  schema:name "Traublinger".
+
+osmnode:666750045 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12124635849;
+  geo:long 11.54087602304;
+  schema:name "Café Schuntner".
+
+osmnode:667076584 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11743125144;
+  geo:long 11.54680705773;
+  schema:name "Dankl 32".
+
+osmnode:6682330093 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13226872881;
+  geo:long 11.57072029223;
+  schema:name "Cafe Pinguini".
+
+osmnode:6682341765 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14359251237;
+  geo:long 11.59909336977;
+  schema:name "Café Lev".
+
+osmnode:669542855 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12689777289;
+  geo:long 11.57917327395;
+  schema:name "Hüller".
+
+osmnode:6769271545 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09563176529;
+  geo:long 11.4965052451;
+  schema:name "Balkanbäckerei Ana Pek".
+
+osmnode:6779297277 a schema:CafeOrCoffeeShop;
+  geo:lat 48.107839672;
+  geo:long 11.59974648766;
+  schema:name "Daily Snacks".
+
+osmnode:678046339 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15836125813;
+  geo:long 11.5416800152;
+  schema:name "Om Nom Nom Café".
+
+osmnode:6786384878 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17122932353;
+  geo:long 11.5776206102;
+  schema:name "Cafegarten im Schwabinger".
+
+osmnode:6829853951 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14778731963;
+  geo:long 11.53421609805;
+  schema:name "SALLIS Kaffeerösterei".
+
+osmnode:6840405993 a schema:CafeOrCoffeeShop;
+  geo:lat 48.20897990671;
+  geo:long 11.55459250468;
+  schema:name "Cafe Amadeus".
+
+osmnode:6853636861 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1249419396;
+  geo:long 11.55234280187;
+  schema:name "Café Mokka".
+
+osmnode:6910114756 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13457023179;
+  geo:long 11.57861403337;
+  schema:name "Mundo Sano".
+
+osmnode:6915909734 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11035089019;
+  geo:long 11.61792650038;
+  schema:name "Pazifik Brot & Seele Balkan Bäckerei 2".
+
+osmnode:692957050 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09919658871;
+  geo:long 11.51895566985;
+  schema:name "Schmidhofer".
+
+osmnode:692957734 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09924872415;
+  geo:long 11.51973518684;
+  schema:name "Eiscafe La Fantastica".
+
+osmnode:699724074 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11542814422;
+  geo:long 11.57948809823;
+  schema:name "Bäckerei Ziegler".
+
+osmnode:699740103 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13597990026;
+  geo:long 11.57328481932;
+  schema:name "Segafredo".
+
+osmnode:700102103 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13563976263;
+  geo:long 11.57247210999;
+  schema:name "Baldini".
+
+osmnode:7001481987 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15126329488;
+  geo:long 11.5335455458;
+  schema:name "nourish café soul concept".
+
+osmnode:701376207 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13879588446;
+  geo:long 11.56392357458;
+  schema:name "Bellisimo".
+
+osmnode:701541172 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13538696443;
+  geo:long 11.57528943529;
+  schema:name "Starbucks".
+
+osmnode:7027262422 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13887199214;
+  geo:long 11.57796795627;
+  schema:name "Kleines Kamel".
+
+osmnode:7039126262 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13170043578;
+  geo:long 11.57078332414;
+  schema:name "diversity Café".
+
+osmnode:712613252 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16260400988;
+  geo:long 11.52315869138;
+  schema:name "Seppl's".
+
+osmnode:7128363450 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14619978717;
+  geo:long 11.53452555792;
+  schema:name "Eduards Cafe Bar".
+
+osmnode:7179321926 a schema:CafeOrCoffeeShop;
+  geo:lat 48.09811817305;
+  geo:long 11.50947070821;
+  schema:name "Schnickschnack".
+
+osmnode:719809009 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17061912098;
+  geo:long 11.53405885355;
+  schema:name "Nini Café & Konditorei Borstei".
+
+osmnode:7217278671 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16160656341;
+  geo:long 11.54040428953;
+  schema:name "suess&buttrig".
+
+osmnode:722320867 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08109603644;
+  geo:long 11.52851740972;
+  schema:name "Zöttl".
+
+osmnode:733971179 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13463611355;
+  geo:long 11.57659868857;
+  schema:name "Karnoll's Kaffeestandl".
+
+osmnode:7396860684 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11356501478;
+  geo:long 11.57703756502;
+  schema:name "Kiosk am Grünspitz".
+
+osmnode:741557385 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13538612624;
+  geo:long 11.60943730884;
+  schema:name "Ping Ping Café".
+
+osmnode:7498369985 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14107173881;
+  geo:long 11.42218358016;
+  schema:name "Sicily Café".
+
+osmnode:7554123036 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18771049212;
+  geo:long 11.58704253993;
+  schema:name "QuMa's Eatery".
+
+osmnode:7731153570 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15801676191;
+  geo:long 11.5750983279;
+  schema:name "Fela".
+
+osmnode:7786283836 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1548316387;
+  geo:long 11.57951123228;
+  schema:name "Dinatale".
+
+osmnode:7864694079 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12834515993;
+  geo:long 11.54450773405;
+  schema:name "Kuchentratsch Café".
+
+osmnode:7885386908 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18403435702;
+  geo:long 11.56552183588;
+  schema:name "Harika".
+
+osmnode:7888187228 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18950623105;
+  geo:long 11.5704356428;
+  schema:name "Chicco".
+
+osmnode:790030180 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1612449681;
+  geo:long 11.52361265526;
+  schema:name "Gerner Café".
+
+osmnode:7909388398 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10107044699;
+  geo:long 11.62316317821;
+  schema:name "Jugendcafé".
+
+osmnode:7933848673 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08047124937;
+  geo:long 11.52630458728;
+  schema:name "Idee e complimenti".
+
+osmnode:793849345 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13294481312;
+  geo:long 11.53944104122;
+  schema:name "Die Leckerei".
+
+osmnode:8043057585 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13492663031;
+  geo:long 11.58168818018;
+  schema:name "Turmstüberl".
+
+osmnode:8138625081 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16640067675;
+  geo:long 11.59098304025;
+  schema:name "Tramezzini Stehcafe".
+
+osmnode:8176199560 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15915670074;
+  geo:long 11.54822326409;
+  schema:name "Flower".
+
+osmnode:8190273685 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1399279443;
+  geo:long 11.5616031285;
+  schema:name "Comebuy".
+
+osmnode:835352291 a schema:CafeOrCoffeeShop;
+  geo:lat 48.158195967;
+  geo:long 11.51117994591;
+  schema:name "backspielhaus".
+
+osmnode:835352662 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15584467552;
+  geo:long 11.51247746452;
+  schema:name "Espressothek".
+
+osmnode:838507439 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16267525606;
+  geo:long 11.58730070255;
+  schema:name "New Era".
+
+osmnode:8401596017 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13853638073;
+  geo:long 11.61231733077;
+  schema:name "Luitpold & Auguste".
+
+osmnode:8401640818 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13976617357;
+  geo:long 11.60986042731;
+  schema:name "Cafézauber".
+
+osmnode:8423105095 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14731206572;
+  geo:long 11.57421822806;
+  schema:name "Bici Bavarese".
+
+osmnode:843782171 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14991582013;
+  geo:long 11.54045458095;
+  schema:name "Butter".
+
+osmnode:843807395 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15313765607;
+  geo:long 11.5325876619;
+  schema:name "Eiscafe Venezia".
+
+osmnode:844503789 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13680333843;
+  geo:long 11.57979956975;
+  schema:name "Bar Centrale".
+
+osmnode:844996228 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15253734417;
+  geo:long 11.53350095407;
+  schema:name "Rischart".
+
+osmnode:845000594 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14991079099;
+  geo:long 11.52707069323;
+  schema:name "Café Wohnwerk".
+
+osmnode:8476685724 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13565837046;
+  geo:long 11.5386407371;
+  schema:name "Cafe Duuo".
+
+osmnode:848518125 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13226202329;
+  geo:long 11.56694608886;
+  schema:name "Vollaths".
+
+osmnode:850657224 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15991174258;
+  geo:long 11.41527588611;
+  schema:name "Aubinger Herzl".
+
+osmnode:851585366 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12131324608;
+  geo:long 11.55999346782;
+  schema:name "Café Zimt & Trallala".
+
+osmnode:863197109 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1451081281;
+  geo:long 11.55994116474;
+  schema:name "Nonna's".
+
+osmnode:871098511 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1313314644;
+  geo:long 11.56268104125;
+  schema:name "Tribu Café Bar Lounge".
+
+osmnode:874287512 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15820133142;
+  geo:long 11.51080175444;
+  schema:name "Cafe und Bar Schreibwaren am Schloß".
+
+osmnode:8750284561 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17767031321;
+  geo:long 11.46164323339;
+  schema:name "Café La Perla".
+
+osmnode:8790183808 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10171233313;
+  geo:long 11.6448588964;
+  schema:name "Backstube Wünsche".
+
+osmnode:8790211893 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10047181146;
+  geo:long 11.64471908626;
+  schema:name "Biu Tea".
+
+osmnode:8790211897 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10185734006;
+  geo:long 11.64542383668;
+  schema:name "Coffreez".
+
+osmnode:8790377786 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10136096375;
+  geo:long 11.64493701574;
+  schema:name "Kaiser's".
+
+osmnode:8790377787 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10127932401;
+  geo:long 11.64491220531;
+  schema:name "Segafredo".
+
+osmnode:883115925 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1161741336;
+  geo:long 11.5807510834;
+  schema:name "Café Drilling".
+
+osmnode:8837084348 a schema:CafeOrCoffeeShop;
+  geo:lat 48.19174805488;
+  geo:long 11.62002231145;
+  schema:name "Anna's".
+
+osmnode:886077754 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12589546491;
+  geo:long 11.56897115667;
+  schema:name "Café Glück".
+
+osmnode:888549221 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14229097044;
+  geo:long 11.54907520073;
+  schema:name "Terrazza".
+
+osmnode:8926006080 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15070070154;
+  geo:long 11.54379326063;
+  schema:name "Die Mercerie".
+
+osmnode:893397457 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18374819884;
+  geo:long 11.57902944049;
+  schema:name "Kama Team Dienstleistungen".
+
+osmnode:8968209917 a schema:CafeOrCoffeeShop;
+  geo:lat 48.20737980139;
+  geo:long 11.44964135387;
+  schema:name "Schwarzhubers Abenteuerland".
+
+osmnode:8979025320 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13473133197;
+  geo:long 11.53064473675;
+  schema:name "Newtonic Barista Bar".
+
+osmnode:898001533 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17421261051;
+  geo:long 11.55444632429;
+  schema:name "cafe am Olympiasee".
+
+osmnode:9009823784 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13220972021;
+  geo:long 11.69175732107;
+  schema:name "Rischart".
+
+osmnode:9010340817 a schema:CafeOrCoffeeShop;
+  geo:lat 48.129624406;
+  geo:long 11.56786977459;
+  schema:name "Joy of Madhu".
+
+osmnode:9014874737 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12332322646;
+  geo:long 11.6034325134;
+  schema:name "amal".
+
+osmnode:9039134472 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14807196907;
+  geo:long 11.57468996157;
+  schema:name "Morso Museo".
+
+osmnode:911019620 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13943156799;
+  geo:long 11.56649011333;
+  schema:name "Starbucks".
+
+osmnode:9110413117 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15717505119;
+  geo:long 11.55133529711;
+  schema:name "The Flash Gordon".
+
+osmnode:914961566 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14799485556;
+  geo:long 11.46043657461;
+  schema:name "Elly Seidl Pralinen".
+
+osmnode:916461974 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12948258419;
+  geo:long 11.5682067271;
+  schema:name "Coucou Food Market".
+
+osmnode:9171206417 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1466592831;
+  geo:long 11.57083562722;
+  schema:name "naum".
+
+osmnode:9223300411 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12001203943;
+  geo:long 11.60018402301;
+  schema:name "Messer & Gabel".
+
+osmnode:9233307559 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15691772677;
+  geo:long 11.57455585112;
+  schema:name "Standl 20".
+
+osmnode:9253041473 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13606405457;
+  geo:long 11.57145689388;
+  schema:name "Cole & Porter".
+
+osmnode:9254773456 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13632204955;
+  geo:long 11.57096739073;
+  schema:name "KaffeeWerk".
+
+osmnode:9278452149 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12777636398;
+  geo:long 11.55435278225;
+  schema:name "coffeemamas".
+
+osmnode:9343459892 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12265854154;
+  geo:long 11.59873596541.
+
+osmnode:9347174619 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13515964722;
+  geo:long 11.59801311008;
+  schema:name "Epique Raw".
+
+osmnode:9362543034 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11961926345;
+  geo:long 11.58256660363;
+  schema:name "Poppi Farmer".
+
+osmnode:944526768 a schema:CafeOrCoffeeShop;
+  geo:lat 48.11342671338;
+  geo:long 11.47879361313;
+  schema:name "Konditorei Widmann".
+
+osmnode:945913069 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12923196529;
+  geo:long 11.57713177761;
+  schema:name "Baader Cafe".
+
+osmnode:9473424979 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1336529163;
+  geo:long 11.52425437376;
+  schema:name "Backstube Wünsche".
+
+osmnode:9515955118 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13112811943;
+  geo:long 11.61225496941;
+  schema:name "Primo Cafebar".
+
+osmnode:9516314407 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12337485899;
+  geo:long 11.60752724075;
+  schema:name "Café WERK1".
+
+osmnode:9521173702 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10458246442;
+  geo:long 11.58455344996;
+  schema:name "Maria's Café".
+
+osmnode:9529596579 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13728932118;
+  geo:long 11.57938785067;
+  schema:name "Rösterei am Platzl".
+
+osmnode:9535445621 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12859544356;
+  geo:long 11.59313651881;
+  schema:name "Rio Filmcafé".
+
+osmnode:9550068981 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12005394895;
+  geo:long 11.55850182433;
+  schema:name "3Mills Cycling & Coffee".
+
+osmnode:9551743574 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16289888524;
+  geo:long 11.63045342232;
+  schema:name "Café GeQo".
+
+osmnode:9581301293 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12345566053;
+  geo:long 11.65791656045;
+  schema:name "Feinkost Caffè Italia".
+
+osmnode:9588113332 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1394399499;
+  geo:long 11.56378342916;
+  schema:name "Fakultät".
+
+osmnode:9608347267 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13627578145;
+  geo:long 11.56891415973;
+  schema:name "French Touch Pâtisserie".
+
+osmnode:9628947268 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14383793449;
+  geo:long 11.55379287112.
+
+osmnode:9628947269 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14459951422;
+  geo:long 11.55364467907.
+
+osmnode:9643237948 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12850022514;
+  geo:long 11.61322861129;
+  schema:name "Dalucci".
+
+osmnode:9703840363 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12418471847;
+  geo:long 11.60635779761;
+  schema:name "womBAR".
+
+osmnode:9736943822 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13714867284;
+  geo:long 11.58024917504;
+  schema:name "griabig".
+
+osmnode:976966593 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14884343943;
+  geo:long 11.5776360329;
+  schema:name "Deli Star".
+
+osmnode:976966786 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1490405818;
+  geo:long 11.57775304427;
+  schema:name "Milano".
+
+osmnode:981232932 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12970336352;
+  geo:long 11.57305079659;
+  schema:name "Tushita Teehaus".
+
+osmnode:9819569190 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15778257154;
+  geo:long 11.58257096222;
+  schema:name "Gelateria Espresso".
+
+osmnode:9924018308 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13832565969;
+  geo:long 11.56691859622;
+  schema:name "TeaOne München".
+
+osmnode:9936668968 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16258355804;
+  geo:long 11.57279833366;
+  schema:name "Suuapinga".
+
+osmnode:9959582425 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13672186633;
+  geo:long 11.57621010353;
+  schema:name "Rischart".
+
+osmnode:9982958632 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13579566603;
+  geo:long 11.54158982592;
+  schema:name "Stray Coffee".
+
+osmnode:9992413017 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15066667101;
+  geo:long 11.5564713921;
+  schema:name "Roca Junior Artisan Coffee".
+
+osmnode:999383274 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14217965877;
+  geo:long 11.61404567921;
+  schema:name "Weyerer Cafe".
+
+osmway:102944461 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14111431887;
+  geo:long 11.62752947922;
+  schema:name "Backspielhaus".
+
+osmway:1087692653 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13800547099;
+  geo:long 11.56540784199;
+  schema:name "Mr. Box Tea".
+
+osmway:1280337380 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13345175063;
+  geo:long 11.56704499532;
+  schema:name "Haferkater".
+
+osmway:1289170545 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16173933275;
+  geo:long 11.5865738239;
+  schema:name "Segafredo".
+
+osmway:1308634774 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1018848327;
+  geo:long 11.53842951314;
+  schema:name "konsum.kiez.caffe".
+
+osmway:1423634851 a schema:CafeOrCoffeeShop;
+  geo:lat 48.20309446957;
+  geo:long 11.61342307144;
+  schema:name "Cafe Kieferngarten".
+
+osmway:1430089534 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14729580483;
+  geo:long 11.56667384465;
+  schema:name "StuLounge Arcisstraße".
+
+osmway:16125284 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15928695552;
+  geo:long 11.49979262752;
+  schema:name "Schlosscafé im Palmenhaus".
+
+osmway:173642492 a schema:CafeOrCoffeeShop;
+  geo:lat 48.17065432497;
+  geo:long 11.44703223505;
+  schema:name "Segafredo".
+
+osmway:176634090 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10085519971;
+  geo:long 11.54679901111;
+  schema:name "Gelatobi".
+
+osmway:210851868 a schema:CafeOrCoffeeShop;
+  geo:lat 48.08935975478;
+  geo:long 11.61149422788;
+  schema:name "Picollo Mondo Eiscafe".
+
+osmway:218609387 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13256880095;
+  geo:long 11.61392565036;
+  schema:name "Cafeteria".
+
+osmway:219126663 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10095242979;
+  geo:long 11.54751650202;
+  schema:name "Kiosk 1917".
+
+osmway:271102603 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13905907622;
+  geo:long 11.56600295712;
+  schema:name "Starbucks".
+
+osmway:278393620 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16147127949;
+  geo:long 11.65104507622;
+  schema:name "BeerenCafé".
+
+osmway:279754702 a schema:CafeOrCoffeeShop;
+  geo:lat 48.1279460137;
+  geo:long 11.60485743694;
+  schema:name "Haferkater".
+
+osmway:279778148 a schema:CafeOrCoffeeShop;
+  geo:lat 48.12829403032;
+  geo:long 11.604835644;
+  schema:name "Coffee Fellows".
+
+osmway:292203601 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14930779687;
+  geo:long 11.46062734673;
+  schema:name "Haferkater".
+
+osmway:301555898 a schema:CafeOrCoffeeShop;
+  geo:lat 48.18088209087;
+  geo:long 11.50579976989;
+  schema:name "Café Memminger Platz".
+
+osmway:30185967 a schema:CafeOrCoffeeShop;
+  geo:lat 48.16739778795;
+  geo:long 11.6245874312;
+  schema:name "Riedmair".
+
+osmway:317519907 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13803765749;
+  geo:long 11.56486201246;
+  schema:name "Bremer Teehandelskontor".
+
+osmway:326701320 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14767366103;
+  geo:long 11.46404548685;
+  schema:name "Illy Caffè".
+
+osmway:326738802 a schema:CafeOrCoffeeShop;
+  geo:lat 48.147599565;
+  geo:long 11.46430834333;
+  schema:name "Genusswerk".
+
+osmway:346580249 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14113309434;
+  geo:long 11.56008969206.
+
+osmway:349128183 a schema:CafeOrCoffeeShop;
+  geo:lat 48.14147289669;
+  geo:long 11.55966255028;
+  schema:name "Starbucks".
+
+osmway:350441005 a schema:CafeOrCoffeeShop;
+  geo:lat 48.22028541772;
+  geo:long 11.53191945658;
+  schema:name "BeerenCafé".
+
+osmway:692428417 a schema:CafeOrCoffeeShop;
+  geo:lat 48.147841802;
+  geo:long 11.46429996143;
+  schema:name "Genusswerk".
+
+osmway:798937114 a schema:CafeOrCoffeeShop;
+  geo:lat 48.10602616342;
+  geo:long 11.53744815992;
+  schema:name "Cafe Anteportas".
+
+osmway:848387394 a schema:CafeOrCoffeeShop;
+  geo:lat 48.13947968012;
+  geo:long 11.50218415214;
+  schema:name "Steinchen Kulturcafé".
+
+osmway:96972977 a schema:CafeOrCoffeeShop;
+  geo:lat 48.15947454251;
+  geo:long 11.54687277185;
+  schema:name "Höflinger".

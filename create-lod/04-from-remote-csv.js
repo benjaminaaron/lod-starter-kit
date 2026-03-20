@@ -12,7 +12,7 @@ const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "outp
 const res = await fetch(CSV_URL)
 const text = await res.text()
 
-// optional: write to file
+// write to file
 let file = path.join(OUTPUT_DIR, "240826-spielplaetze.csv")
 fs.writeFileSync(file, text, "utf8")
 
@@ -31,6 +31,6 @@ for (let row of csv.data) {
 let turtle = await storeToTurtle(store, prefixes)
 console.log(turtle)
 
-// optional: write to file
+// write to file
 file = path.join(OUTPUT_DIR, "240826-spielplaetze.ttl")
 fs.writeFileSync(file, turtle, "utf8")

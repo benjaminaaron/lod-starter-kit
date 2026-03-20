@@ -1,0 +1,2370 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix odd: <https://open.bydata.de/oddmuc26#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+
+odd:10206389 a schema:Playground;
+  rdfs:title "Spielplatz \"Waldgartenstraße, Ecke Waldsaumstraße\"";
+  geo:lat 48.103716504582025;
+  geo:long 11.482971310629992.
+
+odd:10206393 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Durchblick, zur Sarasatestraße\"";
+  geo:lat 48.15892906922834;
+  geo:long 11.477193832411965.
+
+odd:10206395 a schema:Playground;
+  rdfs:title "Spielplatz \"Sckellstraße\"";
+  geo:lat 48.135334671688305;
+  geo:long 11.595736742017131.
+
+odd:10206399 a schema:Playground;
+  rdfs:title "Spielplatz \"Messestadt Riem, nördl. Ingeborg-Bachmann-Straße\"";
+  geo:lat 48.13017553173803;
+  geo:long 11.704317927342949.
+
+odd:10206401 a schema:Playground;
+  rdfs:title "Spielplatz \"Messestadt Riem, nördl. Magdalena-Schwarz-Straße\"";
+  geo:lat 48.131904850140735;
+  geo:long 11.70423746107297.
+
+odd:10206405 a schema:Playground;
+  rdfs:title "Spielplatz \"Bichlhofweg West\"";
+  geo:lat 48.169516534591196;
+  geo:long 11.63977861403669.
+
+odd:10206411 a schema:Playground;
+  rdfs:title "Spielplatz \"Hachinger-Bach-Straße\"";
+  geo:lat 48.12112340791694;
+  geo:long 11.633518338196101.
+
+odd:10221944 a schema:Playground;
+  rdfs:title "Spielplatz \"Colmdorfstraße\"";
+  geo:lat 48.15505706782388;
+  geo:long 11.414623260521415.
+
+odd:10223449 a schema:Playground;
+  rdfs:title "Spielplatz \"Akademiestraße, vor Kunstakademie\"";
+  geo:lat 48.15302790788525;
+  geo:long 11.57902121543827.
+
+odd:10234704 a schema:Playground;
+  rdfs:title "Spielplatz \"Herkomerplatz\"";
+  geo:lat 48.15069803269996;
+  geo:long 11.610006093975898.
+
+odd:10235074 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Blütenanger, Ecke Pappelallee 32\"";
+  geo:lat 48.20107274322562;
+  geo:long 11.513038873681603.
+
+odd:10235076 a schema:Playground;
+  rdfs:title "Spielplatz\"Holledauer Straße\"";
+  geo:lat 48.18493225448735;
+  geo:long 11.510796546945098.
+
+odd:10235078 a schema:Playground;
+  rdfs:title "Spielplatz \"Spicherenstraße, Haidenaupark\"";
+  geo:lat 48.13199793809136;
+  geo:long 11.605993509291787.
+
+odd:10235080 a schema:Playground;
+  rdfs:title "Spielplatz\"Messestadt Riem Grünzug West,südlich Kopenhagenstraße\"";
+  geo:lat 48.12903336198042;
+  geo:long 11.687200069412402.
+
+odd:10235129 a schema:Playground;
+  rdfs:title "Spielplatz \"Kürnbergstraße, Ecke Albert-Roßhaupter-Straße\"";
+  geo:lat 48.11558562779293;
+  geo:long 11.531872609547262.
+
+odd:10236533 a schema:Playground;
+  rdfs:title "Spielplatz\" Friesplatz, nördlich Fauststraße\"";
+  geo:lat 48.101853688346914;
+  geo:long 11.673274040209852.
+
+odd:10237824 a schema:Playground;
+  rdfs:title "Spielplatz \"Blaukissenweg\"";
+  geo:lat 48.19445767089962;
+  geo:long 11.52040958405364.
+
+odd:10237832 a schema:Playground;
+  rdfs:title "Spielplatz \"Roßsteinstraße\"";
+  geo:lat 48.130250720706485;
+  geo:long 11.641060709944451.
+
+odd:10238998 a schema:Playground;
+  rdfs:title "Spielplatz \"Taxispark\"";
+  geo:lat 48.16323731140125;
+  geo:long 11.533756256110014.
+
+odd:10247136 a schema:Playground;
+  rdfs:title "Spielplatz \"Distlhofweg, südlich Hausnummer 51\"";
+  geo:lat 48.10464430517321;
+  geo:long 11.535344123846745.
+
+odd:10251804 a schema:Playground;
+  rdfs:title "Spielplatz \"Feldmochinger See (Westufer) Süd\"";
+  geo:lat 48.21241278674044;
+  geo:long 11.509920910089365.
+
+odd:10256554 a schema:Playground;
+  rdfs:title "Spielplatz \"Clarita-Bernhard-Straße\"";
+  geo:lat 48.138227286710915;
+  geo:long 11.410304904007436.
+
+odd:10258740 a schema:Playground;
+  rdfs:title "Spielplatz \"Domagkpark Ost, Fritz-Winter-Straße\"";
+  geo:lat 48.18543118920593;
+  geo:long 11.597882509228226.
+
+odd:10258788 a schema:Playground;
+  rdfs:title "Spielplatz \"Domagkpark West, Fritz-Winter-Straße\"";
+  geo:lat 48.18606781569682;
+  geo:long 11.594964265821925.
+
+odd:10271631 a schema:Playground;
+  rdfs:title "Spielplatz \"Gustl-Bayrhammer-Straße, nördlich\"";
+  geo:lat 48.14772379869662;
+  geo:long 11.409752368952148.
+
+odd:10297047 a schema:Playground;
+  rdfs:title "Spielplatz \"Isartalstraße, Am Westermühlbach\"";
+  geo:lat 48.12253074550335;
+  geo:long 11.562895774843744.
+
+odd:10304482 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Hartmannshofer Bächl\"";
+  geo:lat 48.18462287676063;
+  geo:long 11.49254143239311.
+
+odd:10309329 a schema:Playground;
+  rdfs:title "Spielplatz \"Scharerweg\"";
+  geo:lat 48.120618475874764;
+  geo:long 11.670227050768176.
+
+odd:10316999 a schema:Playground;
+  rdfs:title "Spielplatz \"Hochäckerstraße, Ecke Margarete-Selenka-Straße, westlich\"";
+  geo:lat 48.10207579690471;
+  geo:long 11.619662046427173.
+
+odd:10317001 a schema:Playground;
+  rdfs:title "Spielplatz \"Hochäckerstraße, Dieter-Hildebrandt-Straße, westl.\"";
+  geo:lat 48.10229432212913;
+  geo:long 11.621539592737442.
+
+odd:10317003 a schema:Playground;
+  rdfs:title "Spielplatz \"Hochäckerstraße, Dieter-Hildebrandt-Straße, östl.\"";
+  geo:lat 48.10186443555815;
+  geo:long 11.62258028983437.
+
+odd:10331868 a schema:Playground;
+  rdfs:title "Spielplatz \"Firstalmstraße, Agfa-Park\"";
+  geo:lat 48.10966273544901;
+  geo:long 11.582679748535195.
+
+odd:10375021 a schema:Playground;
+  rdfs:title "Spielplatz \"Prinz-Eugen-Park, östl. Eugen-Jochum-Str. 4, Wasserspielplatz\"";
+  geo:lat 48.16222827051639;
+  geo:long 11.631946563713004.
+
+odd:10375025 a schema:Playground;
+  rdfs:title "Spielplatz \"Prinz-Eugen-Park, nördlich Ruth-Drexel-Straße 111, Spinnennetz-Spielplatz\"";
+  geo:lat 48.16455046608846;
+  geo:long 11.6340172290723.
+
+odd:10375027 a schema:Playground;
+  rdfs:title "Spielplatz \"Prinz-Eugen-Park, nördlich Ruth-Drexel-Straße 219, Bucheckern-Spielplatz\"";
+  geo:lat 48.163952931202466;
+  geo:long 11.636747717849548.
+
+odd:10385294 a schema:Playground;
+  rdfs:title "Spielplatz \"Richelstraße 19\"";
+  geo:lat 48.145461690648034;
+  geo:long 11.52590811253359.
+
+odd:10385350 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Oberwiesenfeld\"";
+  geo:lat 48.18714671658513;
+  geo:long 11.541129718569739.
+
+odd:10385357 a schema:Playground;
+  rdfs:title "Spielplatz \"Barlowstraße, gegenüber Hausnummer 7\"";
+  geo:lat 48.15779648889305;
+  geo:long 11.647178609762776.
+
+odd:10385426 a schema:Playground;
+  rdfs:title "Spielplatz \"Flaucheranlage, südlich Brudermühlstraße, Seidenspinner\"";
+  geo:lat 48.10884964689344;
+  geo:long 11.55614197254513.
+
+odd:10385430 a schema:Playground;
+  rdfs:title "Spielplatz \"Carl-Wery-Straße Nord\"";
+  geo:lat 48.08451551323605;
+  geo:long 11.645722389211953.
+
+odd:10385442 a schema:Playground;
+  rdfs:title "Spielplatz \"Gerberau, Martha-Näbauer-Platz, Hausnummer 6, östlich\"";
+  geo:lat 48.21092824794472;
+  geo:long 11.466188446362588.
+
+odd:10385504 a schema:Playground;
+  rdfs:title "Spielplatz \"Freihamer Weg Nord, Colmdorfstraße 19\"";
+  geo:lat 48.15512483218898;
+  geo:long 11.412848290992791.
+
+odd:10385506 a schema:Playground;
+  rdfs:title "Spielplatz \"Freihamer Weg Mitte, Colmdorferstraße westl. Hausnummer 15\"";
+  geo:lat 48.1545208758072;
+  geo:long 11.412315718131762.
+
+odd:10385508 a schema:Playground;
+  rdfs:title "Spielplatz \"Freihamer Weg Süd, östtl. Hausnummer 86\"";
+  geo:lat 48.15400607466521;
+  geo:long 11.412392864268876.
+
+odd:10385510 a schema:Playground;
+  rdfs:title "Spielplatz \"Freihamer Weg, Ecke Hörweg 13\"";
+  geo:lat 48.1515226879628;
+  geo:long 11.408261510253304.
+
+odd:10385512 a schema:Playground;
+  rdfs:title "Spielplatz \"Nanette-Bald-Straße\"";
+  geo:lat 48.160417164027955;
+  geo:long 11.454007756307888.
+
+odd:10385514 a schema:Playground;
+  rdfs:title "Spielplatz \"Berduxstraße, Park des 30. Juli\"";
+  geo:lat 48.151853493475734;
+  geo:long 11.47946040336106.
+
+odd:10385516 a schema:Playground;
+  rdfs:title "Spielplatz \"Pasinger Promenade\"";
+  geo:lat 48.14626273149284;
+  geo:long 11.46852820310639.
+
+odd:10387070 a schema:Playground;
+  rdfs:title "Spielplatz\"Fritz-Bauer-Straße,östl. Hs.Nr.31,Gleisharfe\"";
+  geo:lat 48.13906833851103;
+  geo:long 11.420901681366853.
+
+odd:10387074 a schema:Playground;
+  rdfs:title "Spielplatz \"Mathilde-Berghofer-Weichner-Straße, ggü. Hausnummer 21, Gleisharfe\"";
+  geo:lat 48.13949075430508;
+  geo:long 11.418230201188667.
+
+odd:10387076 a schema:Playground;
+  rdfs:title "Spielplatz\"Angela-von-den-Driesch-Weg,West, Ecke Erna-Eckstein-Straße\"";
+  geo:lat 48.14841471687967;
+  geo:long 11.477318993054551.
+
+odd:10387080 a schema:Playground;
+  rdfs:title "Spielplatz\"Angela-von-den-Driesch-Weg,Ost\"";
+  geo:lat 48.150086156364;
+  geo:long 11.483332505664336.
+
+odd:10391234 a schema:Playground;
+  rdfs:title "Spielplatz \"Christel-Küpper-Platz, Eleonore-Romberg-Straße\"";
+  geo:lat 48.09648135433762;
+  geo:long 11.510612390994924.
+
+odd:10391236 a schema:Playground;
+  rdfs:title "Spielplatz \"St.-Wendel-Straße 25-27\"";
+  geo:lat 48.0921043688543;
+  geo:long 11.535909687456957.
+
+odd:10391238 a schema:Playground;
+  rdfs:title "Spielplatz \"St.-Wendelstraße, ggü. Koppstraße HsNr. 34-42\"";
+  geo:lat 48.09227994179959;
+  geo:long 11.534144256839195.
+
+odd:10391250 a schema:Playground;
+  rdfs:title "Spielplatz \"Bordeauxplatz\"";
+  geo:lat 48.13041415612335;
+  geo:long 11.60033485666581.
+
+odd:10391371 a schema:Playground;
+  rdfs:title "Spielplatz \"Schloßschmidstraße, bei Hausnummer 26\"";
+  geo:lat 48.1470031834755;
+  geo:long 11.518575299198.
+
+odd:10391373 a schema:Playground;
+  rdfs:title "Spielplatz \"Seidlhofstraße 7\"";
+  geo:lat 48.14722990512218;
+  geo:long 11.51912993239709.
+
+odd:10391379 a schema:Playground;
+  rdfs:title "Spielplatz \"Leonrodstraße 57, Kriegsarchivgarten\"";
+  geo:lat 48.15707182789558;
+  geo:long 11.542232486587498.
+
+odd:10396806 a schema:Playground;
+  rdfs:title "Spielplatz \"Wilhelm-Hausenstein-Weg, westl. Maria-Theresia-Straße 35, Königsbergerl\"";
+  geo:lat 48.14714038480019;
+  geo:long 11.600403785701015.
+
+odd:10396810 a schema:Playground;
+  rdfs:title "Spielplatz \"Bennigsenstraße, Ecke Friedrich-Eckart-Straße\"";
+  geo:lat 48.14144190774429;
+  geo:long 11.636785268776796.
+
+odd:10396812 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Münchfeld, Diamalt-Gelände\"";
+  geo:lat 48.19558050552027;
+  geo:long 11.463825702681985.
+
+odd:10396814 a schema:Playground;
+  rdfs:title "Spielplatz \"Hummelblumenstraße\"";
+  geo:lat 48.197078771993475;
+  geo:long 11.520935297020733.
+
+odd:10396816 a schema:Playground;
+  rdfs:title "Spielplatz \"Martha-Näbauer-Platz\"";
+  geo:lat 48.21068989207675;
+  geo:long 11.464952230469763.
+
+odd:10396818 a schema:Playground;
+  rdfs:title "Spielplatz \"Maria-Eich-Straße\"";
+  geo:lat 48.13547429422505;
+  geo:long 11.441000103970627.
+
+odd:10396822 a schema:Playground;
+  rdfs:title "Spielplatz \"Berthold-Hirsch-Straße 15, Grünanlage\"";
+  geo:lat 48.173269389810336;
+  geo:long 11.455639600772908.
+
+odd:10400736 a schema:Playground;
+  rdfs:title "Spielplatz \"Angela-von-den-Driesch-Weg West, Ecke Erna-Eckstein-Straße\"";
+  geo:lat 48.14840742249024;
+  geo:long 11.477462053313689.
+
+odd:10400740 a schema:Playground;
+  rdfs:title "Spielplatz \"Angela-von-den-Driesch-Weg Ost\"";
+  geo:lat 48.150214865619105;
+  geo:long 11.483132243169948.
+
+odd:10400742 a schema:Playground;
+  rdfs:title "Spielplatz \"Hofmannstraße, nördl. Hausnummer 64\"";
+  geo:lat 48.09401479118957;
+  geo:long 11.526149511344421.
+
+odd:10413739 a schema:Playground;
+  rdfs:title "Spielplatz „Gunta-Stölzl-Straße, südlich Hausnummer 7\"";
+  geo:lat 48.17965414028703;
+  geo:long 11.591259102163159.
+
+odd:10413742 a schema:Playground;
+  rdfs:title "Spielplatz \"Marianne-Brandt-Straße, südlich Hausnummer 19\"";
+  geo:lat 48.181003185665915;
+  geo:long 11.591326727788699.
+
+odd:10413745 a schema:Playground;
+  rdfs:title "Spielplatz \"Marianne-Brandt-Straße, südlich Hausnummer 29\"";
+  geo:lat 48.181400218309186;
+  geo:long 11.590420141141735.
+
+odd:1057927 a schema:Playground;
+  rdfs:title "Spielplatz \"Luitpoldpark, am Hochhaus ggü. Brunnerstr. 43\"";
+  geo:lat 48.17374063686121;
+  geo:long 11.568471289035708.
+
+odd:1057929 a schema:Playground;
+  rdfs:title "Spielplatz \"Luitpoldpark, Pumucklspielplatz ggü. Brunnerstr. 31\"";
+  geo:lat 48.171786926175294;
+  geo:long 11.567896078188946.
+
+odd:1057931 a schema:Playground;
+  rdfs:title "Spielplatz \"Luitpoldpark, Trinkbrunnen, ggü. Brunnerstr. 5\"";
+  geo:lat 48.168718831203925;
+  geo:long 11.56753193385707.
+
+odd:1057933 a schema:Playground;
+  rdfs:title "Spielplatz \"Wartburgplatz\"";
+  geo:lat 48.174158590853786;
+  geo:long 11.584293269411743.
+
+odd:1057935 a schema:Playground;
+  rdfs:title "Spielplatz \"Speyerer Str. ggü. Nr. 10\"";
+  geo:lat 48.167757848777754;
+  geo:long 11.580029418802486.
+
+odd:1057937 a schema:Playground;
+  rdfs:title "Spielplatz \"Bayernplatz\"";
+  geo:lat 48.16613853079908;
+  geo:long 11.567741804494796.
+
+odd:1057939 a schema:Playground;
+  rdfs:title "Spielplatz \"Olympiaberg, Martin-Luther-King-Weg\"";
+  geo:lat 48.17250724895332;
+  geo:long 11.558639751022378.
+
+odd:1057949 a schema:Playground;
+  rdfs:title "Spielplatz \"Tizianplatz\"";
+  geo:lat 48.15996780099888;
+  geo:long 11.51547766851089.
+
+odd:1057951 a schema:Playground;
+  rdfs:title "Spielplatz \"Winzererstr., Ecke Elisabethstr.\"";
+  geo:lat 48.16068164805083;
+  geo:long 11.561160634538632.
+
+odd:1057953 a schema:Playground;
+  rdfs:title "Spielplatz \"Degenfeldstraße\"";
+  geo:lat 48.16536785497619;
+  geo:long 11.575733598462161.
+
+odd:1057955 a schema:Playground;
+  rdfs:title "Spielplatz \"Pündterplatz\"";
+  geo:lat 48.162936567364135;
+  geo:long 11.577339854796092.
+
+odd:1057957 a schema:Playground;
+  rdfs:title "Spielplatz \"Kaiserplatz\"";
+  geo:lat 48.161885419587826;
+  geo:long 11.580090727120556.
+
+odd:1057959 a schema:Playground;
+  rdfs:title "Spielplatz \"Viktoriaplatz\"";
+  geo:lat 48.165083469569325;
+  geo:long 11.579110192890544.
+
+odd:1057961 a schema:Playground;
+  rdfs:title "Spielplatz \"Clemensstr., Ecke Bismarckstr.\"";
+  geo:lat 48.16357285160429;
+  geo:long 11.581649787426352.
+
+odd:1057963 a schema:Playground;
+  rdfs:title "Spielplatz \"Münchner Freiheit, nördl. U-Bahn\"";
+  geo:lat 48.163798576568524;
+  geo:long 11.586877242740284.
+
+odd:1057965 a schema:Playground;
+  rdfs:title "Spielplatz \"Biedersteiner Str., Gohrenwiese\"";
+  geo:lat 48.164041557321255;
+  geo:long 11.594510897117447.
+
+odd:1057967 a schema:Playground;
+  rdfs:title "Spielplatz \"Englischer Garten, Gunezrainer Brücke\"";
+  geo:lat 48.159143192850344;
+  geo:long 11.592815463618301.
+
+odd:1057971 a schema:Playground;
+  rdfs:title "Spielplatz \"Elisabethplatz\"";
+  geo:lat 48.15741468331612;
+  geo:long 11.574361490197854.
+
+odd:1057973 a schema:Playground;
+  rdfs:title "Spielplatz \"Kapschstr. Ecke Albrechtstr.\"";
+  geo:lat 48.153567400885166;
+  geo:long 11.542552730332208.
+
+odd:1057975 a schema:Playground;
+  rdfs:title "Spielplatz \"Leonrodstr. 49 und hinter den Häusern\"";
+  geo:lat 48.156745803361325;
+  geo:long 11.541234172713327.
+
+odd:1057977 a schema:Playground;
+  rdfs:title "Spielplatz \"Grünwaldpark, südl. vom Ende des Schlosskanals\"";
+  geo:lat 48.15848573942478;
+  geo:long 11.528919688998988.
+
+odd:1057979 a schema:Playground;
+  rdfs:title "Spielplatz \"Hirschgarten, Wasserspielplatz\"";
+  geo:lat 48.147800418977525;
+  geo:long 11.509262416143631.
+
+odd:1057981 a schema:Playground;
+  rdfs:title "Spielplatz \"Hirschgarten, Elefantenspielplatz und Hartplatz\"";
+  geo:lat 48.14715910126512;
+  geo:long 11.510719887708797.
+
+odd:1057987 a schema:Playground;
+  rdfs:title "Spielplatz \"Hirschgarten, Königbauerstr. 15\"";
+  geo:lat 48.149705517051636;
+  geo:long 11.517415329672804.
+
+odd:1057989 a schema:Playground;
+  rdfs:title "Spielplatz \"Winthirplatz\"";
+  geo:lat 48.15213198095689;
+  geo:long 11.527835382486991.
+
+odd:1057991 a schema:Playground;
+  rdfs:title "Spielplatz \"Schäringerplatz\"";
+  geo:lat 48.14904610194822;
+  geo:long 11.527554554449678.
+
+odd:1057997 a schema:Playground;
+  rdfs:title "Spielplatz \"Maßmannstraße, Ecke Schleißheimer Straße\"";
+  geo:lat 48.15250217977007;
+  geo:long 11.559980367636264.
+
+odd:1057999 a schema:Playground;
+  rdfs:title "Spielplatz \"Tengstraße, Alter nördlicher Friedhof\"";
+  geo:lat 48.15423407810853;
+  geo:long 11.568473357404294.
+
+odd:1058001 a schema:Playground;
+  rdfs:title "Spielplatz \"Leopoldpark, zw. Leopoldstr. und Friedrichstr.\"";
+  geo:lat 48.15634651274673;
+  geo:long 11.580364355199343.
+
+odd:1058003 a schema:Playground;
+  rdfs:title "Spielplatz \"Englischer Garten, südl. Kleinhesseloher See\"";
+  geo:lat 48.156795531842434;
+  geo:long 11.595253404328641.
+
+odd:1058005 a schema:Playground;
+  rdfs:title "Spielplatz \"Englischer Garten, Rumfordschlössel\"";
+  geo:lat 48.15400294069289;
+  geo:long 11.591391075514313.
+
+odd:1058007 a schema:Playground;
+  rdfs:title "Spielplatz \"Englischer Garten, Petersbergl\"";
+  geo:lat 48.152378924814066;
+  geo:long 11.589925558658818.
+
+odd:1058009 a schema:Playground;
+  rdfs:title "Spielplatz \"Luisenstraße 20, Königsplatz\"";
+  geo:lat 48.14731515354127;
+  geo:long 11.565279137495487.
+
+odd:1058011 a schema:Playground;
+  rdfs:title "Spielplatz \"Blutenburgstraße, gegenüber Hausnummer 42\"";
+  geo:lat 48.148393566449506;
+  geo:long 11.546428730929307.
+
+odd:1058013 a schema:Playground;
+  rdfs:title "Spielplatz \"Schrenkstr. 8, Westendstr.\"";
+  geo:lat 48.1386024146922;
+  geo:long 11.540293845128739.
+
+odd:1058015 a schema:Playground;
+  rdfs:title "Spielplatz \"Schwanthalerstr. 151, im Wohnbereich\"";
+  geo:lat 48.13723049539167;
+  geo:long 11.541313774004824.
+
+odd:1058017 a schema:Playground;
+  rdfs:title "Spielplatz \"Gollierplatz\"";
+  geo:lat 48.136298863128864;
+  geo:long 11.535504390643577.
+
+odd:1058019 a schema:Playground;
+  rdfs:title "Spielplatz \"Georg-Freundorfer-Platz\"";
+  geo:lat 48.13443475489911;
+  geo:long 11.539363660772526.
+
+odd:1058021 a schema:Playground;
+  rdfs:title "Spielplatz \"Schießstättstr. ggü. Nr. 22\"";
+  geo:lat 48.136249689275914;
+  geo:long 11.545715977053588.
+
+odd:1058023 a schema:Playground;
+  rdfs:title "Spielplatz \"Theresienhöhe, Zirkuswiese\"";
+  geo:lat 48.13713491099494;
+  geo:long 11.548986548934618.
+
+odd:1058025 a schema:Playground;
+  rdfs:title "Spielplatz \"Sophienstraße, Alter Botanischer Garten\"";
+  geo:lat 48.142325046833434;
+  geo:long 11.563224994957283.
+
+odd:1058027 a schema:Playground;
+  rdfs:title "Spielplatz \"Maximiliansanlagen, beim Wasserwerk\"";
+  geo:lat 48.13821182128693;
+  geo:long 11.59428406689009.
+
+odd:1058029 a schema:Playground;
+  rdfs:title "Spielplatz \"Englischer Garten, Veterinärstraße\"";
+  geo:lat 48.14948534428707;
+  geo:long 11.58554053219223.
+
+odd:1058031 a schema:Playground;
+  rdfs:title "Spielplatz \"Englischer Garten, Am Hirschanger\"";
+  geo:lat 48.14492855410273;
+  geo:long 11.588842590945731.
+
+odd:1058033 a schema:Playground;
+  rdfs:title "Spielplatz \"St.-Anna-Str. 17\"";
+  geo:lat 48.13980174299036;
+  geo:long 11.586169269166193.
+
+odd:1058035 a schema:Playground;
+  rdfs:title "Spielplatz \"Herzog-Wilhelm-Str., Kreuzstr., ggü. Nr. 22\"";
+  geo:lat 48.13492904771772;
+  geo:long 11.567076409680157.
+
+odd:1058037 a schema:Playground;
+  rdfs:title "Spielplatz \"Bavariaring, westlich der U-Bahn\"";
+  geo:lat 48.13545098962365;
+  geo:long 11.550734456532803.
+
+odd:1058039 a schema:Playground;
+  rdfs:title "Spielplatz \"Theresienwiese, am Hang, Anlieferstraße West\"";
+  geo:lat 48.135325141474965;
+  geo:long 11.548451522655927.
+
+odd:1058041 a schema:Playground;
+  rdfs:title "Spielplatz \"Heimeranstr. 10, östl. Feuerwehrhaus\"";
+  geo:lat 48.13416516793433;
+  geo:long 11.543934026946875.
+
+odd:1058043 a schema:Playground;
+  rdfs:title "Spielplatz \"Theresienhöhe, Am Bavariapark\"";
+  geo:lat 48.1307127079659;
+  geo:long 11.54192254698018.
+
+odd:1058047 a schema:Playground;
+  rdfs:title "Spielplatz \"Hochbrücken- / Herrnstr., Marienstr.\"";
+  geo:lat 48.13677038367856;
+  geo:long 11.58103423021393.
+
+odd:1058049 a schema:Playground;
+  rdfs:title "Spielplatz \"Mariannenplatz\"";
+  geo:lat 48.135091758165885;
+  geo:long 11.586878832088582.
+
+odd:1058055 a schema:Playground;
+  rdfs:title "Spielplatz \"Schneckenburgerstraße, Ecke Kuglerstraße\"";
+  geo:lat 48.137151992561726;
+  geo:long 11.60502771975932.
+
+odd:1058063 a schema:Playground;
+  rdfs:title "Spielplatz \"Kirchenstraße, Ecke Flurstraße\"";
+  geo:lat 48.13351996075372;
+  geo:long 11.608038098996413.
+
+odd:1058065 a schema:Playground;
+  rdfs:title "Spielplatz \"Elsässer Straße, Hypo-Park\"";
+  geo:lat 48.13244663771927;
+  geo:long 11.604499490894586.
+
+odd:1058067 a schema:Playground;
+  rdfs:title "Spielplatz \"Johannisplatz nördlich\"";
+  geo:lat 48.13412733303932;
+  geo:long 11.598991628170783.
+
+odd:1058069 a schema:Playground;
+  rdfs:title "Spielplatz \"Johannisplatz südlich\"";
+  geo:lat 48.133081504893454;
+  geo:long 11.598247405482654.
+
+odd:1058071 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Gasteig, beim Kircherl\"";
+  geo:lat 48.13357813128748;
+  geo:long 11.591149853335185.
+
+odd:1058073 a schema:Playground;
+  rdfs:title "Spielplatz \"Kellerstraße, gegenüber Holzhofstraße\"";
+  geo:lat 48.13104911047489;
+  geo:long 11.59315818185334.
+
+odd:1058077 a schema:Playground;
+  rdfs:title "Spielplatz \"Auf der Insel, hinter Vater Rhein Brunnen\"";
+  geo:lat 48.13330453383496;
+  geo:long 11.587564893726928.
+
+odd:1058079 a schema:Playground;
+  rdfs:title "Spielplatz \"Nußbaumstraße, Ecke Ziemssenstraße, Krankenhausanlage\"";
+  geo:lat 48.13262921175431;
+  geo:long 11.562971241085746.
+
+odd:1058081 a schema:Playground;
+  rdfs:title "Spielplatz \"Bavariaring, gegenüber Hausnummer 23\"";
+  geo:lat 48.1327714695742;
+  geo:long 11.55317606344559.
+
+odd:1058083 a schema:Playground;
+  rdfs:title "Spielplatz \"Bavariaring, mehrere Spielplätze entlang der Allee\"";
+  geo:lat 48.128575097486966;
+  geo:long 11.551775008128246.
+
+odd:1058085 a schema:Playground;
+  rdfs:title "Spielplatz \"Hans-Fischer-Straße, nördlich Bahnlinie\"";
+  geo:lat 48.12682297198624;
+  geo:long 11.54530197069234.
+
+odd:1058087 a schema:Playground;
+  rdfs:title "Spielplatz \"Alter Südlicher Friedhof, gegenüber Thalkirchner Straße 64\"";
+  geo:lat 48.1267773467145;
+  geo:long 11.563719346858738.
+
+odd:1058089 a schema:Playground;
+  rdfs:title "Spielplatz \"Fleischerstraße, Schmellerwiese\"";
+  geo:lat 48.12412239941273;
+  geo:long 11.553842010410527.
+
+odd:1058091 a schema:Playground;
+  rdfs:title "Spielplatz \"Thalkirchner Str. 92, am Arbeitsamt\"";
+  geo:lat 48.12466668278284;
+  geo:long 11.562084975208856.
+
+odd:1058093 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Glockenbach, Ecke Holzstraße\"";
+  geo:lat 48.1263958955616;
+  geo:long 11.567497285092276.
+
+odd:1058095 a schema:Playground;
+  rdfs:title "Spielplatz \"Corneliusstraße, Patentamt\"";
+  geo:lat 48.12999985778317;
+  geo:long 11.578980072729424.
+
+odd:1058097 a schema:Playground;
+  rdfs:title "Spielplatz \"Kegelhof Auer-Mühlbach\"";
+  geo:lat 48.127479848783636;
+  geo:long 11.585905416655187.
+
+odd:1058099 a schema:Playground;
+  rdfs:title "Spielplatz \"Lothringerstr., Postwiese\"";
+  geo:lat 48.12636965513868;
+  geo:long 11.600032544909816.
+
+odd:1058101 a schema:Playground;
+  rdfs:title "Spielplatz \"St.-Wolfgangs-Platz\"";
+  geo:lat 48.125638554873774;
+  geo:long 11.594141153208795.
+
+odd:1058105 a schema:Playground;
+  rdfs:title "Spielplatz \"Eduard-Schmid-Straße, links der Reichenbachbrücke, gegenüber Hausnummer 14\"";
+  geo:lat 48.12614419972017;
+  geo:long 11.577211506908448.
+
+odd:1058109 a schema:Playground;
+  rdfs:title "Spielplatz \"Kronepark, Am Nockherberg\"";
+  geo:lat 48.1202667612206;
+  geo:long 11.58083245436193.
+
+odd:1058113 a schema:Playground;
+  rdfs:title "Spielplatz \"Roecklplatz\"";
+  geo:lat 48.12094153685181;
+  geo:long 11.561592754889158.
+
+odd:1058117 a schema:Playground;
+  rdfs:title "Spielplatz \"Tassiloplatz\"";
+  geo:lat 48.122673037727395;
+  geo:long 11.594795790461422.
+
+odd:1058125 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Neudeck\"";
+  geo:lat 48.12383322202253;
+  geo:long 11.584712329284866.
+
+odd:1058127 a schema:Playground;
+  rdfs:title "Spielplatz \"Kolumbusplatz\"";
+  geo:lat 48.11969384898999;
+  geo:long 11.576646514434849.
+
+odd:1058131 a schema:Playground;
+  rdfs:title "Spielplatz \"Arnulfpark West\"";
+  geo:lat 48.14386772850839;
+  geo:long 11.539091252337778.
+
+odd:1058133 a schema:Playground;
+  rdfs:title "Spielplatz \"Arnulfpark Ost\"";
+  geo:lat 48.14343233356535;
+  geo:long 11.542669543801715.
+
+odd:1058145 a schema:Playground;
+  rdfs:title "Spielplatz \"Josephsplatz\"";
+  geo:lat 48.15563912410784;
+  geo:long 11.566633647659476.
+
+odd:1058147 a schema:Playground;
+  rdfs:title "Spielplatz \"Kölner Platz\"";
+  geo:lat 48.16981132126528;
+  geo:long 11.575939002192717.
+
+odd:1058153 a schema:Playground;
+  rdfs:title "Spielplatz \"Olympiaberg, Winzererstr., \"Dellerspielpatz\"\"";
+  geo:lat 48.171066093128594;
+  geo:long 11.558060529190456.
+
+odd:1058155 a schema:Playground;
+  rdfs:title "Spielplatz \"Petuelpark, Teil 1\"";
+  geo:lat 48.178167999141294;
+  geo:long 11.576448397376993.
+
+odd:1058157 a schema:Playground;
+  rdfs:title "Spielplatz \"Petuelpark, Teil 2\"";
+  geo:lat 48.17793719456026;
+  geo:long 11.577270538152934.
+
+odd:1058163 a schema:Playground;
+  rdfs:title "Spielplatz \"Reitmorstraße, Am Gries\"";
+  geo:lat 48.14317550758728;
+  geo:long 11.594097199925567.
+
+odd:1058167 a schema:Playground;
+  rdfs:title "Spielplatz \"Kazmairstr., Gießerweg\"";
+  geo:lat 48.134687494111496;
+  geo:long 11.532899019857005.
+
+odd:1058171 a schema:Playground;
+  rdfs:title "Spielplatz \"Feldmochinger See (Westufer) Nord\"";
+  geo:lat 48.21543688716253;
+  geo:long 11.513252213686403.
+
+odd:1058175 a schema:Playground;
+  rdfs:title "Spielplatz \"Herbergstraße\"";
+  geo:lat 48.21707640163995;
+  geo:long 11.537601083681597.
+
+odd:1058177 a schema:Playground;
+  rdfs:title "Spielplatz \"Heinrich-Braun-Weg, nördl. Kindergarten Nr. 15\"";
+  geo:lat 48.22304568665552;
+  geo:long 11.554103339593409.
+
+odd:1058179 a schema:Playground;
+  rdfs:title "Spielplatz \"Grohmannstraße, nördlich Hausnummer 22-30\"";
+  geo:lat 48.22075550052535;
+  geo:long 11.551456459751371.
+
+odd:1058185 a schema:Playground;
+  rdfs:title "Spielplatz \"Stösserstr. Ost, Spielbereich\"";
+  geo:lat 48.22097838130255;
+  geo:long 11.55792775121769.
+
+odd:1058189 a schema:Playground;
+  rdfs:title "Spielplatz \"Reschreiterstr., hinter Nr. 27\"";
+  geo:lat 48.21124783409233;
+  geo:long 11.557971026854213.
+
+odd:1058193 a schema:Playground;
+  rdfs:title "Spielplatz \"Toni-Pfülf-Straße\"";
+  geo:lat 48.202069524911444;
+  geo:long 11.533861540230866.
+
+odd:1058195 a schema:Playground;
+  rdfs:title "Spielplatz \"Weitlstr. südl. der Sportanlage\"";
+  geo:lat 48.20590226816485;
+  geo:long 11.547791981455884.
+
+odd:1058197 a schema:Playground;
+  rdfs:title "Spielplatz \"Gundermannstraße, Ecke Eduard-Spranger-Straße\"";
+  geo:lat 48.204435802490075;
+  geo:long 11.549943984865859.
+
+odd:1058203 a schema:Playground;
+  rdfs:title "Spielplatz \"Lieberweg\"";
+  geo:lat 48.203101289912304;
+  geo:long 11.572624277347877.
+
+odd:1058205 a schema:Playground;
+  rdfs:title "Spielplatz \"Bernaysstraße\"";
+  geo:lat 48.204247679415445;
+  geo:long 11.578655368418.
+
+odd:1058207 a schema:Playground;
+  rdfs:title "Spielplatz \"Spengelplatz\"";
+  geo:lat 48.20258014737789;
+  geo:long 11.582556954205003.
+
+odd:1058209 a schema:Playground;
+  rdfs:title "Spielplatz \"Hartweg, ggü. Nr. 16\"";
+  geo:lat 48.20221867265451;
+  geo:long 11.594654088319668.
+
+odd:1058211 a schema:Playground;
+  rdfs:title "Spielplatz \"Heidepark, Keilberthstr. nördl. der Schule\"";
+  geo:lat 48.205772539744615;
+  geo:long 11.602832955707202.
+
+odd:1058215 a schema:Playground;
+  rdfs:title "Spielplatz \"Heidepark Zentrum, Carl-Orff-Bogen nördl. Nr. 105\"";
+  geo:lat 48.20445969544916;
+  geo:long 11.60288345014019.
+
+odd:1058221 a schema:Playground;
+  rdfs:title "Spielplatz \"Paul-Hindemith-Allee\"";
+  geo:lat 48.20158388004018;
+  geo:long 11.606093952644455.
+
+odd:1058227 a schema:Playground;
+  rdfs:title "Spielplatz \"Sondermeierst. östl., am Schwabinger Bach\"";
+  geo:lat 48.190368746828234;
+  geo:long 11.624794356354878.
+
+odd:1058229 a schema:Playground;
+  rdfs:title "Spielplatz \"Grohplatz\"";
+  geo:lat 48.189229264409654;
+  geo:long 11.617405411532546.
+
+odd:1058231 a schema:Playground;
+  rdfs:title "Spielplatz \"Kollwitzstr., ggü. Nr. 31\"";
+  geo:lat 48.197569343615335;
+  geo:long 11.589632857761218.
+
+odd:1058233 a schema:Playground;
+  rdfs:title "Spielplatz \"Mettenleiterplatz\"";
+  geo:lat 48.195562739362266;
+  geo:long 11.586810652772641.
+
+odd:1058239 a schema:Playground;
+  rdfs:title "Spielplatz \"Aussiger Platz Mitte\"";
+  geo:lat 48.19866198476854;
+  geo:long 11.575970345385713.
+
+odd:1058241 a schema:Playground;
+  rdfs:title "Spielplatz \"Buhlstraße\"";
+  geo:lat 48.194675597892704;
+  geo:long 11.5753306413736.
+
+odd:1058243 a schema:Playground;
+  rdfs:title "Spielplatz \"Eberwurzstr., südl. Sportanlage, Bolzplatz \"";
+  geo:lat 48.19692880135353;
+  geo:long 11.555188501116085.
+
+odd:1058249 a schema:Playground;
+  rdfs:title "Spielplatz \"Lerchenauer See (Südufer)\"";
+  geo:lat 48.194497146875484;
+  geo:long 11.536082287874422.
+
+odd:1058251 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Schnepfenweg, westlich der Schule\"";
+  geo:lat 48.20048888128812;
+  geo:long 11.521243955921785.
+
+odd:1058253 a schema:Playground;
+  rdfs:title "Spielplatz \"Spiegelbergstraße\"";
+  geo:lat 48.20128594659608;
+  geo:long 11.465327013566451.
+
+odd:1058255 a schema:Playground;
+  rdfs:title "Spielplatz \"Von-Reuter-Str., Ecke Angerlohstr.\"";
+  geo:lat 48.18961859564805;
+  geo:long 11.474432635406648.
+
+odd:1058259 a schema:Playground;
+  rdfs:title "Spielplatz \"Servetstraße, Ecke Kleselstraße\"";
+  geo:lat 48.19860659289219;
+  geo:long 11.4558711803226.
+
+odd:1058261 a schema:Playground;
+  rdfs:title "Spielplatz \"Paul-Ehrlich-Weg, Ecke Servetstr.\"";
+  geo:lat 48.195338146489135;
+  geo:long 11.456954941340566.
+
+odd:1058265 a schema:Playground;
+  rdfs:title "Spielplatz \"Gleichplatz\"";
+  geo:lat 48.18941350986417;
+  geo:long 11.451677965902558.
+
+odd:1058269 a schema:Playground;
+  rdfs:title "Spielplatz \"Karl-Rahner-Str.\"";
+  geo:lat 48.177711624610446;
+  geo:long 11.462788461645108.
+
+odd:1058273 a schema:Playground;
+  rdfs:title "Spielplatz \"Rueßstr., Angerlohe\"";
+  geo:lat 48.18607616233772;
+  geo:long 11.482578405724148.
+
+odd:1058275 a schema:Playground;
+  rdfs:title "Spielplatz \"Manzostr. 105\"";
+  geo:lat 48.18387687193617;
+  geo:long 11.487509096818627.
+
+odd:1058277 a schema:Playground;
+  rdfs:title "Spielplatz \"Hitlstraße (Nordteil)\"";
+  geo:lat 48.182761926888446;
+  geo:long 11.481535891567201.
+
+odd:1058283 a schema:Playground;
+  rdfs:title "Spielplatz \"Leidingerplatz\"";
+  geo:lat 48.17374027976202;
+  geo:long 11.509969888871659.
+
+odd:1058285 a schema:Playground;
+  rdfs:title "Spielplatz \"Simmerleinplatz\"";
+  geo:lat 48.17441751393897;
+  geo:long 11.506400335813796.
+
+odd:1058287 a schema:Playground;
+  rdfs:title "Spielplatz \"Karl-Lipp-Str.\"";
+  geo:lat 48.178144028140046;
+  geo:long 11.509269089662602.
+
+odd:1058289 a schema:Playground;
+  rdfs:title "Spielplatz \"Glogauer Platz\"";
+  geo:lat 48.18186646943851;
+  geo:long 11.498650313025944.
+
+odd:1058291 a schema:Playground;
+  rdfs:title "Spielplatz \"Ohlauer Str., Spielbereich\"";
+  geo:lat 48.1850782430138;
+  geo:long 11.500985962719776.
+
+odd:1058297 a schema:Playground;
+  rdfs:title "Spielplatz \"Günzburger Platz\"";
+  geo:lat 48.18572443065093;
+  geo:long 11.506937449546687.
+
+odd:1058299 a schema:Playground;
+  rdfs:title "Spielplatz \"Merseburger Str., an der Görlitzer Str., nördl. Nr. 59\"";
+  geo:lat 48.18613000330291;
+  geo:long 11.513483107624973.
+
+odd:1058301 a schema:Playground;
+  rdfs:title "Spielplatz \"Naumburger Str.\"";
+  geo:lat 48.184415585076955;
+  geo:long 11.51426586517053.
+
+odd:1058303 a schema:Playground;
+  rdfs:title "Spielplatz \"Nanga-Parbat-Str.\"";
+  geo:lat 48.17655624050254;
+  geo:long 11.514461028996857.
+
+odd:1058309 a schema:Playground;
+  rdfs:title "Spielplatz \"Amphionpark, Templestr., Spielbereich\"";
+  geo:lat 48.17464537310918;
+  geo:long 11.51677745331069.
+
+odd:1058313 a schema:Playground;
+  rdfs:title "Spielplatz \"Mettenanlage, Kleinkinderspielplatz\"";
+  geo:lat 48.16791917251431;
+  geo:long 11.511517558773516.
+
+odd:1058317 a schema:Playground;
+  rdfs:title "Spielplatz \"Mettenanlage, großer Spielplatz\"";
+  geo:lat 48.16806186174531;
+  geo:long 11.511233880853743.
+
+odd:1058319 a schema:Playground;
+  rdfs:title "Spielplatz \"Homerstraße\"";
+  geo:lat 48.16909471228862;
+  geo:long 11.530341869107515.
+
+odd:1058323 a schema:Playground;
+  rdfs:title "Spielplatz \"Hengelerstr. Ost\"";
+  geo:lat 48.17115468936153;
+  geo:long 11.537126169044553.
+
+odd:1058327 a schema:Playground;
+  rdfs:title "Spielplatz \"Seydlitzplatz\"";
+  geo:lat 48.17907929093645;
+  geo:long 11.52425347779887.
+
+odd:1058329 a schema:Playground;
+  rdfs:title "Spielplatz \"Claudiusplatz Süd\"";
+  geo:lat 48.18054092822739;
+  geo:long 11.52539643810297.
+
+odd:1058333 a schema:Playground;
+  rdfs:title "Spielplatz \"Bingener Str., Ecke Feldmochinger Str.\"";
+  geo:lat 48.182610986345516;
+  geo:long 11.52143713968195.
+
+odd:1058335 a schema:Playground;
+  rdfs:title "Spielplatz \"Dresdner Str., bei Nr. 94\"";
+  geo:lat 48.18644602669293;
+  geo:long 11.515914359778451.
+
+odd:1058339 a schema:Playground;
+  rdfs:title "Spielplatz \"Merseburger Str.(Spielbereich West)\"";
+  geo:lat 48.18751567996731;
+  geo:long 11.51578325740577.
+
+odd:1058347 a schema:Playground;
+  rdfs:title "Spielplatz \"Pelkovenstr., Ecke Oskar-Barnack-Str.\"";
+  geo:lat 48.18140086221302;
+  geo:long 11.531144046145487.
+
+odd:1058351 a schema:Playground;
+  rdfs:title "Spielplatz \"Motorstraße 43\"";
+  geo:lat 48.18756941397742;
+  geo:long 11.56292193335438.
+
+odd:1058353 a schema:Playground;
+  rdfs:title "Spielplatz \"Milbertshofener Platz, östl. der Kirche\"";
+  geo:lat 48.18430557501684;
+  geo:long 11.565491365627432.
+
+odd:1058357 a schema:Playground;
+  rdfs:title "Spielplatz \"Korbinianplatz West\"";
+  geo:lat 48.185624921920294;
+  geo:long 11.569568607632707.
+
+odd:1058365 a schema:Playground;
+  rdfs:title "Spielplatz \"Christoph-von-Gluck-Platz (Nord)\"";
+  geo:lat 48.183505905106514;
+  geo:long 11.575328642885143.
+
+odd:1058369 a schema:Playground;
+  rdfs:title "Spielplatz \"Milbertshofener Str.\"";
+  geo:lat 48.18368896478256;
+  geo:long 11.581109816633033.
+
+odd:1058371 a schema:Playground;
+  rdfs:title "Spielplatz \"Dr.-Schweninger-Str.\"";
+  geo:lat 48.179128900971506;
+  geo:long 11.580985548997102.
+
+odd:1058375 a schema:Playground;
+  rdfs:title "Spielplatz \"Marchgrabenplatz\"";
+  geo:lat 48.18039991912885;
+  geo:long 11.599505501801127.
+
+odd:1058379 a schema:Playground;
+  rdfs:title "Spielplatz \"Rohmederstraße Süd\"";
+  geo:lat 48.1786589264957;
+  geo:long 11.610115590287041.
+
+odd:1058381 a schema:Playground;
+  rdfs:title "Spielplatz \"Brabanter Str., ggü.Nr. 13\"";
+  geo:lat 48.17024265699881;
+  geo:long 11.59841479519004.
+
+odd:1058383 a schema:Playground;
+  rdfs:title "Spielplatz \"Johann-Fichte-Str., Ecke Germaniastr.\"";
+  geo:lat 48.16937972849502;
+  geo:long 11.588351698608507.
+
+odd:1058385 a schema:Playground;
+  rdfs:title "Spielplatz \"Berliner Str.\"";
+  geo:lat 48.17385491004467;
+  geo:long 11.587374746435941.
+
+odd:1058387 a schema:Playground;
+  rdfs:title "Spielplatz \"Berliner See, Traubestr. westl. Nr. 5a\"";
+  geo:lat 48.17162992464384;
+  geo:long 11.591399164007022.
+
+odd:1058391 a schema:Playground;
+  rdfs:title "Spielplatz \"Lauterbachstraße\"";
+  geo:lat 48.179619088784094;
+  geo:long 11.565235078817414.
+
+odd:1058393 a schema:Playground;
+  rdfs:title "Spielplatz \"Hanselmannstraße\"";
+  geo:lat 48.1819034715205;
+  geo:long 11.5652561325281.
+
+odd:1058399 a schema:Playground;
+  rdfs:title "Spielplatz \"Franz-Albert-Str., an der Stieglstr.\"";
+  geo:lat 48.1903452235528;
+  geo:long 11.454707708224644.
+
+odd:1058405 a schema:Playground;
+  rdfs:title "Spielplatz \"In den Kirschen, Rodelhang\"";
+  geo:lat 48.16794479153234;
+  geo:long 11.509083952056685.
+
+odd:1058407 a schema:Playground;
+  rdfs:title "Spielplatz \"Sickingerstraße\"";
+  geo:lat 48.17132751336094;
+  geo:long 11.50308217787961.
+
+odd:1058409 a schema:Playground;
+  rdfs:title "Spielplatz \"Fasaneriesee (Nordostufer)\"";
+  geo:lat 48.20618776699976;
+  geo:long 11.532219056369154.
+
+odd:1058411 a schema:Playground;
+  rdfs:title "Spielplatz \"Granatstraße\"";
+  geo:lat 48.21627947238589;
+  geo:long 11.49150577462965.
+
+odd:1058413 a schema:Playground;
+  rdfs:title "Spielplatz \"Krempelhuberplatz Süd\"";
+  geo:lat 48.19482333022399;
+  geo:long 11.545710279406.
+
+odd:1058421 a schema:Playground;
+  rdfs:title "Spielplatz \"Goldschmiedplatz    \"";
+  geo:lat 48.21966341556372;
+  geo:long 11.562124347288309.
+
+odd:1058425 a schema:Playground;
+  rdfs:title "Spielplatz \"Nordheide Ost\"";
+  geo:lat 48.21256781676217;
+  geo:long 11.581493638065423.
+
+odd:1058427 a schema:Playground;
+  rdfs:title "Spielplatz \"Nordheide West, Dinosaurierspielplatz\"";
+  geo:lat 48.21485160413232;
+  geo:long 11.564385602398804.
+
+odd:1058429 a schema:Playground;
+  rdfs:title "Spielplatz \"Nordheide West, Steinspielplatz\"";
+  geo:lat 48.211683549128736;
+  geo:long 11.570924864235844.
+
+odd:1058431 a schema:Playground;
+  rdfs:title "Spielplatz \"Nordheide West, zw. Felsennelken- und Golddistelanger\"";
+  geo:lat 48.21029373941226;
+  geo:long 11.564841311882216.
+
+odd:1058455 a schema:Playground;
+  rdfs:title "Spielplatz \"Berliner Str., am See\"";
+  geo:lat 48.17286543135276;
+  geo:long 11.587315446769821.
+
+odd:1058463 a schema:Playground;
+  rdfs:title "Spielplatz \"In den Kirschen         \"";
+  geo:lat 48.16929828306479;
+  geo:long 11.501757322356198.
+
+odd:1058471 a schema:Playground;
+  rdfs:title "Spielplatz \"Isarinsel im nördlichen Teil, St.-Emmeram-Brücke\"";
+  geo:lat 48.17767434675206;
+  geo:long 11.626070132018901.
+
+odd:1058475 a schema:Playground;
+  rdfs:title "Spielplatz \"Flensburger Str., westl. Nr. 54\"";
+  geo:lat 48.16821034590825;
+  geo:long 11.656871902779157.
+
+odd:1058481 a schema:Playground;
+  rdfs:title "Spielplatz \"Fideliopark, östl. Fideliostr. Nr. 153 (Freizeitheim)\"";
+  geo:lat 48.163709986678285;
+  geo:long 11.643808513444263.
+
+odd:1058497 a schema:Playground;
+  rdfs:title "Spielplatz \"Tannhäuserplatz\"";
+  geo:lat 48.158359155754916;
+  geo:long 11.635256390519741.
+
+odd:1058501 a schema:Playground;
+  rdfs:title "Spielplatz \"Thomas-Mann-Allee\"";
+  geo:lat 48.15452640255087;
+  geo:long 11.604800519965243.
+
+odd:1058503 a schema:Playground;
+  rdfs:title "Spielplatz \"Beckmesserstraße\"";
+  geo:lat 48.156649531244106;
+  geo:long 11.632150170172357.
+
+odd:1058507 a schema:Playground;
+  rdfs:title "Spielplatz \"Tucheler-Heide-Str., neben Nr. 18\"";
+  geo:lat 48.15009368321737;
+  geo:long 11.635072958167807.
+
+odd:1058509 a schema:Playground;
+  rdfs:title "Spielplatz \"Pachmayrplatz\"";
+  geo:lat 48.15006577273485;
+  geo:long 11.631955237110764.
+
+odd:1058513 a schema:Playground;
+  rdfs:title "Spielplatz \"Regensburger Platz\"";
+  geo:lat 48.14702292137363;
+  geo:long 11.614520329619554.
+
+odd:1058515 a schema:Playground;
+  rdfs:title "Spielplatz \"Soldnerweg, Ecke Donaustraße\"";
+  geo:lat 48.147650020125816;
+  geo:long 11.60846823642466.
+
+odd:1058517 a schema:Playground;
+  rdfs:title "Spielplatz \"Böhmerwaldplatz\"";
+  geo:lat 48.14366820870094;
+  geo:long 11.614464782177423.
+
+odd:1058519 a schema:Playground;
+  rdfs:title "Spielplatz \"Shakespeareplatz\"";
+  geo:lat 48.142862972101206;
+  geo:long 11.60771177622428.
+
+odd:1058521 a schema:Playground;
+  rdfs:title "Spielplatz \"Zur Deutschen Einheit\"";
+  geo:lat 48.152080174647175;
+  geo:long 11.643351272271916.
+
+odd:1058523 a schema:Playground;
+  rdfs:title "Spielplatz \"Trakehner Platz\"";
+  geo:lat 48.14938222520241;
+  geo:long 11.64336993365786.
+
+odd:1058525 a schema:Playground;
+  rdfs:title "Spielplatz \"Schichtlstraße West, Höhe Seiffertstr. 76\"";
+  geo:lat 48.14821209366105;
+  geo:long 11.660902244315631.
+
+odd:1058529 a schema:Playground;
+  rdfs:title "Spielplatz \"Martin-Empl-Ring, nördl. der Kirche\"";
+  geo:lat 48.14008787163118;
+  geo:long 11.681836275301805.
+
+odd:1058531 a schema:Playground;
+  rdfs:title "Spielplatz \"Denninger Anger Ost, Leutweinstraße Ecke Bernatzikstraße\"";
+  geo:lat 48.144143695929046;
+  geo:long 11.641954882333941.
+
+odd:1058533 a schema:Playground;
+  rdfs:title "Spielplatz \"Denninger Anger Ost, östl. Lüderitzstraße Nr. 26";
+  geo:lat 48.14317209708282;
+  geo:long 11.644756628191832.
+
+odd:1058537 a schema:Playground;
+  rdfs:title "Spielplatz \"Denninger Anger Ost, Walter-Meckauer-Weg\"";
+  geo:lat 48.14387640569541;
+  geo:long 11.648608392866528.
+
+odd:1058543 a schema:Playground;
+  rdfs:title "Spielplatz \"Stuntzstr.\"";
+  geo:lat 48.13973127535514;
+  geo:long 11.623268318990508.
+
+odd:1058547 a schema:Playground;
+  rdfs:title "Spielplatz \"Josef-Ritz-Weg\"";
+  geo:lat 48.131003388917236;
+  geo:long 11.635906589017793.
+
+odd:1058549 a schema:Playground;
+  rdfs:title "Spielplatz \"Virgilstraße\"";
+  geo:lat 48.12779043842484;
+  geo:long 11.635176984666682.
+
+odd:1058551 a schema:Playground;
+  rdfs:title "Spielplatz \"Schüleinplatz\"";
+  geo:lat 48.12798252204494;
+  geo:long 11.641932697614793.
+
+odd:1058557 a schema:Playground;
+  rdfs:title "Spielplatz \"Maria-Eck-Platz\"";
+  geo:lat 48.123415647372994;
+  geo:long 11.651299865777363.
+
+odd:1058559 a schema:Playground;
+  rdfs:title "Spielplatz \"Damaschkestr., Ecke St.-Augustiunus-Str.\"";
+  geo:lat 48.118404767126215;
+  geo:long 11.653764733737372.
+
+odd:1058567 a schema:Playground;
+  rdfs:title "Spielplatz \"Echardinger Anger, Berg-am-Laim-Straße\"";
+  geo:lat 48.12910656714208;
+  geo:long 11.62494453040954.
+
+odd:1058573 a schema:Playground;
+  rdfs:title "Spielplatz \"Echardinger Anger, zwischen Fehwiesenstraße und Joseph-Hörwick-Weg\"";
+  geo:lat 48.12323634160298;
+  geo:long 11.62294548468964.
+
+odd:1058581 a schema:Playground;
+  rdfs:title "Spielplatz \"Rupertigaustr. Süd\"";
+  geo:lat 48.11890086289219;
+  geo:long 11.617295770495017.
+
+odd:1058583 a schema:Playground;
+  rdfs:title "Spielplatz \"Kustermannpark, Rosenheimer Str. 120\"";
+  geo:lat 48.12341681967667;
+  geo:long 11.601761342914777.
+
+odd:1058585 a schema:Playground;
+  rdfs:title "Spielplatz \"Kaiserslauterner Platz, im nördl. Teil\"";
+  geo:lat 48.118191645155406;
+  geo:long 11.599169188593644.
+
+odd:1058587 a schema:Playground;
+  rdfs:title "Spielplatz \"Spitzingplatz\"";
+  geo:lat 48.11610834443869;
+  geo:long 11.592389558981385.
+
+odd:1058589 a schema:Playground;
+  rdfs:title "Spielplatz \"Sankt-Martins-Platz, im westl. Teil\"";
+  geo:lat 48.11696340954787;
+  geo:long 11.587534331791174.
+
+odd:1058593 a schema:Playground;
+  rdfs:title "Spielplatz \"Kistlerstr., Ecke Silberhornstr.\"";
+  geo:lat 48.115336661739256;
+  geo:long 11.577904410265418.
+
+odd:1058597 a schema:Playground;
+  rdfs:title "Spielplatz \"Walchenseeplatz\"";
+  geo:lat 48.11258658713271;
+  geo:long 11.583365862508728.
+
+odd:1058603 a schema:Playground;
+  rdfs:title "Spielplatz \"Grünstädter Platz\"";
+  geo:lat 48.111749836681504;
+  geo:long 11.601032168276221.
+
+odd:1058607 a schema:Playground;
+  rdfs:title "Spielplatz \"Weißenseestr., Freizeitpark West\"";
+  geo:lat 48.10766734576411;
+  geo:long 11.585903219179821.
+
+odd:1058615 a schema:Playground;
+  rdfs:title "Spielplatz \"Hohenschwangauplatz, Scharfreiterplatz\"";
+  geo:lat 48.10356732602448;
+  geo:long 11.593750724214818.
+
+odd:1058623 a schema:Playground;
+  rdfs:title "Spielplatz \"ehem. Gartenschaugelände, Ecke Wilramstr. - Rosenheimer Str.\"";
+  geo:lat 48.11515142890319;
+  geo:long 11.612166373012505.
+
+odd:1058625 a schema:Playground;
+  rdfs:title "Spielplatz \"Kirchseeoner Str., Ecke Aribonenstraße\"";
+  geo:lat 48.11535924063739;
+  geo:long 11.615132897713888.
+
+odd:1058627 a schema:Playground;
+  rdfs:title "Spielplatz \"Normannenplatz, südl. Muspelheimstraße\"";
+  geo:lat 48.15526034662528;
+  geo:long 11.61978123346125.
+
+odd:1058629 a schema:Playground;
+  rdfs:title "Spielplatz \"Redlingerplatz\"";
+  geo:lat 48.11620188802302;
+  geo:long 11.627979576654301.
+
+odd:1058631 a schema:Playground;
+  rdfs:title "Spielplatz \"Thierseestr., ggü. Nr.27, Wendehammer Süd\"";
+  geo:lat 48.11248015824905;
+  geo:long 11.620190426157283.
+
+odd:1058633 a schema:Playground;
+  rdfs:title "Spielplatz \"Sonnenhof, über Bernauer Str.\"";
+  geo:lat 48.11267145165578;
+  geo:long 11.610157142527356.
+
+odd:1058635 a schema:Playground;
+  rdfs:title "Spielplatz \"Kagerstr., ggü. Nr. 2\"";
+  geo:lat 48.11032661575535;
+  geo:long 11.605595579570123.
+
+odd:1058643 a schema:Playground;
+  rdfs:title "Spielplatz \"Adam-Berg-Str., neben Nr. 210\"";
+  geo:lat 48.10669933987199;
+  geo:long 11.623522808795219.
+
+odd:1058657 a schema:Playground;
+  rdfs:title "Spielplatz \"Wildalpjochstraße\"";
+  geo:lat 48.11619117294193;
+  geo:long 11.644512558770117.
+
+odd:1058661 a schema:Playground;
+  rdfs:title "Spielplatz \"Unnützstraße, Ecke Bajuwarenstr.\"";
+  geo:lat 48.11600029900013;
+  geo:long 11.65269299607531.
+
+odd:1058663 a schema:Playground;
+  rdfs:title "Spielplatz \"Feldbergstr., nördlich Haus-Nr. 49\"";
+  geo:lat 48.11409366305001;
+  geo:long 11.66481960699229.
+
+odd:1058665 a schema:Playground;
+  rdfs:title "Spielplatz \"Corinthstr., südlich Gedenkkapelle\"";
+  geo:lat 48.11148741402747;
+  geo:long 11.650319518192713.
+
+odd:1058669 a schema:Playground;
+  rdfs:title "Spielplatz \"Hugo-Lang-Bogen, Höhe Kneippstraße\"";
+  geo:lat 48.10614686199304;
+  geo:long 11.66289728960271.
+
+odd:1058671 a schema:Playground;
+  rdfs:title "Spielplatz \"Friedenspromenade, Ecke Solalindenstraße\"";
+  geo:lat 48.11476277573704;
+  geo:long 11.678701975727547.
+
+odd:1058673 a schema:Playground;
+  rdfs:title "Spielplatz \"Friedenspromenade, Ecke Florastraße\"";
+  geo:lat 48.11739098429127;
+  geo:long 11.682714852898464.
+
+odd:1058681 a schema:Playground;
+  rdfs:title "Spielplatz \"Graf-Spee-Platz\"";
+  geo:lat 48.10892806189484;
+  geo:long 11.699431696606984.
+
+odd:1058683 a schema:Playground;
+  rdfs:title "Spielplatz \"In der Heuluss, Ecke Tsingtauer Str,\"";
+  geo:lat 48.105851418875716;
+  geo:long 11.702551411096167.
+
+odd:1058689 a schema:Playground;
+  rdfs:title "Spielplatz \"Adenauerring, Quiddestr.\"";
+  geo:lat 48.10279469648379;
+  geo:long 11.637058814106709.
+
+odd:1058691 a schema:Playground;
+  rdfs:title "Spielplatz \"Dellauer Weg, ggü. Nr. 81\"";
+  geo:lat 48.10544913305393;
+  geo:long 11.618026578768324.
+
+odd:1058693 a schema:Playground;
+  rdfs:title "Spielplatz \"Freizeitanlage Ständlerstraße Süd, östl. Görzerstraße 78, Ecke Freizeitpark Görzerstraße\"";
+  geo:lat 48.10493884749781;
+  geo:long 11.610672062176603.
+
+odd:1058695 a schema:Playground;
+  rdfs:title "Spielplatz \"Theodor-Heuss-Platz\"";
+  geo:lat 48.10189101908298;
+  geo:long 11.641415428561327.
+
+odd:1058697 a schema:Playground;
+  rdfs:title "Spielplatz \"Annette-Kolb-Anger, westl.\"";
+  geo:lat 48.101183043316986;
+  geo:long 11.656995147598728.
+
+odd:1058699 a schema:Playground;
+  rdfs:title "Spielplatz \"Mathias-Schmid-Weg, Ecke Langkostr.\"";
+  geo:lat 48.09598611764119;
+  geo:long 11.634045705579709.
+
+odd:1058701 a schema:Playground;
+  rdfs:title "Spielplatz \"Alfred-Pongratz-Weg, ggü. Nr.6\"";
+  geo:lat 48.095709081317835;
+  geo:long 11.63744422650147.
+
+odd:1058705 a schema:Playground;
+  rdfs:title "Spielplatz \"Kasperlmühlstr., ggü. Naus-Nr. 14\"";
+  geo:lat 48.094221107406476;
+  geo:long 11.647724597715236.
+
+odd:1058717 a schema:Playground;
+  rdfs:title "Spielplatz \"Echopark Süd-Ost, Max-Reinhard-Weg\"";
+  geo:lat 48.093321771240184;
+  geo:long 11.639018223219345.
+
+odd:1058723 a schema:Playground;
+  rdfs:title "Spielplatz \"Kosegartenplatz\"";
+  geo:lat 48.08687928462618;
+  geo:long 11.670969298286785.
+
+odd:1058725 a schema:Playground;
+  rdfs:title "Spielplatz \"Waldheimplatz, Höhe Salzmannstr.\"";
+  geo:lat 48.08269403061457;
+  geo:long 11.672968934761027.
+
+odd:1058727 a schema:Playground;
+  rdfs:title "Spielplatz \"Waldheimplatz, Höhe Rübezahlstr.\"";
+  geo:lat 48.081955511968296;
+  geo:long 11.672597803531204.
+
+odd:1058729 a schema:Playground;
+  rdfs:title "Spielplatz \"Bennigsenstr., Friedrich-Eckart-Str.\"";
+  geo:lat 48.17742909841222;
+  geo:long 11.636546700807841.
+
+odd:1058731 a schema:Playground;
+  rdfs:title "Spielplatz \"Schichtlstraße Ost, Riemer Feld\"";
+  geo:lat 48.14752887443433;
+  geo:long 11.664064816514024.
+
+odd:1058733 a schema:Playground;
+  rdfs:title "Spielplatz \"Säntisstraße 38-55\"";
+  geo:lat 48.11520337982466;
+  geo:long 11.65385335488239.
+
+odd:1058743 a schema:Playground;
+  rdfs:title "Spielplatz \"Riem Messestadt, Achse 13\"";
+  geo:lat 48.1307063799463;
+  geo:long 11.701467808804727.
+
+odd:1058747 a schema:Playground;
+  rdfs:title "Spielplatz \"Riemer Park Geländespielplatz\"";
+  geo:lat 48.127401734519076;
+  geo:long 11.689719278797758.
+
+odd:1058757 a schema:Playground;
+  rdfs:title "Spielplatz \"Michaelianger, Rahel-Straus-Weg\"";
+  geo:lat 48.12268413128058;
+  geo:long 11.635790664927734.
+
+odd:1058759 a schema:Playground;
+  rdfs:title "Spielplatz \"Michaelianger, Echardinger Straße\"";
+  geo:lat 48.12453492946306;
+  geo:long 11.626791165103342.
+
+odd:1058761 a schema:Playground;
+  rdfs:title "Spielplatz \"Michaelianger, Gögginger Straße\"";
+  geo:lat 48.12270700548784;
+  geo:long 11.628872937936828.
+
+odd:1058763 a schema:Playground;
+  rdfs:title "Spielplatz \"Burgauerstraße\"";
+  geo:lat 48.14538728448589;
+  geo:long 11.657561297622653.
+
+odd:1058765 a schema:Playground;
+  rdfs:title "Spielplatz \"Im Gefilde 1\"";
+  geo:lat 48.08375352737986;
+  geo:long 11.656922922646256.
+
+odd:1058767 a schema:Playground;
+  rdfs:title "Spielplatz \"Im Gefilde 2\"";
+  geo:lat 48.08602334831857;
+  geo:long 11.658089044816403.
+
+odd:1058771 a schema:Playground;
+  rdfs:title "Spielplatz \"Im Gefilde 4\"";
+  geo:lat 48.08743601051106;
+  geo:long 11.658321312378387.
+
+odd:1058779 a schema:Playground;
+  rdfs:title "Spielplatz \"Rudolf-Gütlein-Weg\"";
+  geo:lat 48.0830227221894;
+  geo:long 11.662215973101517.
+
+odd:1058781 a schema:Playground;
+  rdfs:title "Spielplatz \"Truchthari-Anger I\"";
+  geo:lat 48.12852026509797;
+  geo:long 11.674639972057907.
+
+odd:1058785 a schema:Playground;
+  rdfs:title "Spielplatz \"Theodor-Kober-Str.\"";
+  geo:lat 48.14290809533255;
+  geo:long 11.680502013629836.
+
+odd:1058787 a schema:Playground;
+  rdfs:title "Spielplatz \"Putzbrunnerstr., südlich Lorenz-Hagen-Weg\"";
+  geo:lat 48.10075112418703;
+  geo:long 11.633568872311763.
+
+odd:1058789 a schema:Playground;
+  rdfs:title "Spielplatz \"Memeler Str.\"";
+  geo:lat 48.1521774086485;
+  geo:long 11.634211498356079.
+
+odd:1058791 a schema:Playground;
+  rdfs:title "Spielplatz \"Tirschenreuther Straße\"";
+  geo:lat 48.09314222112407;
+  geo:long 11.60895180012795.
+
+odd:1058793 a schema:Playground;
+  rdfs:title "Spielplatz \"Schmidbauerstr.\"";
+  geo:lat 48.104084902177085;
+  geo:long 11.627100107654313.
+
+odd:1058797 a schema:Playground;
+  rdfs:title "Spielplatz \"Karl-Erb-Weg, Stegmühlstr.\"";
+  geo:lat 48.16235741372498;
+  geo:long 11.645565387883428.
+
+odd:1058799 a schema:Playground;
+  rdfs:title "Spielplatz \"Friedenspromenade, Ecke Markgrafenstraße\"";
+  geo:lat 48.11014068916035;
+  geo:long 11.675682375522127.
+
+odd:1058803 a schema:Playground;
+  rdfs:title "Spielplatz \"Xaver-Weismor-Straße\"";
+  geo:lat 48.130152972712466;
+  geo:long 11.653862584636336.
+
+odd:1058805 a schema:Playground;
+  rdfs:title "Spielplatz \"Unterhachinger Str.\"";
+  geo:lat 48.096728444153335;
+  geo:long 11.624387585324111.
+
+odd:1058823 a schema:Playground;
+  rdfs:title "Spielplatz \"Dreimühlenstraße, Ecke Lagerhausstraße\"";
+  geo:lat 48.1192833170494;
+  geo:long 11.55834304100218.
+
+odd:1058827 a schema:Playground;
+  rdfs:title "Spielplatz \"Paumannstraße\"";
+  geo:lat 48.12497807425475;
+  geo:long 11.538212294241653.
+
+odd:1058831 a schema:Playground;
+  rdfs:title "Spielplatz \"Specklinplatz\"";
+  geo:lat 48.11965930246343;
+  geo:long 11.51119564569052.
+
+odd:1058833 a schema:Playground;
+  rdfs:title "Spielplatz \"Wessobrunner Platz\"";
+  geo:lat 48.113766655751675;
+  geo:long 11.506524155825332.
+
+odd:1058835 a schema:Playground;
+  rdfs:title "Spielplatz \"Fernpaßstr., ggü. Nr. 19\"";
+  geo:lat 48.11749504336843;
+  geo:long 11.522659215924746.
+
+odd:1058837 a schema:Playground;
+  rdfs:title "Spielplatz \"Marbachstraße, ggü. Tutzinger Straße\"";
+  geo:lat 48.11518337540186;
+  geo:long 11.535761638467617.
+
+odd:1058839 a schema:Playground;
+  rdfs:title "Spielplatz \"Eichendorffplatz\"";
+  geo:lat 48.11305802278911;
+  geo:long 11.524043225992177.
+
+odd:1058843 a schema:Playground;
+  rdfs:title "Spielplatz \"Marbachstraße/Jachenauerstraße\"";
+  geo:lat 48.111440402037395;
+  geo:long 11.5353387132278.
+
+odd:1058845 a schema:Playground;
+  rdfs:title "Spielplatz \"Valleyplatz\"";
+  geo:lat 48.11636516150108;
+  geo:long 11.545689598418374.
+
+odd:1058849 a schema:Playground;
+  rdfs:title "Spielplatz \"Isarauen, nördlich Candidstr., am Entenweiher\"";
+  geo:lat 48.11461824246691;
+  geo:long 11.561351011040502.
+
+odd:1058853 a schema:Playground;
+  rdfs:title "Spielplatz \"Isarauen, westlich Hellabrunner Str.\"";
+  geo:lat 48.11166020404385;
+  geo:long 11.563927717618464.
+
+odd:1058859 a schema:Playground;
+  rdfs:title "Spielplatz \"Dietramszeller Platz\"";
+  geo:lat 48.109861076148235;
+  geo:long 11.54750602693166.
+
+odd:1058861 a schema:Playground;
+  rdfs:title "Spielplatz \"Aduni-/Passauerstr.\"";
+  geo:lat 48.10943553558047;
+  geo:long 11.535504478505207.
+
+odd:1058863 a schema:Playground;
+  rdfs:title "Spielplatz \"Zirler Str., ggü. Nr. 12\"";
+  geo:lat 48.110931534706836;
+  geo:long 11.512339217083577.
+
+odd:1058871 a schema:Playground;
+  rdfs:title "Spielplatz \"Sendlinger Wald (Südpark) Südwest\"";
+  geo:lat 48.101497742258935;
+  geo:long 11.506090952369165.
+
+odd:1058873 a schema:Playground;
+  rdfs:title "Spielplatz \"Zielstattstraße, Südpark\"";
+  geo:lat 48.10344937421269;
+  geo:long 11.51669317124086.
+
+odd:1058875 a schema:Playground;
+  rdfs:title "Spielplatz \"Sappelstr., ggü. Schinnaglstr.\"";
+  geo:lat 48.10902217864683;
+  geo:long 11.52457730312742.
+
+odd:1058883 a schema:Playground;
+  rdfs:title "Spielplatz \"Karl-May-Str.\"";
+  geo:lat 48.10586463530392;
+  geo:long 11.526553416083084.
+
+odd:1058891 a schema:Playground;
+  rdfs:title "Spielplatz \"Bad-Wiessee-Str. Süd  \"";
+  geo:lat 48.10474855947681;
+  geo:long 11.57713161987153.
+
+odd:1058893 a schema:Playground;
+  rdfs:title "Spielplatz \"Am hohen Weg, östl. FC Bayern\"";
+  geo:lat 48.09983121892282;
+  geo:long 11.575251940659706.
+
+odd:1058895 a schema:Playground;
+  rdfs:title "Spielplatz \"Maria-Reisinger-Weg\"";
+  geo:lat 48.12405294017907;
+  geo:long 11.538010645913857.
+
+odd:1058897 a schema:Playground;
+  rdfs:title "Spielplatz \"Isarauen, nördlich Alemannenstr.\"";
+  geo:lat 48.10465237594936;
+  geo:long 11.556360107351026.
+
+odd:1058901 a schema:Playground;
+  rdfs:title "Spielplatz \"Kirchweg 16, Gierlinger Park\"";
+  geo:lat 48.097969652568985;
+  geo:long 11.542427906918563.
+
+odd:1058905 a schema:Playground;
+  rdfs:title "Spielplatz \"Schaffhauser Str. Nord\"";
+  geo:lat 48.09928909841457;
+  geo:long 11.49657955868245.
+
+odd:1058907 a schema:Playground;
+  rdfs:title "Spielplatz \"Schaffhauser Str. Mitte\"";
+  geo:lat 48.09882751273754;
+  geo:long 11.495912761093097.
+
+odd:1058911 a schema:Playground;
+  rdfs:title "Spielplatz \"Forst-Kasten-Allee  Freizeitzentrum\"";
+  geo:lat 48.095463893371544;
+  geo:long 11.483728762902071.
+
+odd:1058919 a schema:Playground;
+  rdfs:title "Spielplatz \"Silvrettaweg, Ost\"";
+  geo:lat 48.09258920449276;
+  geo:long 11.48632467283943.
+
+odd:1058921 a schema:Playground;
+  rdfs:title "Spielplatz \"Silvrettaweg West, hinter Andreaskirche\"";
+  geo:lat 48.09252096896319;
+  geo:long 11.484616798818939.
+
+odd:1058925 a schema:Playground;
+  rdfs:title "Spielplatz \"Drygalski-Allee, Filchnerstr. \"";
+  geo:lat 48.092199403227816;
+  geo:long 11.502125769246511.
+
+odd:1058927 a schema:Playground;
+  rdfs:title "Spielplatz \"Rohrauer Straße, ggü. Nr. 23\"";
+  geo:lat 48.09269354769159;
+  geo:long 11.51251146807027.
+
+odd:1058933 a schema:Playground;
+  rdfs:title "Spielplatz \"Rupert-Mayer-Str., Ecke Colmarer Str.\"";
+  geo:lat 48.0953251592807;
+  geo:long 11.537224063341695.
+
+odd:1058937 a schema:Playground;
+  rdfs:title "Spielplatz \"Wörnbrunner Platz\"";
+  geo:lat 48.099132681737004;
+  geo:long 11.580963750395401.
+
+odd:1058939 a schema:Playground;
+  rdfs:title "Spielplatz \"Miesbacher Platz\"";
+  geo:lat 48.096163641544614;
+  geo:long 11.58310903157321.
+
+odd:1058941 a schema:Playground;
+  rdfs:title "Spielplatz \"Vollmarpark, nördl. Oberbiberger Str.\"";
+  geo:lat 48.09370094084485;
+  geo:long 11.5761346828486.
+
+odd:1058943 a schema:Playground;
+  rdfs:title "Spielplatz \"Griechenplatz, im südl. und nördl. Teil\"";
+  geo:lat 48.09236251935524;
+  geo:long 11.564520246713831.
+
+odd:1058945 a schema:Playground;
+  rdfs:title "Spielplatz \"Athener Platz, im westl. Teil\"";
+  geo:lat 48.089779176602185;
+  geo:long 11.566313941544541.
+
+odd:1058947 a schema:Playground;
+  rdfs:title "Spielplatz \"Schmorellplatz, im westl. Teil\"";
+  geo:lat 48.08128349556345;
+  geo:long 11.548427431335757.
+
+odd:1058953 a schema:Playground;
+  rdfs:title "Spielplatz \"Allescherstraße\"";
+  geo:lat 48.08382509297591;
+  geo:long 11.520863154844745.
+
+odd:1058955 a schema:Playground;
+  rdfs:title "Spielplatz \"Pippinplatz\"";
+  geo:lat 48.08568334764959;
+  geo:long 11.480699077977757.
+
+odd:1058971 a schema:Playground;
+  rdfs:title "Spielplatz \"Konrad-Witz-Str., südöstl. Nr. 11\"";
+  geo:lat 48.074976293434226;
+  geo:long 11.521052566439272.
+
+odd:1058977 a schema:Playground;
+  rdfs:title "Spielplatz \"Sachsenstr. 8\"";
+  geo:lat 48.1192042696582;
+  geo:long 11.565932382544162.
+
+odd:1058987 a schema:Playground;
+  rdfs:title "Spielplatz \"Stockmannstraße\"";
+  geo:lat 48.083362469658205;
+  geo:long 11.50505639877893.
+
+odd:1058989 a schema:Playground;
+  rdfs:title "Spielplatz \"Jakob-Gelb-Platz\"";
+  geo:lat 48.11363486773471;
+  geo:long 11.572479254074537.
+
+odd:1058991 a schema:Playground;
+  rdfs:title "Spielplatz \"Paula-Herzog-Weg\"";
+  geo:lat 48.11027587746323;
+  geo:long 11.571285041609528.
+
+odd:1058993 a schema:Playground;
+  rdfs:title "Spielplatz \"Bad-Wiessee-Str. Ost  \"";
+  geo:lat 48.10619229337105;
+  geo:long 11.578435726078737.
+
+odd:1058995 a schema:Playground;
+  rdfs:title "Spielplatz \"Münchner-Kindl-Weg \"";
+  geo:lat 48.09145439189258;
+  geo:long 11.57907955759607.
+
+odd:1058997 a schema:Playground;
+  rdfs:title "Spielplatz \"Saarbrücker Str. 17-21\"";
+  geo:lat 48.093576755505055;
+  geo:long 11.536909047907242.
+
+odd:1059005 a schema:Playground;
+  rdfs:title "Spielplatz \"Waidachanger 7d, am Langwieder Bach\"";
+  geo:lat 48.18246487767465;
+  geo:long 11.422906437080066.
+
+odd:1059009 a schema:Playground;
+  rdfs:title "Spielplatz \"Schnablstraße\"";
+  geo:lat 48.17186492935354;
+  geo:long 11.478203690803698.
+
+odd:1059015 a schema:Playground;
+  rdfs:title "Spielplatz \"Freseniusstr. 34, Ecke Fasanenstr.\"";
+  geo:lat 48.168123136525054;
+  geo:long 11.47808027535817.
+
+odd:1059017 a schema:Playground;
+  rdfs:title "Spielplatz \"Ernst-Buchner-Weg 6, im nördl. Teil, Thuillestr.\"";
+  geo:lat 48.16794052860827;
+  geo:long 11.469612402386062.
+
+odd:1059025 a schema:Playground;
+  rdfs:title "Spielplatz \"Kunreuthstr., nördl. Wiesentfelser Str., Indianerspielplatz\"";
+  geo:lat 48.14747108660228;
+  geo:long 11.410370438587922.
+
+odd:1059033 a schema:Playground;
+  rdfs:title "Spielplatz \"Sponeckplatz\"";
+  geo:lat 48.15689531967477;
+  geo:long 11.433475408956731.
+
+odd:1059037 a schema:Playground;
+  rdfs:title "Spielplatz \"Altenburgstr. Ecke Zwernitzer Str.\"";
+  geo:lat 48.14886344211462;
+  geo:long 11.422463077398252.
+
+odd:1059039 a schema:Playground;
+  rdfs:title "Spielplatz \"Aufsesser Platz\"";
+  geo:lat 48.14279475276593;
+  geo:long 11.41747860356268.
+
+odd:1059041 a schema:Playground;
+  rdfs:title "Spielplatz \"Mainauanlage Sipplinger Str., Freizeitpark\"";
+  geo:lat 48.14657569899652;
+  geo:long 11.432621297940559.
+
+odd:1059043 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Ramses, Radolfzeller Str. (nördlich Reichenaustr.)\"";
+  geo:lat 48.1479956358837;
+  geo:long 11.43607287561446.
+
+odd:1059045 a schema:Playground;
+  rdfs:title "Spielplatz \"Schirmerweg, Höhe Kornberger Weg\"";
+  geo:lat 48.15411856586034;
+  geo:long 11.458209400644234.
+
+odd:1059049 a schema:Playground;
+  rdfs:title "Spielplatz \"Von-Frays-Str., Ecke Bärmannstr., Dr.-Böttcher-Str.\"";
+  geo:lat 48.15597074299537;
+  geo:long 11.475582421282652.
+
+odd:1059053 a schema:Playground;
+  rdfs:title "Spielplatz \"Georg-Deschler-Platz\"";
+  geo:lat 48.148528304941095;
+  geo:long 11.468629596999007.
+
+odd:1059055 a schema:Playground;
+  rdfs:title "Spielplatz \"Manzingerweg, westlich\"";
+  geo:lat 48.14796087278894;
+  geo:long 11.456889946213963.
+
+odd:1059057 a schema:Playground;
+  rdfs:title "Spielplatz \"Pasinger Stadtpark, westlich Hugo-Fey-Weg\"";
+  geo:lat 48.140387258268206;
+  geo:long 11.45473923663683.
+
+odd:1059061 a schema:Playground;
+  rdfs:title "Spielplatz \"Schererplatz, östlich der Kirche Maria Schutz\"";
+  geo:lat 48.14445420994822;
+  geo:long 11.462799250243975.
+
+odd:1059063 a schema:Playground;
+  rdfs:title "Spielplatz \"Otto-Engl-Platz\"";
+  geo:lat 48.14206327528383;
+  geo:long 11.463079476729636.
+
+odd:1059067 a schema:Playground;
+  rdfs:title "Spielplatz \"Anton-Pichler-Str., zw. Nr. 14 und 16\"";
+  geo:lat 48.144377644413396;
+  geo:long 11.467610799609329.
+
+odd:1059069 a schema:Playground;
+  rdfs:title "Spielplatz \"Benedikterstraße\"";
+  geo:lat 48.141128275939685;
+  geo:long 11.468961186926938.
+
+odd:1059071 a schema:Playground;
+  rdfs:title "Spielplatz \"Schusterwolfstraße\"";
+  geo:lat 48.13837685086004;
+  geo:long 11.463265671802699.
+
+odd:1059079 a schema:Playground;
+  rdfs:title "Spielplatz \"Kremser Str.\"";
+  geo:lat 48.144494330482075;
+  geo:long 11.479354302663864.
+
+odd:1059083 a schema:Playground;
+  rdfs:title "Spielplatz \"Fischer-von-Erlach-Str., östl. Sportanlage\"";
+  geo:lat 48.140913232748574;
+  geo:long 11.480962595356166.
+
+odd:1059085 a schema:Playground;
+  rdfs:title "Spielplatz \"Pronnerplatz\"";
+  geo:lat 48.14344597240196;
+  geo:long 11.496390336942888.
+
+odd:1059087 a schema:Playground;
+  rdfs:title "Spielplatz \"Agricolaplatz\"";
+  geo:lat 48.141948087815926;
+  geo:long 11.493206914200968.
+
+odd:1059093 a schema:Playground;
+  rdfs:title "Spielplatz \"Hogenbergplatz\"";
+  geo:lat 48.136813455835984;
+  geo:long 11.507848742721762.
+
+odd:1059099 a schema:Playground;
+  rdfs:title "Spielplatz \"Burgkmairstraße, westl. Kiem-Pauli-Weg\"";
+  geo:lat 48.13416054508815;
+  geo:long 11.512106143915593.
+
+odd:1059103 a schema:Playground;
+  rdfs:title "Spielplatz \"Agricolastr. (103 a) ggü. Nr. 106\"";
+  geo:lat 48.13132048713234;
+  geo:long 11.489724371539157.
+
+odd:1059105 a schema:Playground;
+  rdfs:title "Spielplatz \"Willibaldstr., Ecke Senftenauer Str.\"";
+  geo:lat 48.13074603114803;
+  geo:long 11.481924732737395.
+
+odd:1059109 a schema:Playground;
+  rdfs:title "Spielplatz \"Joergplatz Ostteil\"";
+  geo:lat 48.12748528053806;
+  geo:long 11.499044823913113.
+
+odd:1059111 a schema:Playground;
+  rdfs:title "Spielplatz \"Ida-Schumacher-Weg, südl. Schule\"";
+  geo:lat 48.126440102183636;
+  geo:long 11.494487699104155.
+
+odd:1059113 a schema:Playground;
+  rdfs:title "Spielplatz \"Weißenfelderplatz Mitte\"";
+  geo:lat 48.12943282254434;
+  geo:long 11.512768831291554.
+
+odd:1059115 a schema:Playground;
+  rdfs:title "Spielplatz \"Käthe-Bauer-Weg, Kärntner Platz\"";
+  geo:lat 48.12724630136852;
+  geo:long 11.504084660608642.
+
+odd:1059117 a schema:Playground;
+  rdfs:title "Spielplatz \"Pfrontener Platz nördlich, zur Grüntenstr.     \"";
+  geo:lat 48.126812310052166;
+  geo:long 11.516219066876664.
+
+odd:1059119 a schema:Playground;
+  rdfs:title "Spielplatz \"Pfrontener Platz südlich, zur Nebelhornstr. \"";
+  geo:lat 48.12543456454238;
+  geo:long 11.515802135904188.
+
+odd:1059121 a schema:Playground;
+  rdfs:title "Spielplatz \"Wastl-Witt-Str., nördl. Terofalstr.\"";
+  geo:lat 48.12649483456823;
+  geo:long 11.47261794111069.
+
+odd:1059123 a schema:Playground;
+  rdfs:title "Spielplatz \"Gelbhofstr.\"";
+  geo:lat 48.123156814773694;
+  geo:long 11.474263949175477.
+
+odd:1059125 a schema:Playground;
+  rdfs:title "Spielplatz \"Gräfelfinger Straße, Schlagweg\"";
+  geo:lat 48.11885497322683;
+  geo:long 11.465805844771422.
+
+odd:1059129 a schema:Playground;
+  rdfs:title "Spielplatz \"Walter-Hopf-Weg, Ecke Stiftsbogen\"";
+  geo:lat 48.120948971723735;
+  geo:long 11.489249406394203.
+
+odd:1059131 a schema:Playground;
+  rdfs:title "Spielplatz \"Stiftsbogen, Ecke Kurparkstraße\"";
+  geo:lat 48.11982482617938;
+  geo:long 11.49537184199426.
+
+odd:1059135 a schema:Playground;
+  rdfs:title "Spielplatz \"Westpark West, Am Jackl\"";
+  geo:lat 48.12126408513751;
+  geo:long 11.507903078218126.
+
+odd:1059145 a schema:Playground;
+  rdfs:title "Spielplatz \"Westpark Ost, am Hopfengarten (Siegenburger Str.)\"";
+  geo:lat 48.12512087945327;
+  geo:long 11.526873720972352.
+
+odd:1059151 a schema:Playground;
+  rdfs:title "Spielplatz \"Westpark Ost, Spielzone Ost\"";
+  geo:lat 48.12303785169032;
+  geo:long 11.527712193799402.
+
+odd:1059153 a schema:Playground;
+  rdfs:title "Spielplatz \"Martin-Behaim-Str., Ecke Welserstr.\"";
+  geo:lat 48.12239978846725;
+  geo:long 11.536677248798338.
+
+odd:1059155 a schema:Playground;
+  rdfs:title "Spielplatz \"Preßburger Str., Westpark Südrand\"";
+  geo:lat 48.120271477227796;
+  geo:long 11.509228838672396.
+
+odd:1059157 a schema:Playground;
+  rdfs:title "Spielplatz \"Nothkaufplatz\"";
+  geo:lat 48.1176993302487;
+  geo:long 11.50085900229972.
+
+odd:1059163 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Brombeerschlag, Am Wiesenhang Ecke Platanenstr.\"";
+  geo:lat 48.11121047980846;
+  geo:long 11.483517528095637.
+
+odd:1059165 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Waldrand\"";
+  geo:lat 48.10560843679187;
+  geo:long 11.487736187389022.
+
+odd:1059167 a schema:Playground;
+  rdfs:title "Spielplatz \"Waldgartenstr., Zöllerstr.\"";
+  geo:lat 48.10349046922357;
+  geo:long 11.482708584372434.
+
+odd:1059171 a schema:Playground;
+  rdfs:title "Spielplatz \"Pasinger Stadtpark, an der Stadtgrenze\"";
+  geo:lat 48.13309714830992;
+  geo:long 11.447937660307987.
+
+odd:1059175 a schema:Playground;
+  rdfs:title "Spielplatz \"Holzapfelkreuther-/Geroldseck-/Tratzbergstraße\"";
+  geo:lat 48.11564651277755;
+  geo:long 11.4921088413262.
+
+odd:1059179 a schema:Playground;
+  rdfs:title "Spielplatz \"Kleinhaderner Str. Ecke Willibaldstr.\"";
+  geo:lat 48.124951942381195;
+  geo:long 11.483406808431251.
+
+odd:1059181 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Laimer Anger, Laimer Kirchweg\"";
+  geo:lat 48.13902403054939;
+  geo:long 11.499093950698947.
+
+odd:1059185 a schema:Playground;
+  rdfs:title "Spielplatz \"Engelbertstr., Am Klostergarten\"";
+  geo:lat 48.144240565193456;
+  geo:long 11.455612244102742.
+
+odd:1059187 a schema:Playground;
+  rdfs:title "Spielplatz \"Gotthardtstraße, Ecke Fischer-Von-Erlach-Straße, Gehölzgarten\"";
+  geo:lat 48.13649021011154;
+  geo:long 11.479354522053933.
+
+odd:1059193 a schema:Playground;
+  rdfs:title "Spielplatz \"Thuillestr. Ecke Pläntschweg\"";
+  geo:lat 48.17072839717107;
+  geo:long 11.469597132602047.
+
+odd:1059195 a schema:Playground;
+  rdfs:title "Spielplatz \"Bad-Stebener-Weg/ Leienfelsstr.\"";
+  geo:lat 48.15428311307711;
+  geo:long 11.429001584238732.
+
+odd:1059197 a schema:Playground;
+  rdfs:title "Spielplatz \"Daudetstraße\"";
+  geo:lat 48.16175670794336;
+  geo:long 11.445573867336673.
+
+odd:1059199 a schema:Playground;
+  rdfs:title "Spielplatz \"Mariabrunner Straße, neben HsNr. 61-61c\"";
+  geo:lat 48.16249858757365;
+  geo:long 11.419124299854422.
+
+odd:1059203 a schema:Playground;
+  rdfs:title "Spielplatz \"Limesstr. 28a\"";
+  geo:lat 48.15198704025109;
+  geo:long 11.417683797205981.
+
+odd:1059205 a schema:Playground;
+  rdfs:title "Spielplatz \"Alte Allee 69, Schäferwiese (hinter Lucia-Popp-Bogen 15)\"";
+  geo:lat 48.16077953113332;
+  geo:long 11.442492692876906.
+
+odd:1059207 a schema:Playground;
+  rdfs:title "Spielplatz \"Lucia-Popp-Bogen, hinter Nr. 27, Schaukelzentrum\"";
+  geo:lat 48.15971394914139;
+  geo:long 11.43995507928653.
+
+odd:1059211 a schema:Playground;
+  rdfs:title "Spielplatz \"Lußsee Badegelände I, Kreuzkapellenstr.\"";
+  geo:lat 48.20095314238683;
+  geo:long 11.418932282839593.
+
+odd:1059213 a schema:Playground;
+  rdfs:title "Spielplatz \"Lußsee Badegelände II, Kreuzkapellenstr. bei WC\"";
+  geo:lat 48.20052888174466;
+  geo:long 11.420403403239959.
+
+odd:1059219 a schema:Playground;
+  rdfs:title "Spielplatz \"Radolfzeller Str.\"";
+  geo:lat 48.14843466469964;
+  geo:long 11.428448203375181.
+
+odd:1059221 a schema:Playground;
+  rdfs:title "Spielplatz \"Tschaikowskystraße\"";
+  geo:lat 48.16202711583473;
+  geo:long 11.440126757172754.
+
+odd:1074450 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Ackermannbogen, Elisabeth-Kohn-Straße\"";
+  geo:lat 48.165502821804154;
+  geo:long 11.554330675306868.
+
+odd:1074454 a schema:Playground;
+  rdfs:title "Spielplatz \"Erdinger Anger Mitte, östl. Piusplatz\"";
+  geo:lat 48.12275141906645;
+  geo:long 11.617710477622408.
+
+odd:1074456 a schema:Playground;
+  rdfs:title "Spielplatz \"Am Ackermannbogen, Centa-Herker-Bogen\"";
+  geo:lat 48.166691961251956;
+  geo:long 11.557183887418743.
+
+odd:1074458 a schema:Playground;
+  rdfs:title "Spielplatz \"Reigersbachstraße\"";
+  geo:lat 48.203231834169;
+  geo:long 11.506339156231157.
+
+odd:1074482 a schema:Playground;
+  rdfs:title "Spielplatz \"Azaleenstraße\"";
+  geo:lat 48.193200860410414;
+  geo:long 11.553969817143651.
+
+odd:1074486 a schema:Playground;
+  rdfs:title "Spielplatz \"Michaelianger, Bad-Kreuther-Straße\"";
+  geo:lat 48.120383856416666;
+  geo:long 11.627989728654686.
+
+odd:1074844 a schema:Playground;
+  rdfs:title "Spielplatz \"St.-Jakobs-Platz\"";
+  geo:lat 48.13420790173243;
+  geo:long 11.572644626251241.
+
+odd:1074850 a schema:Playground;
+  rdfs:title "Spielplatz \"Riemer Park, Rodelhang Nord und Süd\"";
+  geo:lat 48.13073921139709;
+  geo:long 11.710811139804628.
+
+odd:1074856 a schema:Playground;
+  rdfs:title "Spielplatz \"Prälat-Wellenhofer-Straße\"";
+  geo:lat 48.10685770796107;
+  geo:long 11.474591140593107.
+
+odd:1074858 a schema:Playground;
+  rdfs:title "Spielplatz \"Paul-Preuß-Straße\"";
+  geo:lat 48.217290675605135;
+  geo:long 11.540579861777127.
+
+odd:1074866 a schema:Playground;
+  rdfs:title "Spielplatz \"Nordhaide West, Diagonale West, am Nordhaideplatz\"";
+  geo:lat 48.21235636899479;
+  geo:long 11.563303376738443.
+
+odd:1074870 a schema:Playground;
+  rdfs:title "Spielplatz \"Nordhaide West, Diagonale Ost\"";
+  geo:lat 48.2105361535732;
+  geo:long 11.56831741263477.
+
+odd:1074877 a schema:Playground;
+  rdfs:title "Spielplatz \"Messestadt Riem Grünzug Ost 2 (Süd), südlich Mutter-Teresa-Str.\"";
+  geo:lat 48.12917430836231;
+  geo:long 11.698514507339889.
+
+odd:1074880 a schema:Playground;
+  rdfs:title "Spielplatz \"Mettenanlage Nachtigalstraße\"";
+  geo:lat 48.16619238251994;
+  geo:long 11.51256236621363.
+
+odd:1074884 a schema:Playground;
+  rdfs:title "Spielplatz \"Karpfenstraße, ATU-Park\"";
+  geo:lat 48.12390988564662;
+  geo:long 11.663251430138263.
+
+odd:1074896 a schema:Playground;
+  rdfs:title "Spielplatz \"Ika-Freudenberg-Straße II\"";
+  geo:lat 48.14262066171528;
+  geo:long 11.67262278564749.
+
+odd:1074917 a schema:Playground;
+  rdfs:title "Spielplatz \"Hamburger Straße\"";
+  geo:lat 48.18887730862268;
+  geo:long 11.56751726847212.
+
+odd:1074926 a schema:Playground;
+  rdfs:title "Spielplatz \"Haffstraße\"";
+  geo:lat 48.1196686233504;
+  geo:long 11.666039244299197.
+
+odd:1074960 a schema:Playground;
+  rdfs:title "Spielplatz \"Engasserbogen 9-11\"";
+  geo:lat 48.145817675850736;
+  geo:long 11.512506466020616.
+
+odd:1074962 a schema:Playground;
+  rdfs:title "Spielplatz \"Dom-Pedro-Platz\"";
+  geo:lat 48.16017653842538;
+  geo:long 11.533346798568804.
+
+odd:1074966 a schema:Playground;
+  rdfs:title "Spielplatz \"Cosimastraße, gegenüber Taimerhofstraße\"";
+  geo:lat 48.16730951233815;
+  geo:long 11.630238996500127.
+
+odd:1074980 a schema:Playground;
+  rdfs:title "Spielplatz \"Marianne-Plehn-Straße, Bajuwarenpark Nord\"";
+  geo:lat 48.121640141982176;
+  geo:long 11.660559713070258.
+
+odd:1074984 a schema:Playground;
+  rdfs:title "Spielplatz \"Marianne-Plehn-Straße (Mitte-Ost)\"";
+  geo:lat 48.120136668014545;
+  geo:long 11.660025624043689.
+
+odd:1074989 a schema:Playground;
+  rdfs:title "Spielplatz \"Mildred-Scheel-Bogen\"";
+  geo:lat 48.17409794070692;
+  geo:long 11.580688784964302.
+
+odd:1074999 a schema:Playground;
+  rdfs:title "Spielplatz \"Stiftsbogen Süd\"";
+  geo:lat 48.12079159296825;
+  geo:long 11.494906309831231.
+
+odd:1075001 a schema:Playground;
+  rdfs:title "Spielplatz \"Stiftsbogen Nord\"";
+  geo:lat 48.12197022444035;
+  geo:long 11.493136712376229.
+
+odd:1075003 a schema:Playground;
+  rdfs:title "Spielplatz \"Evereststraße\"";
+  geo:lat 48.116953667131405;
+  geo:long 11.658730380520653.
+
+odd:1075007 a schema:Playground;
+  rdfs:title "Spielplatz \"Wallbergstraße, bei Hausnummern 22 und 34\"";
+  geo:lat 48.108006599904066;
+  geo:long 11.596596172339193.
+
+odd:1075009 a schema:Playground;
+  rdfs:title "Spielplatz \"Daudetstraße Ost\"";
+  geo:lat 48.16217838712754;
+  geo:long 11.448170453287231.
+
+odd:1090609 a schema:Playground;
+  rdfs:title "Spielplatz \"Kulturheimstr., Ecke Heidemannstraße\"";
+  geo:lat 48.196553593059;
+  geo:long 11.619906749276293.
+
+odd:1090610 a schema:Playground;
+  rdfs:title "Spielplatz \"Eduard-Schmid-Straße, südlich Kulturgarten, Frühlingsanlagen\"";
+  geo:lat 48.12256094796061;
+  geo:long 11.571306752968312.
+
+odd:1099878 a schema:Playground;
+  rdfs:title "Spielplatz \"Max Hirschberg-Weg Ecke Ganghoferstraße\"";
+  geo:lat 48.12853866251093;
+  geo:long 11.539134210620654.
