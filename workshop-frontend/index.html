@@ -85,10 +85,10 @@
         #yasgui .yasgui .addTab {
             margin-top: 0;
         }
-        .endpoint-picker {
+        .toolbar-picker {
             margin-bottom: 0.75rem;
         }
-        .endpoint-picker select {
+        .toolbar-picker select {
             font: inherit;
             padding: 0.5rem 0.75rem;
             border-radius: 8px;
@@ -132,19 +132,29 @@
 
 <section>
     <h2>Run SPARQL</h2>
-    <div class="endpoint-picker" style="display:flex; align-items:center; gap:0.5rem;">
-        <span style="color:#888;">Endpoints:</span>
-        <select id="endpoint-select">
-            <option value="https://oddmuc26-workshop-proxy.benjamin-degenhart.workers.dev/sparql">workshop triplestore</option>
-            <option value="https://open.bydata.de/api/sparql">open.bydata</option>
-            <option value="https://www.govdata.de/sparql">GovData</option>
-            <option value="https://data.europa.eu/sparql">data.europa.eu</option>
-        </select>
+    <div class="toolbar-picker" style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="color:#888;">Endpoints:</span>
+            <select id="endpoint-select">
+                <option value="https://oddmuc26-workshop-proxy.benjamin-degenhart.workers.dev/sparql">workshop triplestore</option>
+                <option value="https://open.bydata.de/api/sparql">open.bydata</option>
+                <option value="https://www.govdata.de/sparql">GovData</option>
+                <option value="https://data.europa.eu/sparql">data.europa.eu</option>
+            </select>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="color:#888;">Queries:</span>
+            <select id="query-select">
+                <option value="">Select a query</option>
+            </select>
+        </div>
     </div>
     <div id="yasgui"></div>
 </section>
 
-<script>
+<script type="module">
+    import { queries } from "./queries.js"
+
     const WORKER_BASE_URL = "https://oddmuc26-workshop-proxy.benjamin-degenhart.workers.dev"
 
     const uploadForm = document.getElementById("upload-form")
@@ -152,6 +162,7 @@
     const graphsStatus = document.getElementById("graphs-status")
     const graphsList = document.getElementById("graphs-list")
     const endpointSelect = document.getElementById("endpoint-select")
+    const querySelect = document.getElementById("query-select")
 
     async function loadGraphs() {
         graphsStatus.textContent = "Loading graphs..."
@@ -239,6 +250,20 @@
     if (!yasgui.getTab().getEndpoint()) yasgui.getTab().setEndpoint(`${WORKER_BASE_URL}/sparql`)
 
     endpointSelect.addEventListener("change", () => yasgui.getTab().setEndpoint(endpointSelect.value))
+
+    for (const key in queries) {
+        const option = document.createElement("option")
+        option.value = key
+        option.textContent = key
+        querySelect.appendChild(option)
+    }
+
+    querySelect.addEventListener("change", () => {
+        const selected = querySelect.value
+        if (!selected) return
+        const q = queries[selected].trim()
+        if (q) yasgui.getTab().getYasqe().setValue(q)
+    })
 </script>
 </body>
 </html>
