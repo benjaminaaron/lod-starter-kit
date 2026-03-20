@@ -75,6 +75,26 @@
             color: #888;
             font-size: 0.95em;
         }
+        #yasgui .yasgui .controlbar .tabContextButton {
+            display: none;
+        }
+        #yasgui .yasgui .controlbar {
+            margin-bottom: 0.75rem;
+            margin-left: -0.61rem;
+        }
+        #yasgui .yasgui .addTab {
+            margin-top: 0;
+        }
+        .endpoint-picker {
+            margin-bottom: 0.75rem;
+        }
+        .endpoint-picker select {
+            font: inherit;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            border: 1px solid #8886;
+            min-width: 320px;
+        }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" />
     <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
@@ -112,6 +132,15 @@
 
 <section>
     <h2>Run SPARQL</h2>
+    <div class="endpoint-picker" style="display:flex; align-items:center; gap:0.5rem;">
+        <span style="color:#888;">Endpoints:</span>
+        <select id="endpoint-select">
+            <option value="https://oddmuc26-workshop-proxy.benjamin-degenhart.workers.dev/sparql">workshop triplestore</option>
+            <option value="https://open.bydata.de/api/sparql">open.bydata</option>
+            <option value="https://www.govdata.de/sparql">GovData</option>
+            <option value="https://data.europa.eu/sparql">data.europa.eu</option>
+        </select>
+    </div>
     <div id="yasgui"></div>
 </section>
 
@@ -122,6 +151,7 @@
     const uploadStatus = document.getElementById("upload-status")
     const graphsStatus = document.getElementById("graphs-status")
     const graphsList = document.getElementById("graphs-list")
+    const endpointSelect = document.getElementById("endpoint-select")
 
     async function loadGraphs() {
         graphsStatus.textContent = "Loading graphs..."
@@ -203,11 +233,12 @@
     if (!YasguiCtor) throw new Error("YASGUI failed to load from CDN")
 
     const yasgui = new YasguiCtor(document.getElementById("yasgui"), {
-        requestConfig: {
-            endpoint: `${WORKER_BASE_URL}/sparql`,
-            method: "POST"
-        }
+        requestConfig: { method: "POST" },
+        yasqe: { lineNumbers: true }
     })
+    if (!yasgui.getTab().getEndpoint()) yasgui.getTab().setEndpoint(`${WORKER_BASE_URL}/sparql`)
+
+    endpointSelect.addEventListener("change", () => yasgui.getTab().setEndpoint(endpointSelect.value))
 </script>
 </body>
 </html>
