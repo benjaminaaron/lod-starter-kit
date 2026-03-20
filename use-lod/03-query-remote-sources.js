@@ -1,5 +1,7 @@
 import { QueryEngine } from "@comunica/query-sparql"
 
+// reverse proxy for https://odd.bydata.de/sparql
+const WORKSHOP_TRIPLESTORE_ENDPOINT = "https://oddmuc26-workshop-proxy.benjamin-degenhart.workers.dev/sparql"
 const OPENBYDATA_ENDPOINT = "https://open.bydata.de/api/sparql"
 const engine = new QueryEngine()
 
