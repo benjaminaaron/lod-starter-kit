@@ -206,7 +206,9 @@
                 const graphName = binding.graphLocalName?.value || "[unknown graph]"
                 const count = binding.count?.value || "0"
                 const item = document.createElement("li")
-                item.innerHTML = `<span class="graph-count">odd:</span>${graphName} <span class="graph-count">(${count} triples)</span>`
+                const graphIri = `https://open.bydata.de/oddmuc26#${graphName}`
+                const downloadUrl = `${WORKER_BASE_URL}/download?graph=${encodeURIComponent(graphIri)}`
+                item.innerHTML = `<span class="graph-count">odd:</span><strong>${graphName}</strong> <span class="graph-count">(${count} triples)</span> <a class="graph-count" href="${downloadUrl}" download="${graphName}.nt">download as n-triples</a>`
                 graphsList.appendChild(item)
             }
         } catch (error) {

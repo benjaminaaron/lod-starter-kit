@@ -11,6 +11,7 @@ export default {
         const url = new URL(request.url)
         if (url.pathname === "/upload") return withCors(await handleUpload(request, env))
         if (url.pathname === "/sparql") return withCors(await handleSparql(request, env))
+        if (url.pathname === "/download") return withCors(await handleDownload(request, env))
         return withCors(new Response("Not found", { status: 404 }))
     }
 }
@@ -27,6 +28,39 @@ function withCors(response) {
         status: response.status,
         statusText: response.statusText,
         headers
+    })
+}
+
+async function handleDownload(request, env) {
+    if (request.method !== "GET") return new Response("Method not allowed", { status: 405 })
+
+    const url = new URL(request.url)
+    const graph = url.searchParams.get("graph")
+
+    if (typeof graph !== "string" || !graph.startsWith(ALLOWED_GRAPH_PREFIX)) {
+        return new Response("Graph name not allowed", { status: 400 })
+    }
+
+    const auth = btoa(`${env.VIRTUOSO_USER}:${env.VIRTUOSO_PASSWORD}`)
+    const response = await fetch(
+        `${VIRTUOSO_BASE_URL}/sparql-graph-crud?graph-uri=${encodeURIComponent(graph)}`,
+        {
+            method: "GET",
+            headers: {
+                Authorization: `Basic ${auth}`,
+                Accept: "application/n-triples"
+            }
+        }
+    )
+
+    const text = await response.text()
+    const filename = graph.split("#").pop() + ".nt"
+    return new Response(text, {
+        status: response.status,
+        headers: {
+            "Content-Type": response.headers.get("Content-Type") || "application/n-triples; charset=utf-8",
+            "Content-Disposition": `attachment; filename="${filename}"`
+        }
     })
 }
 
