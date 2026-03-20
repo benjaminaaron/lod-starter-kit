@@ -7,27 +7,26 @@ let turtle = `
     @prefix schema: <https://schema.org/>.
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-    odd:oddmuc26 a schema:Event;
-        odd:hasDate "2026-03-21"^^xsd:date;
-        odd:hasSession 
-            odd:opening, odd:keynote, odd:datengartln, odd:lodPotential ;
-      schema:name "Open Data Day München 2026".
+    odd:oddmuc26 a schema:Event ;
+        odd:hasDate "2026-03-21"^^xsd:date ;
+        odd:hasSession odd:opening, odd:keynote, odd:datengartln, odd:lodPotential ;
+      schema:name "Open Data Day München 2026" .
 
     odd:opening a odd:Session ;
         odd:room 1 ;
-        schema:name "Begrüßung und Eröffnung des Open Data Day 2026". 
+        schema:name "Begrüßung und Eröffnung des Open Data Day 2026" . 
 
     odd:keynote a odd:Session ;
         odd:room 1 ;
-        schema:name "Zwischen Nutzen und Risiko".
+        schema:name "Zwischen Nutzen und Risiko" .
 
     odd:datengartln a odd:Session ;
         odd:room 1 ;
-        schema:name "Preisverleihung Datengartln Challenge".
+        schema:name "Preisverleihung Datengartln Challenge" .
 
     odd:lodPotential a odd:Session ;
         odd:room 4 ;
-        schema:name "Potenziale von Linked Open Data entdecken".`
+        schema:name "Potenziale von Linked Open Data entdecken" .`
 
 let store = storeFromTurtles([turtle])
 
