@@ -98,8 +98,7 @@
                 id="graph"
                 name="graph"
                 type="text"
-                placeholder="choose a graph name that doesn't exist yet"
-                style="padding-left: 7.2rem;"
+                style="padding-left: 6.9rem;"
                 required
             />
         </div>
@@ -128,10 +127,14 @@
         graphsStatus.textContent = "Loading graphs..."
         graphsList.innerHTML = ""
         const query = `
-            SELECT ?g (COUNT(*) AS ?count) WHERE {
+            PREFIX odd: <https://open.bydata.de/oddmuc26#>
+            SELECT ?graphLocalName (COUNT(*) AS ?count) WHERE {
                 GRAPH ?g { ?s ?p ?o }
-            } GROUP BY ?g
-            ORDER BY LCASE(STR(?g))`
+                FILTER STRSTARTS(STR(?g), STR(odd:workshop_))
+                BIND(STRAFTER(STR(?g), STR(odd:)) AS ?graphLocalName)
+            }
+            GROUP BY ?graphLocalName
+            ORDER BY LCASE(STR(?graphLocalName))`
         try {
             const response = await fetch(`${WORKER_BASE_URL}/sparql`, {
                 method: "POST",
@@ -156,13 +159,13 @@
                 return
             }
 
-            graphsStatus.textContent = `${bindings.length} graphs found:`
+            graphsStatus.textContent = "" // `${bindings.length} graphs found:`
 
             for (const binding of bindings) {
-                const graphName = binding.g?.value || "[unknown graph]"
+                const graphName = binding.graphLocalName?.value || "[unknown graph]"
                 const count = binding.count?.value || "0"
                 const item = document.createElement("li")
-                item.innerHTML = `${graphName} <span class="graph-count">(${count} triples)</span>`
+                item.innerHTML = `<span class="graph-count">odd:</span>${graphName} <span class="graph-count">(${count} triples)</span>`
                 graphsList.appendChild(item)
             }
         } catch (error) {
