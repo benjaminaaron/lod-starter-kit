@@ -15,19 +15,18 @@ export default {
     }
 }
 
-const ALLOWED_ORIGIN = "*"
 const VIRTUOSO_BASE_URL = "https://odd.bydata.de"
 const ALLOWED_GRAPH_PREFIX = "https://open.bydata.de/oddmuc26#workshop_"
 
 function withCors(response) {
     const headers = new Headers(response.headers)
-    headers.set("Access-Control-Allow-Origin", ALLOWED_ORIGIN)
+    headers.set("Access-Control-Allow-Origin", "*")
     headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
     headers.set("Access-Control-Allow-Headers", "Content-Type, Accept")
     return new Response(response.body, {
         status: response.status,
         statusText: response.statusText,
-        headers,
+        headers
     })
 }
 
@@ -47,10 +46,11 @@ async function handleUpload(request, env) {
     const auth = btoa(`${env.VIRTUOSO_USER}:${env.VIRTUOSO_PASSWORD}`)
     const turtle = await file.text()
 
+    // appends if the graph exists, otherwise creates a new one
     const response = await fetch(
         `${VIRTUOSO_BASE_URL}/sparql-graph-crud?graph-uri=${encodeURIComponent(graph)}`,
         {
-            method: "POST",
+            method: "POST", // PUT would replace an existing graph, DELETE would delete it
             headers: {
                 Authorization: `Basic ${auth}`,
                 "Content-Type": "text/turtle"
@@ -83,11 +83,11 @@ async function handleSparql(request, env) {
 
     if (typeof query !== "string" || !query.trim()) return new Response("Missing query", { status: 400 })
 
-    const trimmed = query.trim()
-    console.log("Query:", trimmed)
+    query = query.trim()
+    console.log("Query:", query)
 
     const blocked = ["DELETE", "DROP", "CLEAR", "LOAD", "CREATE", "COPY", "MOVE", "ADD"]
-    const matched = blocked.find((keyword) => trimmed.toUpperCase().includes(keyword))
+    const matched = blocked.find((keyword) => query.toUpperCase().includes(keyword))
     if (matched) return new Response(`Blocked SPARQL operation used: ${matched}`, { status: 403 })
 
     const auth = btoa(`${env.VIRTUOSO_USER}:${env.VIRTUOSO_PASSWORD}`)
@@ -98,7 +98,7 @@ async function handleSparql(request, env) {
             "Content-Type": "application/sparql-query",
             Accept: "application/sparql-results+json, application/ld+json, text/turtle, text/plain"
         },
-        body: trimmed
+        body: query
     })
 
     const text = await response.text()
