@@ -37,6 +37,21 @@ SELECT ?s1 ?p1 ?o ?p2 ?o2 WHERE {
     GRAPH odd:workshop_exampleGraph2 {
         ?o ?p2 ?o2 .
     }
-} LIMIT 10`
+} LIMIT 10`,
 // -------------------------------------------------------------------
+    listPlaygroundsWithNearbyToiletsAndCafes: `
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX odd: <https://open.bydata.de/oddmuc26#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?pName ?tName ?cName WHERE {
+    GRAPH odd:workshop_useCase2playgrounds { 
+        ?playground a schema:Playground ;
+            rdfs:title ?pName ;
+            odd:hasNearbyToilet ?toilet ;
+            odd:hasNearbyCafe ?cafe .
+      	?toilet rdfs:title ?tName .
+      	?cafe schema:name ?cName .
+    }
+}`
 }
