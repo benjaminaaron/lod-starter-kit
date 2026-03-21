@@ -39,7 +39,7 @@ SELECT ?s1 ?p1 ?o ?p2 ?o2 WHERE {
     }
 } LIMIT 10`,
 // -------------------------------------------------------------------
-    listPlaygroundsWithNearbyToiletsAndCafes: `
+    listPlaygroundsWithNearbyToiletsAndCafes_useCase2: `
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX odd: <https://open.bydata.de/oddmuc26#>
 PREFIX schema: <https://schema.org/>
@@ -55,7 +55,7 @@ SELECT ?pName ?tName ?cName WHERE {
     }
 }`,
 // -------------------------------------------------------------------
-    wanderungssaldoIngolstadtBezirke: `
+    wanderungssaldoIngolstadtBezirke_useCase3: `
 PREFIX dev: <https://open.bydata.de/api/hub/dev#>
 PREFIX schema: <http://schema.org/>
 
@@ -88,7 +88,7 @@ WHERE {
 GROUP BY ?bezirk ?bezirkName
 ORDER BY DESC(?avgNetMigrationRatePer1000)`,
 // -------------------------------------------------------------------
-    fromDistributionToDataset: `
+    fromDistributionToDataset_portal: `
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 
 SELECT * WHERE { 
@@ -96,14 +96,14 @@ SELECT * WHERE {
         dcat:distribution <https://open.bydata.de/api/hub/repo/distributions/4808588b-a630-4c71-a1af-814707c52e79> .
 }`,
 // -------------------------------------------------------------------
-    countTotalDatasets: `
+    countTotalDatasets_portal: `
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 
 SELECT (COUNT(?dataset) as ?count) WHERE {
 	?dataset a dcat:Dataset .
 }`,
 // -------------------------------------------------------------------
-    distinctDistributionFormats: `
+    distinctDistributionFormats_portal: `
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dct: <http://purl.org/dc/terms/>
 
@@ -113,7 +113,7 @@ SELECT DISTINCT ?format WHERE {
   	?distribution dct:format ?format .
 }`,
 // -------------------------------------------------------------------
-    datasetsWithLodDistributions: `
+    datasetsWithLodDistributions_portal: `
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX filetype: <http://publications.europa.eu/resource/authority/file-type/>
