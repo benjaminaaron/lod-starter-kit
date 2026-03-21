@@ -53,5 +53,38 @@ SELECT ?pName ?tName ?cName WHERE {
       	?toilet rdfs:title ?tName .
       	?cafe schema:name ?cName .
     }
-}`
+}`,
+// -------------------------------------------------------------------
+    wanderungssaldoIngolstadtBezirke: `
+PREFIX dev: <https://open.bydata.de/api/hub/dev#>
+PREFIX schema: <http://schema.org/>
+
+SELECT
+    ?bezirk
+    ?bezirkName
+    (ROUND(AVG(?netMigrationRatePer1000)*10)/10 AS ?avgNetMigrationRatePer1000)
+WHERE {
+    ?bezirk a dev:Bezirk ;
+        schema:name ?bezirkName ;
+        dev:hasAnnualStatistic ?s1, ?s2 .
+
+    ?s1 a dev:CityAnnualStatistic ;
+        dev:year ?y1 ;
+        dev:hasPopulation ?pop1 .
+
+    ?s2 a dev:CityAnnualStatistic ;
+        dev:year ?y2 ;
+        dev:hasPopulation ?pop2 ;
+        dev:hasBirths ?births2 ;
+        dev:hasDeaths ?deaths2 .
+
+    FILTER(?y2 = ?y1 + 1)
+
+    # Wanderungssaldo = Bevölkerungsänderung - (Geburten - Todesfälle)
+    BIND((?pop2 - ?pop1) - (?births2 - ?deaths2) AS ?netMigration)
+    # normalized rate per 1000 residents
+    BIND((1000 * ?netMigration / ?pop2) AS ?netMigrationRatePer1000)
+}
+GROUP BY ?bezirk ?bezirkName
+ORDER BY DESC(?avgNetMigrationRatePer1000)`
 }
