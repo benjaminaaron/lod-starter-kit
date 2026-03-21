@@ -10,6 +10,7 @@ const ENDPOINT = "https://open.bydata.de/api/sparql"
 const engine = new QueryEngine()
 const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "output")
 
+// Datensatz: WC-Standorte der Landeshauptstadt München
 let query = `
     PREFIX dcat: <http://www.w3.org/ns/dcat#>
     PREFIX dct: <http://purl.org/dc/terms/>

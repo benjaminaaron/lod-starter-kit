@@ -9,6 +9,7 @@ const OSM_ENDPOINT = "https://qlever.dev/api/osm-planet"
 const OUTPUT_TTL = path.join(path.dirname(fileURLToPath(import.meta.url)), "output", "osm-cafes.ttl")
 const engine = new QueryEngine()
 
+// Café-Standorte in München von OpenStreetMap
 let query = `
     PREFIX ogc: <http://www.opengis.net/rdf#>
     PREFIX geog: <http://www.opengis.net/ont/geosparql#>

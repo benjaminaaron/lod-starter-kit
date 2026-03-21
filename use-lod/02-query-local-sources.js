@@ -11,6 +11,8 @@ const engine = new QueryEngine()
 const DF = new DataFactory()
 const MAX_DIST = 200
 
+// Use Case: Familienfreundliches München
+
 const THIS_DIR = path.dirname(fileURLToPath(import.meta.url))
 const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "create-lod", "output")
 const TTL_PLAYGROUNDS = path.join(OUTPUT_DIR, "240826-spielplaetze.ttl")

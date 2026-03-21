@@ -5,6 +5,7 @@ import Papa from "papaparse"
 import path from "path"
 import fs from "fs"
 
+// Datensatz: Öffentliche Spielplätze München
 // https://open.bydata.de/datasets/0760ce3a-fef8-43e4-888f-8cc92fdf56de?locale=de
 const CSV_URL = "https://opendata.muenchen.de/dataset/0760ce3a-fef8-43e4-888f-8cc92fdf56de/resource/845ce3bd-ea80-4623-b51d-a30680175c22/download/240826-spielplaetze.csv"
 const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "output")
@@ -12,7 +13,6 @@ const OUTPUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "outp
 const res = await fetch(CSV_URL)
 const text = await res.text()
 
-// write to file
 let file = path.join(OUTPUT_DIR, "240826-spielplaetze.csv")
 fs.writeFileSync(file, text, "utf8")
 
@@ -31,6 +31,5 @@ for (let row of csv.data) {
 let turtle = await storeToTurtle(store, prefixes)
 console.log(turtle)
 
-// write to file
 file = path.join(OUTPUT_DIR, "240826-spielplaetze.ttl")
 fs.writeFileSync(file, turtle, "utf8")
