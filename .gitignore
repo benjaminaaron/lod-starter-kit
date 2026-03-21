@@ -5,3 +5,6 @@ package-lock.json
 
 *.nt
 _local/
+
+your-workspace/*
+!your-workspace/script.js
