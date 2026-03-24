@@ -1,4 +1,6 @@
+import { storeFromTurtles, storeToTurtle } from "@foerderfunke/sem-ops-utils"
 import proj4 from "proj4"
+import fs from "fs"
 
 export const prefixes = {
     odd: "https://open.bydata.de/oddmuc26#",
@@ -25,4 +27,9 @@ export async function transformEPSG25832ToWGS84(shapeStr) {
     let northing = Number(coords[1])
     const [lon, lat] = proj4("EPSG:25832", "WGS84", [easting, northing])
     return { lat, lon }
+}
+
+export async function convertNTriplesToTurtle(nTriplesFile) {
+    let store = storeFromTurtles([fs.readFileSync(nTriplesFile, { encoding: "utf8" })])
+    return await storeToTurtle(store, prefixes)
 }

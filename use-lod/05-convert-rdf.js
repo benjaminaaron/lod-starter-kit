@@ -1,4 +1,4 @@
-import {sparqlSelect, storeFromTurtles, storeToJsonLdObj} from "@foerderfunke/sem-ops-utils"
+import { sparqlSelect, storeFromTurtles, storeToJsonLdObj } from "@foerderfunke/sem-ops-utils"
 
 let turtle = `
     @prefix odd: <https://open.bydata.de/oddmuc26#>.
