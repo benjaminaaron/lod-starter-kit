@@ -8,6 +8,8 @@ It contains two routes to explore:
 
 Both folders share the `package.json` file.
 
+> For the purpose of the workshop I built a little reverse proxy to a shared virtuoso instance. I moved its code [here](https://github.com/benjaminaaron/virtuoso-sparql-reverse-proxy).
+
 ## Setup
 
 Node.js is required. Download and installation instructions can be found [here](https://nodejs.org/en/download).

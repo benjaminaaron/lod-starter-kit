@@ -22,8 +22,8 @@ jobs:
       - name: Prepare Pages artifact
         run: |
           mkdir public
-          cp workshop-frontend/index.html public/index.html
-          cp workshop-frontend/queries.js public/queries.js
+          cp sparql-query-ui/index.html public/index.html
+          cp sparql-query-ui/queries.js public/queries.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact

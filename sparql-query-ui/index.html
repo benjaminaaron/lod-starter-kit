@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SPARQL Query UI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.5;
+            max-width: 960px;
+            margin-inline: auto;
+            font-family: "Segoe UI", sans-serif;
+        }
+        section {
+            border: 1px solid #8884;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        #yasgui .yasgui .controlbar .tabContextButton {
+            display: none;
+        }
+        #yasgui .yasgui .controlbar {
+            margin-bottom: 0.75rem;
+            margin-left: -0.61rem;
+        }
+        #yasgui .yasgui .addTab {
+            margin-top: 0;
+        }
+        .toolbar-picker {
+            margin-bottom: 0.75rem;
+        }
+        .toolbar-picker select {
+            font: inherit;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            border: 1px solid #8886;
+            min-width: 320px;
+        }
+        .top-right-link {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.9rem;
+            color: #888;
+            text-decoration: none;
+        }
+        .top-right-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" />
+    <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
+</head>
+<body>
+<a class="top-right-link" href="https://github.com/benjaminaaron/lod-starter-kit" target="_blank" rel="noopener noreferrer">GitHub</a>
+<section>
+    <h2>SPARQL Query UI</h2>
+    <div class="toolbar-picker" style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="color:#888;">Endpoints:</span>
+            <select id="endpoint-select">
+                <option value="https://open.bydata.de/api/sparql">open.bydata</option>
+                <option value="https://www.govdata.de/sparql">GovData</option>
+                <option value="https://data.europa.eu/sparql">data.europa.eu</option>
+            </select>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="color:#888;">Queries:</span>
+            <select id="query-select">
+                <option value="">Select a query</option>
+            </select>
+        </div>
+    </div>
+    <div id="yasgui"></div>
+</section>
+
+<script type="module">
+    import { queries } from "./queries.js"
+
+    const endpointSelect = document.getElementById("endpoint-select")
+    const querySelect = document.getElementById("query-select")
+
+    const YasguiCtor = window.Yasgui || window.YASGUI
+    if (!YasguiCtor) throw new Error("YASGUI failed to load from CDN")
+
+    const yasgui = new YasguiCtor(document.getElementById("yasgui"), {
+        requestConfig: { method: "POST" },
+        yasqe: { lineNumbers: true }
+    })
+
+    endpointSelect.addEventListener("change", () => yasgui.getTab().setEndpoint(endpointSelect.value))
+
+    for (const key in queries) {
+        const option = document.createElement("option")
+        option.value = key
+        option.textContent = key
+        querySelect.appendChild(option)
+    }
+
+    querySelect.addEventListener("change", () => {
+        const selected = querySelect.value
+        if (!selected) return
+        const q = queries[selected].trim()
+        if (q) yasgui.getTab().getYasqe().setValue(q)
+    })
+</script>
+</body>
+</html>
