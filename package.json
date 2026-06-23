@@ -1,5 +1,6 @@
 {
   "name": "lod-starter-kit",
+  "author": "benjaminaaron",
   "type": "module",
   "dependencies": {
     "@comunica/query-sparql": "^5.1.3",
@@ -10,5 +11,8 @@
     "proj4": "^2.20.4",
     "rdf-data-factory": "^2.0.2",
     "rdf-parser-csvw": "^1.1.0"
+  },
+  "overrides": {
+    "shacl-engine": "git+https://github.com/rdf-ext/shacl-engine.git#b067ffaf1a041a9f5f7515df00bf476b3a52617c"
   }
 }
